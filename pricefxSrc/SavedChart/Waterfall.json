@@ -1,0 +1,175 @@
+{
+  "chartDefinition" : {
+    "auxLines" : [ ],
+    "chartType" : "WATERFALL",
+    "dictionary" : "[{\"sectionIdx\":1,\"category\":\"PROJECTION\",\"key\":\"x\",\"sectionLabel\":\"Series 1\",\"categoryLabel\":\"Projection\",\"keyLabel\":\"X Axis\",\"defaultValue\":\"\"},{\"sectionIdx\":1,\"category\":\"PROJECTION\",\"key\":\"y\",\"sectionLabel\":\"Series 1\",\"categoryLabel\":\"Projection\",\"keyLabel\":\"Y Axis\",\"defaultValue\":\"\"}]",
+    "dynamicFCsWidget" : "{\n}",
+    "options" : "{\n    \"title\":\"\", \n    \"subtitle\":\"\", \n    \"comparison\":false, \n    \"hideLegend\":false, \n    \"hideTooltips\":false\n}",
+    "series" : [ "{\n    \"datamart\":\"DM.Transaction\", \n    \"label\":\"Series1\", \n    \"hideDataLabels\":false, \n    \"filterTooltip\":\"\", \n    \"currency\":\"EUR\", \n    \"calculatedFieldFormulaControllerState\":{\n        \"aggrFormula\":{\n            \"aggregationFormula\":\"SUM\"\n        }\n    }, \n    \"calculatedFieldNonAggrFormulaControllerState\":{\n    }, \n    \"calculationMode\":\"SUM\", \n    \"records\":[\n        {\n            \"name\":null, \n            \"type\":\"RESULT\", \n            \"value\":\"Cost\"\n        }, \n        {\n            \"name\":null, \n            \"type\":\"ADD\", \n            \"value\":\"Margin\"\n        }, \n        {\n            \"name\":null, \n            \"type\":\"RESULT\", \n            \"value\":\"ListPrice\"\n        }, \n        {\n            \"name\":null, \n            \"type\":\"SUBTRACT\", \n            \"value\":\"Discount\"\n        }, \n        {\n            \"name\":null, \n            \"type\":\"RESULT\", \n            \"value\":\"InvoicePrice\"\n        }\n    ], \n    \"aggregates\":[\n    ], \n    \"aggregateLabels\":{\n    }, \n    \"formulaParams\":{\n        \"formulaName\":null, \n        \"targetDate\":\"2020-01-30\", \n        \"targetDateField\":null, \n        \"skuField\":null, \n        \"simulationSet\":null, \n        \"inputParams\":[\n        ], \n        \"mappingParams\":[\n        ], \n        \"outputElements\":[\n        ], \n        \"feederFormulaName\":null, \n        \"feederInputParams\":[\n        ]\n    }\n}" ]
+  },
+  "chartType" : "WATERFALL",
+  "createdByName" : "admin",
+  "externalChartDefinition" : {
+    "highchart" : {
+      "chart" : {
+        "events" : { },
+        "type" : "columnWithConnectorLines",
+        "zoomType" : "x"
+      },
+      "credits" : {
+        "enabled" : false
+      },
+      "exporting" : {
+        "filename" : "Waterfall Chart",
+        "url" : "/pricefx/ce-solutions/hcexportserver"
+      },
+      "legend" : {
+        "enabled" : false
+      },
+      "plotOptions" : {
+        "columnWithConnectorLines" : {
+          "allowPointSelect" : true,
+          "dataLabels" : {
+            "backgroundColor" : "rgba(252, 255, 197, 0.8)",
+            "borderColor" : "rgba(252, 255, 197, 0.6)",
+            "borderRadius" : 3,
+            "borderWidth" : 4,
+            "color" : "black",
+            "enabled" : false,
+            "padding" : -1,
+            "verticalAlign" : "top",
+            "x" : 10,
+            "y" : 8
+          },
+          "minPointLength" : 2,
+          "point" : {
+            "events" : { }
+          }
+        }
+      },
+      "series" : [ {
+        "data" : [ ],
+        "id" : "FIX_SGWT_RENDERING",
+        "name" : "FIX_SGWT_RENDERING",
+        "showInLegend" : false,
+        "type" : "line"
+      } ],
+      "subtitle" : {
+        "text" : ""
+      },
+      "title" : {
+        "text" : ""
+      },
+      "tooltip" : { },
+      "xAxis" : {
+        "labels" : {
+          "align" : "right",
+          "rotation" : -45
+        },
+        "title" : {
+          "text" : ""
+        },
+        "type" : "category",
+        "useHTML" : true
+      },
+      "yAxis" : {
+        "title" : {
+          "text" : ""
+        }
+      }
+    },
+    "queryDTOs" : [ {
+      "aggregateFilter" : null,
+      "datamart" : "DM.Transaction",
+      "filter" : null,
+      "label" : "Series1",
+      "name" : null,
+      "options" : {
+        "currency" : "EUR"
+      },
+      "projections" : {
+        "na_Discount" : {
+          "advancedProjection" : true,
+          "alias" : "na_Discount",
+          "default" : 0,
+          "expression" : "SUM({field})",
+          "formatString" : "∑{field}",
+          "function" : null,
+          "label" : "Discount",
+          "name" : "Discount",
+          "parameters" : {
+            "base" : "ListPrice",
+            "field" : "Discount",
+            "quantity" : "Quantity"
+          }
+        },
+        "pa_Margin" : {
+          "advancedProjection" : true,
+          "alias" : "pa_Margin",
+          "default" : 0,
+          "expression" : "SUM({field})",
+          "formatString" : "∑{field}",
+          "function" : null,
+          "label" : "Margin",
+          "name" : "Margin",
+          "parameters" : {
+            "base" : "ListPrice",
+            "field" : "Margin",
+            "quantity" : "Quantity"
+          }
+        },
+        "pp_Cost" : {
+          "advancedProjection" : true,
+          "alias" : "pp_Cost",
+          "default" : 0,
+          "expression" : "SUM({field})",
+          "formatString" : "∑{field}",
+          "function" : null,
+          "label" : "Cost",
+          "name" : "Cost",
+          "parameters" : {
+            "base" : "ListPrice",
+            "field" : "Cost",
+            "quantity" : "Quantity"
+          }
+        },
+        "pp_InvoicePrice" : {
+          "advancedProjection" : true,
+          "alias" : "pp_InvoicePrice",
+          "default" : 0,
+          "expression" : "SUM({field})",
+          "formatString" : "∑{field}",
+          "function" : null,
+          "label" : "InvoicePrice",
+          "name" : "InvoicePrice",
+          "parameters" : {
+            "base" : "ListPrice",
+            "field" : "InvoicePrice",
+            "quantity" : "Quantity"
+          }
+        },
+        "pp_ListPrice" : {
+          "advancedProjection" : true,
+          "alias" : "pp_ListPrice",
+          "default" : 0,
+          "expression" : "SUM({field})",
+          "formatString" : "∑{field}",
+          "function" : null,
+          "label" : "ListPrice",
+          "name" : "ListPrice",
+          "parameters" : {
+            "base" : "ListPrice",
+            "field" : "ListPrice",
+            "quantity" : "Quantity"
+          }
+        }
+      },
+      "rollup" : true,
+      "sortBy" : [ ],
+      "source" : "DM.Transaction"
+    } ]
+  },
+  "label" : "Waterfall",
+  "uniqueName" : "Waterfall",
+  "visibility" : "PUBLIC"
+}

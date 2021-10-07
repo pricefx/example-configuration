@@ -1,0 +1,30 @@
+{
+  "configuration" : {
+    "formulaName" : "Dashboard_SalesManager",
+    "inputs" : [ {
+      "addUnknownValues" : null,
+      "alwaysEditable" : null,
+      "filter" : null,
+      "label" : "Year",
+      "labelTranslations" : null,
+      "lookupTableId" : null,
+      "name" : "Year",
+      "parameterConfig" : {
+        "dataType" : "float"
+      },
+      "parameterGroup" : null,
+      "readOnly" : null,
+      "required" : null,
+      "type" : "USERENTRY",
+      "typedId" : null,
+      "url" : null,
+      "value" : null,
+      "valueHint" : null,
+      "valueOptions" : null
+    } ]
+  },
+  "dynamicInputs" : true,
+  "hide" : false,
+  "label" : "Sales Manager Dashboard",
+  "uniqueName" : "SalesManagerDashboard"
+}

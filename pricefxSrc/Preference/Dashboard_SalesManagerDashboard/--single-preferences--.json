@@ -1,0 +1,24 @@
+{
+  "areDefault" : true,
+  "areGlobal" : true,
+  "preferenceName" : "--single-preferences--",
+  "viewState" : {
+    "columns" : [ {
+      "portlets" : [ {
+        "height" : 500,
+        "minimized" : false,
+        "name" : "Waterfall",
+        "rowOffset" : 0,
+        "viewState" : null
+      }, {
+        "height" : 500,
+        "minimized" : false,
+        "name" : "QuantityVsDiscount",
+        "rowOffset" : 1,
+        "viewState" : null
+      } ],
+      "width" : 1012
+    } ],
+    "isToolbarVisible" : true
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "chartDefinition" : {
+    "auxLines" : [ ],
+    "chartType" : "SCATTER",
+    "dictionary" : "[{\"sectionIdx\":1,\"category\":\"PROJECTION\",\"key\":\"groupBy\",\"sectionLabel\":\"Quantity vs Discount\",\"categoryLabel\":\"Projection\",\"keyLabel\":\"Aggregation By\",\"defaultValue\":\"Customer Id\"},{\"sectionIdx\":1,\"category\":\"PROJECTION\",\"key\":\"bandBy\",\"sectionLabel\":\"Quantity vs Discount\",\"categoryLabel\":\"Projection\",\"keyLabel\":\"Band By\",\"defaultValue\":\"Region\"},{\"sectionIdx\":1,\"category\":\"PROJECTION\",\"key\":\"x\",\"sectionLabel\":\"Quantity vs Discount\",\"categoryLabel\":\"Projection\",\"keyLabel\":\"X Axis\",\"defaultValue\":\"∑Quantity\"},{\"sectionIdx\":1,\"category\":\"PROJECTION\",\"key\":\"y\",\"sectionLabel\":\"Quantity vs Discount\",\"categoryLabel\":\"Projection\",\"keyLabel\":\"Y Axis\",\"defaultValue\":\"∑Discount\"}]",
+    "dynamicFCsWidget" : "{\n}",
+    "options" : "{\n    \"title\":\"\", \n    \"subtitle\":\"\", \n    \"comparison\":false, \n    \"hideLegend\":false, \n    \"hideTooltips\":false, \n    \"xLabel\":\"\", \n    \"yLabel\":\"\", \n    \"xMin\":null, \n    \"xMax\":null, \n    \"yMin\":null, \n    \"yMax\":null, \n    \"discretization\":\"true\", \n    \"disableGridDiscretization\":\"false\"\n}",
+    "series" : [ "{\n    \"datamart\":\"DM.Transaction\", \n    \"label\":\"Quantity vs Discount\", \n    \"hideDataLabels\":true, \n    \"filterTooltip\":\"\", \n    \"currency\":\"EUR\", \n    \"calculatedFieldFormulaControllerState\":{\n        \"x\":{\n            \"aggregationFormula\":\"SUM\"\n        }, \n        \"y\":{\n            \"aggregationFormula\":\"SUM\"\n        }\n    }, \n    \"calculatedFieldNonAggrFormulaControllerState\":{\n    }, \n    \"x\":\"Quantity\", \n    \"y\":\"Discount\", \n    \"groupBy\":\"CustomerId\", \n    \"bandBy\":\"Region\", \n    \"additionalMeasures\":[\n    ], \n    \"linearTrendLineLabel\":\"Series1 - Trend line\", \n    \"trendLineType\":\"linear\", \n    \"showLinearTrendLineInLegend\":\"true\", \n    \"linearTrendLineHideDataLabels\":\"true\", \n    \"linearTrendLineColor\":\"#AA4643\", \n    \"showBandByLegend\":\"false\", \n    \"showLinearTrendLine\":\"false\", \n    \"formulaParams\":{\n        \"formulaName\":null, \n        \"targetDate\":\"2020-01-30\", \n        \"targetDateField\":null, \n        \"skuField\":null, \n        \"simulationSet\":null, \n        \"inputParams\":[\n        ], \n        \"mappingParams\":[\n        ], \n        \"outputElements\":[\n        ], \n        \"feederFormulaName\":null, \n        \"feederInputParams\":[\n        ]\n    }\n}" ]
+  },
+  "chartType" : "SCATTER",
+  "createdByName" : "admin",
+  "externalChartDefinition" : {
+    "highchart" : {
+      "chart" : {
+        "defaultSeriesType" : "scatter",
+        "events" : { },
+        "zoomType" : "xy"
+      },
+      "credits" : {
+        "enabled" : false
+      },
+      "exporting" : {
+        "filename" : "Scatter Chart",
+        "url" : "/pricefx/ce-solutions/hcexportserver"
+      },
+      "legend" : {
+        "enabled" : true
+      },
+      "plotOptions" : {
+        "series" : {
+          "animation" : false,
+          "events" : { },
+          "turboThreshold" : 0
+        }
+      },
+      "series" : [ {
+        "data" : [ ],
+        "id" : "FIX_SGWT_RENDERING",
+        "name" : "FIX_SGWT_RENDERING",
+        "showInLegend" : false
+      } ],
+      "subtitle" : {
+        "text" : ""
+      },
+      "symbols" : [ "circle", "diamond", "triangle", "triangle-down" ],
+      "title" : {
+        "text" : ""
+      },
+      "tooltip" : { },
+      "xAxis" : {
+        "endOnTick" : true,
+        "max" : null,
+        "min" : null,
+        "showLastLabel" : true,
+        "startOnTick" : true,
+        "title" : {
+          "enabled" : true,
+          "margin" : 15,
+          "text" : "Quantity"
+        },
+        "type" : "linear"
+      },
+      "yAxis" : {
+        "max" : null,
+        "min" : null,
+        "title" : {
+          "text" : "Discount"
+        },
+        "type" : "linear"
+      }
+    },
+    "queryDTOs" : [ {
+      "aggregateFilter" : null,
+      "datamart" : "DM.Transaction",
+      "filter" : null,
+      "label" : "Quantity vs Discount",
+      "name" : null,
+      "options" : {
+        "currency" : "EUR",
+        "discretization" : [ "x", "y" ],
+        "distribution" : [ "x", "y" ],
+        "regression" : [ "y", "x" ]
+      },
+      "projections" : {
+        "bandBy" : {
+          "alias" : "bandBy",
+          "expression" : "Region",
+          "label" : "Region"
+        },
+        "groupBy" : {
+          "alias" : "groupBy",
+          "expression" : "CustomerId",
+          "label" : "Customer Id"
+        },
+        "x" : {
+          "advancedProjection" : true,
+          "alias" : "x",
+          "default" : null,
+          "expression" : "SUM({field})",
+          "formatString" : "∑{field}",
+          "function" : null,
+          "label" : "∑Quantity",
+          "name" : "Quantity",
+          "parameters" : {
+            "base" : "ListPrice",
+            "field" : "Quantity",
+            "quantity" : "Quantity"
+          }
+        },
+        "y" : {
+          "advancedProjection" : true,
+          "alias" : "y",
+          "default" : null,
+          "expression" : "SUM({field})",
+          "formatString" : "∑{field}",
+          "function" : null,
+          "label" : "∑Discount",
+          "name" : "Discount",
+          "parameters" : {
+            "base" : "ListPrice",
+            "field" : "Discount",
+            "quantity" : "Quantity"
+          }
+        }
+      },
+      "rollup" : true,
+      "sortBy" : [ ],
+      "source" : "DM.Transaction"
+    } ]
+  },
+  "label" : "Quantity vs Discount",
+  "uniqueName" : "QuantityVsDiscount",
+  "visibility" : "PUBLIC"
+}
