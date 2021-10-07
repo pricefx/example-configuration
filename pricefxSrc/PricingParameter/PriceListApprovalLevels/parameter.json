@@ -1,0 +1,10 @@
+{
+  "hideWarnings" : false,
+  "isPlasma" : false,
+  "label" : "Price List Approval Levels",
+  "status" : "ACTIVE",
+  "type" : "MATRIX",
+  "uniqueName" : "PriceListApprovalLevels",
+  "validAfter" : "2010-01-01",
+  "valueType" : "MATRIX"
+}

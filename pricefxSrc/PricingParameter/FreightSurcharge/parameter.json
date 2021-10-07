@@ -1,0 +1,10 @@
+{
+  "hideWarnings" : false,
+  "isPlasma" : false,
+  "label" : "Freight Surcharge",
+  "status" : "ACTIVE",
+  "type" : "MATRIX",
+  "uniqueName" : "FreightSurcharge",
+  "validAfter" : "2010-01-01",
+  "valueType" : "MATRIX2"
+}

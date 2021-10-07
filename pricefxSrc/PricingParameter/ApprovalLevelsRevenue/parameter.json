@@ -1,0 +1,10 @@
+{
+  "hideWarnings" : false,
+  "isPlasma" : false,
+  "label" : "Approval Levels Revenue",
+  "status" : "ACTIVE",
+  "type" : "MATRIX",
+  "uniqueName" : "ApprovalLevelsRevenue",
+  "validAfter" : "2010-01-01",
+  "valueType" : "MATRIX"
+}

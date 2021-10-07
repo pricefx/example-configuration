@@ -1,0 +1,27 @@
+{
+  "elements" : [ {
+    "combinationType" : "FUNCTION",
+    "elementName" : "AbortOnSyntaxCheck",
+    "elementTimeout" : 0,
+    "hideWarnings" : false
+  }, {
+    "combinationType" : "FUNCTION",
+    "elementName" : "CustomerId",
+    "elementTimeout" : 0,
+    "hideWarnings" : false
+  }, {
+    "combinationType" : "FUNCTION",
+    "elementName" : "Region",
+    "elementTimeout" : 0,
+    "hideWarnings" : false
+  }, {
+    "combinationType" : "FUNCTION",
+    "elementName" : "BuildWkfSteps",
+    "elementTimeout" : 0,
+    "hideWarnings" : false
+  } ],
+  "status" : "ACTIVE",
+  "uniqueName" : "RegionalPricingQuoteWorkflow",
+  "validAfter" : "2019-01-01",
+  "workflowType" : "quote"
+}

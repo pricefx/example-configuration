@@ -1,0 +1,20 @@
+{
+  "actionUUID" : "TruncateTask-7lLyG",
+  "calculationConfig" : {
+    "feederInputParams" : [ ],
+    "inputParams" : [ ],
+    "mappingParams" : [ ],
+    "outputElements" : [ ]
+  },
+  "continuous" : false,
+  "distributed" : false,
+  "incLoadDate" : "2020-03-05T16:57:34",
+  "incremental" : false,
+  "isDefault" : true,
+  "isPlasma" : false,
+  "label" : "Product",
+  "targetName" : "DMDS.Product",
+  "type" : "TRUNCATE",
+  "valid" : true,
+  "withTargetSnapshot" : false
+}

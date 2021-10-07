@@ -1,0 +1,11 @@
+{
+  "fieldName" : "attribute1",
+  "fieldType" : 1,
+  "formatType" : "PERCENT",
+  "label" : "PackagingAdj",
+  "labelTranslations" : {
+    "" : "Packaging Adj %"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

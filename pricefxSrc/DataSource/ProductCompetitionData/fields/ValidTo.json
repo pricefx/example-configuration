@@ -1,0 +1,21 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : true,
+  "expression" : "ValidTo",
+  "key" : false,
+  "label" : "Valid To",
+  "numeric" : false,
+  "owningFC" : "Product Competition Data",
+  "partitioningKey" : false,
+  "persisted" : true,
+  "queryable" : true,
+  "source" : "DMDS.ProductCompetitionData",
+  "system" : false,
+  "time" : true,
+  "type" : "DATE",
+  "visibility" : 1
+}

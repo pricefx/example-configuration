@@ -1,0 +1,10 @@
+{
+  "hideWarnings" : false,
+  "isPlasma" : false,
+  "label" : "Volume Breaks",
+  "status" : "ACTIVE",
+  "type" : "MATRIX",
+  "uniqueName" : "VolumeBreaks",
+  "validAfter" : "2020-01-01",
+  "valueType" : "MATRIX3"
+}

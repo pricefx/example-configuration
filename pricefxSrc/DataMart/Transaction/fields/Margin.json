@@ -1,0 +1,19 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : true,
+  "deleted" : false,
+  "deployed" : false,
+  "dimension" : false,
+  "expression" : "InvoicePrice - Cost",
+  "key" : false,
+  "label" : "Margin",
+  "numeric" : true,
+  "partitioningKey" : false,
+  "persisted" : false,
+  "queryable" : true,
+  "system" : false,
+  "time" : false,
+  "type" : "MONEY",
+  "visibility" : 1
+}

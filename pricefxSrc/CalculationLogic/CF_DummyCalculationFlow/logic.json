@@ -1,0 +1,17 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 0,
+    "elementGroups" : [ ],
+    "elementName" : "DummyCode",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  } ],
+  "formulaNature" : "calculationFlow",
+  "status" : "ACTIVE",
+  "uniqueName" : "CF_DummyCalculationFlow",
+  "validAfter" : "2021-01-01"
+}

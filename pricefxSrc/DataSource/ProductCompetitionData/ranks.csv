@@ -1,0 +1,10 @@
+ProductId
+CountryCode
+ValidFrom
+ValidTo
+Competitor
+CompetitionType
+Price
+Currency
+isDeleted
+lastUpdateDate

@@ -1,0 +1,20 @@
+{
+  "aggregation" : false,
+  "auxiliary" : true,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : false,
+  "expression" : "alerts",
+  "key" : false,
+  "label" : "Alerts",
+  "numeric" : false,
+  "owningFC" : "[System]",
+  "partitioningKey" : false,
+  "persisted" : true,
+  "queryable" : true,
+  "system" : true,
+  "time" : false,
+  "type" : "LOB",
+  "visibility" : 0
+}

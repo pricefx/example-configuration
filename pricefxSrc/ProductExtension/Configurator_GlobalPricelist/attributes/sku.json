@@ -1,0 +1,12 @@
+{
+  "description" : "",
+  "entityRefTypeCode" : "",
+  "fieldType" : 2,
+  "formatType" : "TEXT",
+  "label" : "ProductId",
+  "labelTranslations" : {
+    "" : "ProductId"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

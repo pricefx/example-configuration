@@ -1,0 +1,20 @@
+{
+  "actionUUID" : "TruncateTask-ksVVg",
+  "calculationConfig" : {
+    "feederInputParams" : [ ],
+    "inputParams" : [ ],
+    "mappingParams" : [ ],
+    "outputElements" : [ ]
+  },
+  "continuous" : false,
+  "distributed" : false,
+  "incLoadDate" : "2020-01-30T15:14:56",
+  "incremental" : true,
+  "isDefault" : true,
+  "isPlasma" : false,
+  "label" : "Currencies",
+  "targetName" : "DMDS.ccy",
+  "type" : "TRUNCATE",
+  "valid" : true,
+  "withTargetSnapshot" : false
+}

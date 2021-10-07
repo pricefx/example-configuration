@@ -1,0 +1,19 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : true,
+  "deleted" : false,
+  "deployed" : false,
+  "dimension" : false,
+  "expression" : "ListPrice - Discount",
+  "key" : false,
+  "label" : "Invoice Price",
+  "numeric" : true,
+  "partitioningKey" : false,
+  "persisted" : false,
+  "queryable" : true,
+  "system" : false,
+  "time" : false,
+  "type" : "MONEY",
+  "visibility" : 1
+}

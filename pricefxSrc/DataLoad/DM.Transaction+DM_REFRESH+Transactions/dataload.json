@@ -1,0 +1,20 @@
+{
+  "actionUUID" : "DatamartLoadTask-nENv8",
+  "calculationConfig" : {
+    "feederInputParams" : [ ],
+    "inputParams" : [ ],
+    "mappingParams" : [ ],
+    "outputElements" : [ ]
+  },
+  "continuous" : false,
+  "distributed" : false,
+  "incLoadDate" : "2020-03-06T07:55:44",
+  "incremental" : false,
+  "isDefault" : true,
+  "isPlasma" : false,
+  "label" : "Transactions",
+  "targetName" : "DM.Transaction",
+  "type" : "DM_REFRESH",
+  "valid" : true,
+  "withTargetSnapshot" : false
+}

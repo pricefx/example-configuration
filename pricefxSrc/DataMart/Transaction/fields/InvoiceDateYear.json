@@ -1,0 +1,23 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : true,
+  "expression" : "InvoiceDateYear",
+  "functionalType" : "TIMEDIMENSION",
+  "key" : false,
+  "label" : "Invoice Date Year",
+  "numeric" : false,
+  "owningFC" : "[System]",
+  "partitioningKey" : false,
+  "persisted" : true,
+  "queryable" : true,
+  "source" : "DMDS.cal",
+  "sourceField" : "CalYear",
+  "system" : true,
+  "time" : true,
+  "type" : "TEXT",
+  "visibility" : 1
+}

@@ -1,0 +1,14 @@
+{
+  "auxiliary" : false,
+  "deployed" : true,
+  "fields" : [ "CompetitionType", "Competitor", "CountryCode", "Currency", "Price", "ProductId", "ValidFrom", "ValidTo", "isDeleted", "lastUpdateDate" ],
+  "isPlasma" : false,
+  "label" : "Product Competition Data",
+  "locked" : false,
+  "queryable" : true,
+  "reload" : false,
+  "type" : "DATASOURCE",
+  "uniqueName" : "ProductCompetitionData",
+  "valid" : true,
+  "view" : false
+}

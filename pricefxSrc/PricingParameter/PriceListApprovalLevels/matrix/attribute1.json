@@ -1,0 +1,11 @@
+{
+  "fieldName" : "attribute1",
+  "fieldType" : 1,
+  "formatType" : "PERCENT",
+  "label" : "MarginThreshold",
+  "labelTranslations" : {
+    "" : "Margin Threshold"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

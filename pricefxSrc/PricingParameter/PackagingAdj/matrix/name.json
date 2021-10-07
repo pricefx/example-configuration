@@ -1,0 +1,10 @@
+{
+  "fieldName" : "name",
+  "fieldType" : 2,
+  "label" : "ProductSize",
+  "labelTranslations" : {
+    "" : "Product Size"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

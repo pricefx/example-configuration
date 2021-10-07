@@ -1,0 +1,6 @@
+[
+    {
+        "type": "DM_REFRESH",
+        "targetName": "DM.Transaction"
+    }
+]

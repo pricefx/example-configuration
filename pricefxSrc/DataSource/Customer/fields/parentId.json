@@ -1,0 +1,23 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : false,
+  "expression" : "parentId",
+  "key" : false,
+  "label" : "ParentId",
+  "measureType" : "FIXED",
+  "numeric" : true,
+  "owningFC" : "Customer",
+  "partitioningKey" : false,
+  "persisted" : true,
+  "queryable" : true,
+  "source" : "DMDS.Customer",
+  "sourceField" : "parentId",
+  "system" : false,
+  "time" : false,
+  "type" : "NUMBER",
+  "visibility" : 1
+}

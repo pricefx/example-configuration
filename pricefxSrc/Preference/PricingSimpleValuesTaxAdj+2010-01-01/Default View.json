@@ -1,0 +1,13 @@
+{
+  "areDefault" : true,
+  "areGlobal" : true,
+  "filter" : { },
+  "instance" : {
+    "simulationSet" : null,
+    "type" : "LT",
+    "uniqueName" : "TaxAdj",
+    "validAfter" : "2010-01-01"
+  },
+  "preferenceName" : "Default View",
+  "viewState" : "({\"field\":[{\"name\":\"name\",\"autoFitWidth\":false,\"width\":99},{\"name\":\"value\",\"autoFitWidth\":false,\"width\":121},{\"name\":\"lastUpdateByName\",\"visible\":false},{\"name\":\"createdByName\",\"visible\":false},{\"name\":\"createDate\",\"visible\":false,\"autoFitWidth\":true},{\"name\":\"lastUpdateDate\",\"visible\":false,\"autoFitWidth\":true}],\"pricefx_columnLabels\":null})"
+}

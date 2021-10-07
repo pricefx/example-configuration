@@ -1,0 +1,19 @@
+{
+  "actionUUID" : "CalendarLoadTask-tboqV",
+  "calculationConfig" : {
+    "feederInputParams" : [ ],
+    "inputParams" : [ ],
+    "mappingParams" : [ ],
+    "outputElements" : [ ]
+  },
+  "continuous" : false,
+  "distributed" : false,
+  "incremental" : false,
+  "isDefault" : true,
+  "isPlasma" : false,
+  "label" : "Calendar",
+  "targetName" : "DMDS.cal",
+  "type" : "DS_DEFAULTCAL",
+  "valid" : true,
+  "withTargetSnapshot" : false
+}

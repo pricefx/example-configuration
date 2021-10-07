@@ -1,0 +1,17 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : false,
+  "expression" : "CcyExchangeRate",
+  "key" : false,
+  "label" : "CcyExchangeRate",
+  "numeric" : true,
+  "persisted" : true,
+  "queryable" : true,
+  "system" : false,
+  "time" : false,
+  "type" : "NUMBER"
+}

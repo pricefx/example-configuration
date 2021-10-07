@@ -1,0 +1,11 @@
+{
+  "folder" : "Final Project",
+  "hideWarnings" : false,
+  "isPlasma" : false,
+  "label" : "Approval Threshold",
+  "status" : "ACTIVE",
+  "type" : "MATRIX",
+  "uniqueName" : "ApprovalThreshold",
+  "validAfter" : "2010-01-01",
+  "valueType" : "MATRIX2"
+}

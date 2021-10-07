@@ -1,0 +1,17 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementName" : "Price",
+    "elementTimeout" : 0,
+    "formatType" : "MONEY_EUR",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  } ],
+  "status" : "ACTIVE",
+  "uniqueName" : "PG_DummyLPGLogic",
+  "validAfter" : "2021-01-01"
+}

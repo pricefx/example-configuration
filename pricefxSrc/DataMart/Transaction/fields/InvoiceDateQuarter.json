@@ -1,0 +1,23 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : true,
+  "expression" : "InvoiceDateQuarter",
+  "functionalType" : "TIMEDIMENSION",
+  "key" : false,
+  "label" : "Invoice Date Quarter",
+  "numeric" : false,
+  "owningFC" : "[System]",
+  "partitioningKey" : false,
+  "persisted" : true,
+  "queryable" : true,
+  "source" : "DMDS.cal",
+  "sourceField" : "CalQuarter",
+  "system" : true,
+  "time" : true,
+  "type" : "TEXT",
+  "visibility" : 1
+}

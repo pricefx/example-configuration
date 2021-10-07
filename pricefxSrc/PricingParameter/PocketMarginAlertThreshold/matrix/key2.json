@@ -1,0 +1,11 @@
+{
+  "fieldName" : "key2",
+  "fieldType" : 2,
+  "fieldValueOptions" : "[\"Yellow\",\"Red\",\"Critical\"]",
+  "label" : "AlertSeverity",
+  "labelTranslations" : {
+    "" : "Alert Severity"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

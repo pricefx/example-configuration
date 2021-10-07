@@ -1,0 +1,14 @@
+{
+  "auxiliary" : true,
+  "deployed" : true,
+  "fields" : [ "CcyExchangeRate", "CcyFrom", "CcyTo", "CcyValidFrom", "CcyValidTo" ],
+  "isPlasma" : false,
+  "label" : "Currencies",
+  "locked" : true,
+  "queryable" : true,
+  "reload" : false,
+  "type" : "DATASOURCE",
+  "uniqueName" : "ccy",
+  "valid" : true,
+  "view" : false
+}

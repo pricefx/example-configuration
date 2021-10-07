@@ -1,0 +1,22 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : true,
+  "expression" : "BusinessUnit",
+  "key" : false,
+  "label" : "Business Unit",
+  "numeric" : false,
+  "owningFC" : "Product",
+  "partitioningKey" : false,
+  "persisted" : true,
+  "queryable" : true,
+  "source" : "DMDS.Product",
+  "sourceField" : "BusinessUnit",
+  "system" : false,
+  "time" : false,
+  "type" : "TEXT",
+  "visibility" : 1
+}

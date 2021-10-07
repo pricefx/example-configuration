@@ -1,0 +1,163 @@
+{
+  "chartDefinition" : {
+    "auxLines" : [ ],
+    "chartType" : "TIMESERIES",
+    "dictionary" : "[{\"sectionIdx\":1,\"category\":\"PROJECTION\",\"categoryLabel\":\"Projection\",\"defaultValue\":\"∑Margin/ƒList Price (%)\",\"field\":{\"name\":\"Margin\",\"label\":\"Margin\",\"rank\":11,\"expression\":\"InvoicePrice - Cost\",\"system\":false,\"numeric\":true,\"key\":false,\"persisted\":false,\"dimension\":false,\"calculated\":true,\"queryable\":true,\"time\":false,\"auxiliary\":false,\"deployed\":false,\"aggregation\":false,\"deleted\":false,\"type\":\"MONEY\"},\"key\":\"m1\",\"keyLabel\":\"Measure 1\",\"sectionLabel\":\"Transactions\",\"id\":1,\"value\":\"Margin %\"},{\"sectionIdx\":1,\"category\":\"PROJECTION\",\"categoryLabel\":\"Projection\",\"defaultValue\":\"Invoice Date Quarter\",\"field\":{\"name\":\"InvoiceDateQuarter\",\"label\":\"Invoice Date Quarter\",\"rank\":39,\"functionalType\":\"TIMEDIMENSION\",\"sourceField\":\"CalQuarter\",\"expression\":\"InvoiceDateQuarter\",\"system\":true,\"numeric\":false,\"key\":false,\"persisted\":true,\"dimension\":true,\"calculated\":false,\"queryable\":true,\"time\":true,\"auxiliary\":false,\"deployed\":true,\"aggregation\":false,\"deleted\":false,\"type\":\"TEXT\",\"source\":\"DMDS.cal\",\"owningFC\":\"[System]\"},\"key\":\"x\",\"keyLabel\":\"X Axis\",\"sectionLabel\":\"Transactions\",\"value\":\"Quarter\"},{\"sectionIdx\":1,\"category\":\"PROJECTION\",\"categoryLabel\":\"Projection\",\"defaultValue\":\"∑Invoice Price\",\"field\":{\"name\":\"InvoicePrice\",\"label\":\"Invoice Price\",\"rank\":9,\"expression\":\"ListPrice - Discount\",\"system\":false,\"numeric\":true,\"key\":false,\"persisted\":false,\"dimension\":false,\"calculated\":true,\"queryable\":true,\"time\":false,\"auxiliary\":false,\"deployed\":false,\"aggregation\":false,\"deleted\":false,\"type\":\"MONEY\"},\"key\":\"y\",\"keyLabel\":\"Y Axis\",\"sectionLabel\":\"Transactions\",\"value\":\"Revenue\",\"format\":null},{\"sectionIdx\":1,\"category\":\"PROJECTION\",\"key\":\"bplot_y\",\"sectionLabel\":\"Transactions\",\"categoryLabel\":\"Projection\",\"keyLabel\":\"Y Axis (Box Plot Chart)\",\"defaultValue\":\"Invoice Price\"}]",
+    "dynamicFCsWidget" : "{\n}",
+    "options" : "{\n    \"title\":\"Revenue and Margin % in Time\", \n    \"subtitle\":\"Filter by customer XYZ\", \n    \"comparison\":false, \n    \"hideLegend\":false, \n    \"hideTooltips\":false, \n    \"xLabel\":\"Quarter\", \n    \"yLabel\":\"Revenue\", \n    \"showZAxis\":\"true\", \n    \"zAxisLabel\":\"Margin %\", \n    \"legacyComparison\":\"false\", \n    \"bplotLabel\":\"Box Plot\"\n}",
+    "series" : [ "{\n    \"datamart\":\"DM.Transaction\", \n    \"label\":\"Transactions\", \n    \"hideDataLabels\":true, \n    \"filterTooltip\":\"\", \n    \"dimFilters\":[\n        {\n            \"fieldName\":\"InvoiceDateYear\", \n            \"fieldValue\":\"2020\", \n            \"fieldSynced\":false\n        }, \n        {\n            \"fieldName\":\"CustomerId\", \n            \"fieldValue\":\"CD-00004\", \n            \"fieldSynced\":false\n        }\n    ], \n    \"currency\":\"EUR\", \n    \"calculatedFieldFormulaControllerState\":{\n        \"rowLimit\":{\n            \"aggregationFormula\":\"SUM\"\n        }, \n        \"y\":{\n            \"aggregationFormula\":\"SUM\"\n        }, \n        \"aggrFormula\":{\n            \"aggregationFormula\":\"PERCENT\"\n        }\n    }, \n    \"calculatedFieldNonAggrFormulaControllerState\":{\n        \"bplot_y\":{\n            \"nonAggregationFormula\":\"FIELD\"\n        }, \n        \"boxplotNonAggrFormula\":{\n            \"nonAggregationFormula\":\"FIELD\"\n        }\n    }, \n    \"x\":\"InvoiceDateQuarter\", \n    \"y\":\"InvoicePrice\", \n    \"bplot_y\":\"InvoicePrice\", \n    \"rowLimit\":{\n    }, \n    \"additionalMeasures\":[\n        {\n            \"name\":\"Margin\", \n            \"aggrFormula\":\"PERCENT\", \n            \"boxplotNonAggrFormula\":\"FIELD\", \n            \"id\":1, \n            \"seriesType\":\"LINE\", \n            \"onZAxis\":true, \n            \"aggrFormula_value\":{\n                \"specifier\":\"PERCENT\", \n                \"displayValue\":\"∑{field}/ƒ{base} (%)\", \n                \"value\":{\n                    \"alias\":null, \n                    \"label\":\"∑{field}/ƒ{base} (%)\", \n                    \"expression\":\"100*SUM({field})/SUM({base})\", \n                    \"format\":null, \n                    \"name\":null, \n                    \"advancedProjection\":true, \n                    \"function\":null, \n                    \"default\":null, \n                    \"formatString\":\"∑{field}/ƒ{base} (%)\", \n                    \"parameters\":{\n                    }\n                }\n            }, \n            \"aggrFormula_display\":\"∑{field}/ƒ{base} (%)\"\n        }\n    ], \n    \"seriesType\":\"BAR\", \n    \"comparisonOffset\":\"-1\", \n    \"whiskerType\":\"MIN_MAX\", \n    \"showBoxplot\":\"false\", \n    \"linearTrendLineLabel\":\"Series1 - Trend line\", \n    \"trendLineType\":\"linear\", \n    \"showLinearTrendLineInLegend\":\"true\", \n    \"linearTrendLineHideDataLabels\":\"true\", \n    \"linearTrendLineColor\":\"#AA4643\", \n    \"showLinearTrendLine\":\"false\", \n    \"formulaParams\":{\n        \"formulaName\":null, \n        \"targetDate\":\"2020-09-02\", \n        \"targetDateField\":null, \n        \"skuField\":null, \n        \"simulationSet\":null, \n        \"inputParams\":[\n        ], \n        \"mappingParams\":[\n        ], \n        \"outputElements\":[\n        ], \n        \"feederFormulaName\":null, \n        \"feederInputParams\":[\n        ]\n    }\n}" ]
+  },
+  "chartType" : "TIMESERIES",
+  "createdByName" : "admin",
+  "externalChartDefinition" : {
+    "highchart" : {
+      "chart" : {
+        "type" : "column",
+        "zoomType" : "x"
+      },
+      "credits" : {
+        "enabled" : false
+      },
+      "exporting" : {
+        "filename" : "Revenue and Margin % in Time",
+        "url" : "/pricefx/sce-solutions/hcexportserver"
+      },
+      "legend" : {
+        "enabled" : true
+      },
+      "plotOptions" : {
+        "boxplot" : {
+          "fillColor" : "transparent",
+          "pointPadding" : 0.25
+        },
+        "column" : {
+          "borderWidth" : 0,
+          "groupPadding" : 0.2,
+          "grouping" : true,
+          "minPointLength" : 3,
+          "pointPadding" : 0.1,
+          "shadow" : true
+        },
+        "series" : {
+          "animation" : false,
+          "cursor" : "pointer",
+          "dataLabels" : {
+            "borderColor" : "#AAA",
+            "borderRadius" : 4,
+            "borderWidth" : 0,
+            "enabled" : false,
+            "padding" : -1,
+            "x" : 10,
+            "y" : -10
+          },
+          "events" : { }
+        }
+      },
+      "series" : [ {
+        "data" : [ ],
+        "id" : "FIX_SGWT_RENDERING",
+        "name" : "FIX_SGWT_RENDERING",
+        "showInLegend" : false,
+        "type" : "line"
+      } ],
+      "subtitle" : {
+        "text" : "Filter by customer XYZ"
+      },
+      "title" : {
+        "text" : "Revenue and Margin % in Time"
+      },
+      "tooltip" : { },
+      "xAxis" : {
+        "endOnTick" : false,
+        "labels" : {
+          "align" : "right",
+          "rotation" : -45
+        },
+        "minPadding" : 0.05,
+        "showFirstLabel" : true,
+        "showLastLabel" : true,
+        "startOnTick" : false,
+        "title" : {
+          "enabled" : true,
+          "margin" : 20,
+          "text" : "Quarter"
+        },
+        "type" : "linear"
+      },
+      "yAxis" : [ {
+        "max" : null,
+        "min" : null,
+        "title" : {
+          "text" : "Revenue"
+        },
+        "type" : "linear"
+      }, {
+        "gridLineWidth" : 0,
+        "max" : null,
+        "min" : null,
+        "opposite" : true,
+        "title" : {
+          "text" : "Margin %"
+        },
+        "type" : "linear"
+      } ]
+    },
+    "queryDTOs" : [ {
+      "aggregateFilter" : null,
+      "datamart" : "DM.Transaction",
+      "filter" : null,
+      "label" : "Transactions",
+      "name" : null,
+      "options" : {
+        "currency" : "EUR",
+        "regression" : [ "y", "x" ]
+      },
+      "projections" : {
+        "m1" : {
+          "advancedProjection" : true,
+          "alias" : "m1",
+          "default" : null,
+          "expression" : "100*SUM({field})/SUM({base})",
+          "format" : null,
+          "formatString" : "∑{field}/ƒ{base} (%)",
+          "function" : null,
+          "label" : "Margin %",
+          "name" : "Margin",
+          "parameters" : {
+            "base" : "ListPrice",
+            "field" : "Margin",
+            "quantity" : "Quantity"
+          }
+        },
+        "x" : {
+          "alias" : "x",
+          "expression" : "InvoiceDateQuarter",
+          "format" : null,
+          "label" : "Quarter"
+        },
+        "y" : {
+          "advancedProjection" : true,
+          "alias" : "y",
+          "default" : null,
+          "expression" : "SUM({field})",
+          "format" : null,
+          "formatString" : "∑{field}",
+          "function" : null,
+          "label" : "Revenue",
+          "name" : "InvoicePrice",
+          "parameters" : {
+            "base" : "ListPrice",
+            "field" : "InvoicePrice",
+            "quantity" : "Quantity"
+          }
+        }
+      },
+      "rollup" : true,
+      "sortBy" : [ "x" ],
+      "source" : "DM.Transaction"
+    } ]
+  },
+  "label" : "DASH Revenue and Margin% in Time",
+  "uniqueName" : "admin__1599051010651",
+  "visibility" : "PUBLISHED"
+}

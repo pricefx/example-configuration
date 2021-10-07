@@ -1,0 +1,20 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : false,
+  "expression" : "Size",
+  "key" : false,
+  "label" : "Size",
+  "numeric" : false,
+  "owningFC" : "Product",
+  "persisted" : true,
+  "queryable" : true,
+  "source" : "DMDS.Product",
+  "sourceField" : "attribute5",
+  "system" : false,
+  "time" : false,
+  "type" : "TEXT"
+}

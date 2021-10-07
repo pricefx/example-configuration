@@ -1,0 +1,14 @@
+[{
+        "type": "DS_INTERNAL_COPY",
+        "targetName": "DMDS.Product"
+    },
+    {
+        "type": "DS_INTERNAL_COPY",
+        "targetName": "DMDS.Customer"
+    },
+    {
+        "type": "DS_DEFAULTCAL",
+        "targetName": "DMDS.cal",
+        "label": "Calendar"
+    }
+]

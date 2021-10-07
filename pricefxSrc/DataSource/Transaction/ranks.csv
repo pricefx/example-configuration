@@ -1,0 +1,11 @@
+TransactionId
+InvoiceDate
+CustomerId
+ProductId
+Quantity
+ListPrice
+Discount
+Cost
+Currency
+isDeleted
+lastUpdateDate

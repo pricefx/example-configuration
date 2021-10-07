@@ -1,0 +1,19 @@
+{
+  "aggregation" : false,
+  "auxiliary" : true,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : false,
+  "expression" : "lastUpdateDate",
+  "key" : false,
+  "label" : "LastUpdateDate",
+  "numeric" : false,
+  "owningFC" : "[System]",
+  "persisted" : true,
+  "queryable" : true,
+  "source" : "DMDS.Product",
+  "system" : true,
+  "time" : true,
+  "type" : "DATETIME"
+}

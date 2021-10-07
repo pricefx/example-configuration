@@ -1,0 +1,155 @@
+sku,additionalInfo3,rawMaterial,subComponentSku,quantity,additionalInfo4
+MBI-00001,Meatball Lamb,Lamb,,0.03,1/kg
+MBI-00002,Meatball Beef,Beef,,0.03,1/kg
+MBI-00003,Meatball Pork,Pork,,0.03,1/kg
+MBI-00004,Meatball Tofu,Tofu,,0.03,1/kg
+MBI-00005,Sausage Lamb,Lamb,,0.03,1/kg
+MBI-00006,Sausage Beef,Beef,,0.03,1/kg
+MBI-00007,Sausage Pork,Pork,,0.03,1/kg
+MBI-00008,Sausage Tofu,Tofu,,0.03,1/kg
+MB-0001,Meatball BL,,MBI-00002,18,EA
+MB-0001,Meatball BL,Pack L,,1,EA
+MB-0002,Meatball BM,,MBI-00002,12,EA
+MB-0002,Meatball BM,Pack M,,1,EA
+MB-0003,Meatball BS,,MBI-00002,6,EA
+MB-0003,Meatball BS,Pack S,,1,EA
+MB-0004,Meatball PS,,MBI-00003,6,EA
+MB-0004,Meatball PS,Pack S,,1,EA
+MB-0005,Meatball PM,,MBI-00003,12,EA
+MB-0005,Meatball PM,Pack M,,1,EA
+MB-0006,Meatball PL,,MBI-00003,18,EA
+MB-0006,Meatball PL,Pack L,,1,EA
+MB-0007,Meatball LS,,MBI-00001,6,EA
+MB-0007,Meatball LS,Pack S,,1,EA
+MB-0008,Meatball LM,,MBI-00001,12,EA
+MB-0008,Meatball LM,Pack M,,1,EA
+MB-0009,Meatball LL,,MBI-00001,18,EA
+MB-0009,Meatball LL,Pack L,,1,EA
+MB-0010,Meatball TS,,MBI-00004,6,EA
+MB-0010,Meatball TS,Pack S,,1,EA
+MB-0011,Meatball TM,,MBI-00004,12,EA
+MB-0011,Meatball TM,Pack M,,1,EA
+MB-0012,Meatball TL,,MBI-00004,18,EA
+MB-0012,Meatball TL,Pack L,,1,EA
+MB-0013,Meatball MS BxP,,MBI-00002,3,EA
+MB-0013,Meatball MS BxP,,MBI-00003,3,EA
+MB-0013,Meatball MS BxP,Pack S,,1,EA
+MB-0014,Meatball MM BxP,,MBI-00002,6,EA
+MB-0014,Meatball MM BxP,,MBI-00003,6,EA
+MB-0014,Meatball MM BxP,Pack M,,1,EA
+MB-0015,Meatball ML BxP,,MBI-00002,9,EA
+MB-0015,Meatball ML BxP,,MBI-00003,9,EA
+MB-0014,Meatball ML BxP,Pack M,,1,EA
+MB-0016,Meatball MS BxL,,MBI-00002,3,EA
+MB-0016,Meatball MS BxL,,MBI-00001,3,EA
+MB-0016,Meatball MS BxL,Pack S,,1,EA
+MB-0017,Meatball MM BxL,,MBI-00002,6,EA
+MB-0017,Meatball MM BxL,,MBI-00001,6,EA
+MB-0017,Meatball MM BxL,Pack M,,1,EA
+MB-0018,Meatball ML BxL,,MBI-00002,9,EA
+MB-0018,Meatball ML BxL,,MBI-00001,9,EA
+MB-0018,Meatball ML BxL,Pack L,,1,EA
+MB-0019,Meatball MS BxPxL,,MBI-00002,3,EA
+MB-0019,Meatball MS BxPxL,,MBI-00003,3,EA
+MB-0019,Meatball MS BxPxL,,MBI-00001,3,EA
+MB-0019,Meatball MS BxPxL,Pack S,,1,EA
+MB-0020,Meatball MM BxPxL,,MBI-00002,4,EA
+MB-0020,Meatball MM BxPxL,,MBI-00003,4,EA
+MB-0020,Meatball MM BxPxL,,MBI-00001,4,EA
+MB-0020,Meatball MM BxPxL,Pack M,,1,EA
+MB-0021,Meatball ML BxPxL,,MBI-00002,6,EA
+MB-0021,Meatball ML BxPxL,,MBI-00003,6,EA
+MB-0021,Meatball ML BxPxL,,MBI-00001,6,EA
+MB-0021,Meatball ML BxPxL,Pack L,,1,EA
+MB-0022,Meatball MS 80Bx20P,,MBI-00002,4.8,EA
+MB-0022,Meatball MS 80Bx20P,,MBI-00003,1.2,EA
+MB-0022,Meatball MS 80Bx20P,Pack S,,1,EA
+MB-0023,Meatball MM  80Bx20P,,MBI-00002,9.6,EA
+MB-0023,Meatball MM  80Bx20P,,MBI-00003,2.4,EA
+MB-0023,Meatball MM  80Bx20P,Pack M,,1,EA
+MB-0024,Meatball ML 80Bx20P,,MBI-00002,14.4,EA
+MB-0024,Meatball ML 80Bx20P,,MBI-00003,3.6,EA
+MB-0024,Meatball ML 80Bx20P,Pack L,,1,EA
+MB-0025,Meatball MS Beef+Cheese,,MBI-00002,6,EA
+MB-0025,Meatball MS Beef+Cheese,Grated Cheese,,0.025,grams
+MB-0025,Meatball MS Beef+Cheese,Pack S,,1,EA
+MB-0026,Meatball MM  Beef+Cheese,,MBI-00002,12,EA
+MB-0026,Meatball MM  Beef+Cheese,Grated Cheese,,0.05,ml
+MB-0026,Meatball MM  Beef+Cheese,Pack M,,1,EA
+MB-0041,Meatball BS XL,,MBI-00002,18,EA
+MB-0041,Meatball BS XL,2X Split Pack L,,1,EA
+MB-0048,Meatball BS & Tomato,,MBI-00002,6,EA
+MB-0048,Meatball BS & Tomato,Tomato Mild,,0.01,ml
+MB-0048,Meatball BS & Tomato,Pack S,,1,EA
+MB-0049,Meatball BS & Mustard,,MBI-00002,6,EA
+MB-0049,Meatball BS & Mustard,,MBI-00002,0.01,ml
+MB-0049,Meatball BS & Mustard,Pack S,,1,EA
+MB-0028,Sausage BS,,MBI-00006,1,EA
+MB-0028,Sausage BS,Pack S,,1,EA
+MB-0029,Sausage BM,,MBI-00006,2,EA
+MB-0029,Sausage BM,Pack M,,1,EA
+MB-0030,Sausage BL,,MBI-00006,3,EA
+MB-0030,Sausage BL,Pack L,,1,
+MB-0031,Sausage PS,,MBI-00007,1,EA
+MB-0031,Sausage PS,Pack S,,1,EA
+MB-0032,Sausage PM,,MBI-00007,2,EA
+MB-0032,Sausage PM,Pack M,,1,EA
+MB-0033,Sausage PL,,MBI-00007,3,EA
+MB-0033,Sausage PL,Pack L,,1,EA
+MB-0034,Sausage LS,,MBI-00005,1,EA
+MB-0034,Sausage LS,Pack S,,1,EA
+MB-0035,Sausage LM,,MBI-00005,2,EA
+MB-0035,Sausage LM,Pack M,,1,EA
+MB-0036,Sausage LL,,MBI-00005,3,EA
+MB-0036,Sausage LL,Pack L,,1,EA
+MB-0037,Sausage TS,,MBI-00008,1,EA
+MB-0037,Sausage TS,Pack S,,1,
+MB-0038,Sausage TM,,MBI-00008,2,EA
+MB-0038,Sausage TM,Pack M,,1,EA
+MB-0039,Sausage TL,,MBI-00008,3,EA
+MB-0039,Sausage TL,Pack L,,1,EA
+MB-0051,Sausage XXL,,MBI-00007,12,EA
+MB-0051,Sausage XXL,4X Split Pack L,,1,EA
+MB-0042,Tomato mild,Tomato Mild,,0.25,l
+MB-0042,Tomato mild,Bottle,,1,EA
+MB-0043,Tomato medium,Tomato Medium,,0.25,l
+MB-0043,Tomato medium,Bottle,,1,EA
+MB-0044,Tomato hot,Tomato Hot,,0.25,l
+MB-0044,Tomato hot,Bottle,,1,EA
+MB-0045,Mustard mild,Mustard Mild,,0.25,l
+MB-0045,Mustard mild,Bottle,,1,EA
+MB-0046,Mustard medium,Mustard Medium,,0.25,l
+MB-0046,Mustard medium,Bottle,,1,EA
+MB-0047,Mustard hot,Mustard Hot,,0.25,l
+MB-0047,Mustard hot,Bottle,,1,EA
+MB-0060,Bundle,,MB-0006,1,EA
+MB-0060,Bundle,,MB-0030,1,EA
+MB-0060,Bundle,,MB-0042,1,EA
+MB-0060,Bundle,,MB-0046,1,EA
+MB-0060,Bundle,4X Bundle,,1,EA
+MB-0040,Meatball Beef Bundle,,MB-0002,4,EA
+MB-0040,Meatball Beef Bundle,Pack M,,1,EA
+Meal-C090,Meal S,,MBI-00002,5,EA
+Meal-C090,Meal S,,MBI-00007,1,EA
+Meal-C090,Meal S,Grated Cheese,,0.005,l
+Meal-C090,Meal S,Tomato Mild,,0.003,l
+Meal-C090,Meal S,Mustard Medium,,0.003,l
+Meal-C090,Meal S,Pack Meal S,,1,EA
+Meal-C091,Meal M,,MBI-00002,5,EA
+Meal-C091,Meal M,,MBI-00007,2,EA
+Meal-C091,Meal M,Grated Cheese,,0.007,l
+Meal-C091,Meal M,Tomato Mild,,0.005,l
+Meal-C091,Meal M,Mustard Medium,,0.005,l
+Meal-C091,Meal M,Pack Meal M,,1,EA
+Meal-C092,Meal L,,MBI-00002,8,EA
+Meal-C092,Meal L,,MBI-00007,2,EA
+Meal-C092,Meal L,Grated Cheese,,0.01,l
+Meal-C092,Meal L,Tomato Mild,,0.006,l
+Meal-C092,Meal L,Mustard Medium,,0.006,l
+Meal-C092,Meal L,Pack Meal L,,1,EA
+Meal-C093,Meal XL,,MBI-00002,15,EA
+Meal-C093,Meal XL,,MBI-00007,3,EA
+Meal-C093,Meal XL,Grated Cheese,,0.015,l
+Meal-C093,Meal XL,Tomato Mild,,0.01,l
+Meal-C093,Meal XL,Mustard Medium,,0.01,l
+Meal-C093,Meal XL,Pack Meal XL,,1,EA

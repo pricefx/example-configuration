@@ -1,0 +1,45 @@
+{
+  "fieldName" : "key1",
+  "fieldType" : 2,
+  "fieldValueOptions" : {
+    "ValuesRestrictedByDSConfig" : true,
+    "attributedFieldType" : 2,
+    "dataSourceConfig" : {
+      "autoConvertRelativeDates" : true,
+      "defaultTextMatchStyle" : "exact",
+      "dropUnknownCriteria" : true,
+      "ignoreTextMatchStyleCaseSensitive" : false,
+      "patternEscapeChar" : "\\",
+      "patternMultiWildcard" : "*",
+      "patternSingleWildcard" : [ "?", "%" ],
+      "translatePatternOperators" : false,
+      "trimMilliseconds" : null,
+      "useHttpProxy" : null,
+      "useStrictJSON" : null
+    },
+    "dataSourceLabel" : "Products",
+    "fetchUrl" : "productmanager.fetchformulafilteredproducts",
+    "fieldConfig" : {
+      "dateFormatter" : null,
+      "decimalPad" : null,
+      "decimalPrecision" : null,
+      "editorType" : null,
+      "escapeHTML" : true,
+      "format" : null,
+      "optionTextMatchStyle" : null,
+      "precision" : null,
+      "readOnlyEditorType" : null
+    },
+    "fieldLabel" : "Product Group",
+    "fieldName" : "attribute1",
+    "fieldType" : "text",
+    "metaKeyPrefix" : "",
+    "metaTypeCode" : "PAM"
+  },
+  "label" : "ProductGroup",
+  "labelTranslations" : {
+    "" : "Product Group"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

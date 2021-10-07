@@ -1,0 +1,17 @@
+{
+    "auxiliary": false,
+    "deployed": true,
+    "fields": ["BusinessUnit", "Competition", "ProductClass", "ProductGroup", "ProductId", "ProductLifeCycle", "ProductUnit", "Size", "Currency", "formulaName", "isDeleted", "Label", "lastUpdateDate"],
+    "isPlasma": false,
+    "label": "Product",
+    "locked": false,
+    "persistedObjectClass": "net.pricefx.domain.Product",
+    "queryable": true,
+    "reload": false,
+    "sourceLabel": "Product",
+    "sourceTypeCode": "P",
+    "type": "DATASOURCE",
+    "uniqueName": "Product",
+    "valid": true,
+    "view": false
+}

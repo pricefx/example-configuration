@@ -1,0 +1,6 @@
+{
+  "areDefault" : true,
+  "areGlobal" : true,
+  "preferenceName" : "Global Default",
+  "viewState" : "({field:[{name:\"typedId\",visible:false},{name:\"sku\",autoFitWidth:false,width:113},{name:\"attribute1\",autoFitWidth:false,width:153},{name:\"attribute2\"},{name:\"attribute3\"},{name:\"lastUpdateDate\",autoFitWidth:true,width:123}],sort:{fieldName:\"sku\",sortDir:\"ascending\",sortSpecifiers:[{property:\"sku\",direction:\"ascending\"}]}})"
+}

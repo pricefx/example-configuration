@@ -1,0 +1,20 @@
+{
+  "actionUUID" : "InternalDataCopyTask-Ue4xP",
+  "calculationConfig" : {
+    "feederInputParams" : [ ],
+    "inputParams" : [ ],
+    "mappingParams" : [ ],
+    "outputElements" : [ ]
+  },
+  "continuous" : false,
+  "distributed" : false,
+  "incLoadDate" : "2020-03-05T16:58:14",
+  "incremental" : false,
+  "isDefault" : true,
+  "isPlasma" : false,
+  "label" : "Product",
+  "targetName" : "DMDS.Product",
+  "type" : "DS_INTERNAL_COPY",
+  "valid" : true,
+  "withTargetSnapshot" : false
+}

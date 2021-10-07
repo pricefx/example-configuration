@@ -1,0 +1,20 @@
+{
+    "aggregation": false,
+    "auxiliary": false,
+    "calculated": false,
+    "deleted": false,
+    "deployed": true,
+    "dimension": false,
+    "expression": "Currency",
+    "key": false,
+    "label": "Currency",
+    "numeric": false,
+    "owningFC": "Product",
+    "persisted": true,
+    "queryable": true,
+    "source": "DMDS.Product",
+    "sourceField": "currency",
+    "system": false,
+    "time": false,
+    "type": "TEXT"
+}

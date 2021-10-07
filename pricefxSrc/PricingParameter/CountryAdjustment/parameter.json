@@ -1,0 +1,11 @@
+{
+  "folder" : "Food",
+  "hideWarnings" : false,
+  "isPlasma" : false,
+  "label" : "Country Adjustment",
+  "status" : "ACTIVE",
+  "type" : "MATRIX",
+  "uniqueName" : "CountryAdjustment",
+  "validAfter" : "2010-01-01",
+  "valueType" : "MATRIX"
+}

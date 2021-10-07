@@ -1,0 +1,18 @@
+{
+  "calculationConfig" : {
+    "feederInputParams" : [ ],
+    "inputParams" : [ ],
+    "mappingParams" : [ ],
+    "outputElements" : [ ]
+  },
+  "continuous" : false,
+  "distributed" : false,
+  "incremental" : true,
+  "isDefault" : true,
+  "isPlasma" : false,
+  "label" : "Product",
+  "targetName" : "DMDS.Product",
+  "type" : "DS_PRODUCTS",
+  "valid" : true,
+  "withTargetSnapshot" : false
+}

@@ -1,0 +1,12 @@
+{
+  "cssProperties" : "",
+  "fieldName" : "attribute2",
+  "fieldType" : 1,
+  "formatType" : "PERCENT",
+  "label" : "Discount",
+  "labelTranslations" : {
+    "" : "Discount"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

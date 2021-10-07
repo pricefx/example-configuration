@@ -1,0 +1,30 @@
+{
+  "configuration" : {
+    "allowFieldTypeChange" : false,
+    "approvalMappings" : { },
+    "approvalTriggerFields" : [ ],
+    "defaultFormulaOverride" : "PG_Batching_Line",
+    "elementNames" : [ "CountryAdjPct", "GrossMarginPct", "AttributeAdjPct", "Cost", "ListPrice", "BasePrice", "MarginAdjPct" ],
+    "hiddenDefaultFields" : [ "previousPrice", "previousPriceDate", "priceChange_ActivePrev", "priceChangePct", "priceChange", "activePriceDate", "activePrice", "priceChangePct_ActivePrev", "manualResultPrice", "denialDate" ],
+    "hiddenElementNames" : [ ],
+    "inputs" : [ ],
+    "matrixElementName" : "Countries",
+    "matrixFormulaName" : "PG_Batching_Matrix",
+    "productFilterCriteria" : {
+      "_constructor" : "AdvancedCriteria",
+      "criteria" : [ {
+        "fieldName" : "attribute2",
+        "operator" : "notEqual",
+        "value" : "Meal"
+      } ],
+      "operator" : "and"
+    },
+    "productFilterMode" : "auto",
+    "resultElementName" : "ListPrice",
+    "shotgunModeEnabled" : false
+  },
+  "keepManualOverrides" : false,
+  "label" : "Batching",
+  "priceGridType" : "MATRIX",
+  "writeOnlyChangedItems" : false
+}

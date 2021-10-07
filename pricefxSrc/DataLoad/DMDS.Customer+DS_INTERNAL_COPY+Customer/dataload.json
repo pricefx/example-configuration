@@ -1,0 +1,20 @@
+{
+  "actionUUID" : "InternalDataCopyTask-U9a65",
+  "calculationConfig" : {
+    "feederInputParams" : [ ],
+    "inputParams" : [ ],
+    "mappingParams" : [ ],
+    "outputElements" : [ ]
+  },
+  "continuous" : false,
+  "distributed" : false,
+  "incLoadDate" : "2019-12-16T20:55:53",
+  "incremental" : false,
+  "isDefault" : true,
+  "isPlasma" : false,
+  "label" : "Customer",
+  "targetName" : "DMDS.Customer",
+  "type" : "DS_INTERNAL_COPY",
+  "valid" : true,
+  "withTargetSnapshot" : false
+}

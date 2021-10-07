@@ -1,0 +1,13 @@
+{
+  "areDefault" : true,
+  "areGlobal" : true,
+  "filter" : { },
+  "instance" : {
+    "simulationSet" : null,
+    "type" : "LT",
+    "uniqueName" : "ExchangeRate",
+    "validAfter" : "2010-01-01"
+  },
+  "preferenceName" : "Default View",
+  "viewState" : "({\"field\":[{\"name\":\"key1\",\"autoFitWidth\":false,\"width\":96},{\"name\":\"key2\",\"autoFitWidth\":false,\"width\":82},{\"name\":\"key3\",\"autoFitWidth\":false,\"width\":94},{\"name\":\"attribute1\",\"autoFitWidth\":false,\"width\":94},{\"name\":\"attribute2\",\"autoFitWidth\":false,\"width\":98},{\"name\":\"attribute3\",\"visible\":false,\"autoFitWidth\":false,\"width\":77},{\"name\":\"attribute4\",\"visible\":false,\"autoFitWidth\":false,\"width\":77},{\"name\":\"attribute5\",\"visible\":false,\"autoFitWidth\":false,\"width\":78},{\"name\":\"attribute6\",\"visible\":false},{\"name\":\"attribute7\",\"visible\":false},{\"name\":\"attribute8\",\"visible\":false},{\"name\":\"attribute9\",\"visible\":false},{\"name\":\"attribute10\",\"visible\":false},{\"name\":\"attribute11\",\"visible\":false},{\"name\":\"attribute12\",\"visible\":false},{\"name\":\"attribute13\",\"visible\":false},{\"name\":\"attribute14\",\"visible\":false},{\"name\":\"attribute15\",\"visible\":false},{\"name\":\"attribute16\",\"visible\":false},{\"name\":\"attribute17\",\"visible\":false},{\"name\":\"attribute18\",\"visible\":false},{\"name\":\"attribute19\",\"visible\":false},{\"name\":\"attribute20\",\"visible\":false},{\"name\":\"attribute21\",\"visible\":false},{\"name\":\"attribute22\",\"visible\":false},{\"name\":\"attribute23\",\"visible\":false},{\"name\":\"attribute24\",\"visible\":false},{\"name\":\"attribute25\",\"visible\":false},{\"name\":\"attribute26\",\"visible\":false},{\"name\":\"attribute27\",\"visible\":false},{\"name\":\"attribute28\",\"visible\":false},{\"name\":\"attribute29\",\"visible\":false},{\"name\":\"attribute30\",\"visible\":false},{\"name\":\"lastUpdateByName\",\"visible\":false},{\"name\":\"createdByName\",\"visible\":false},{\"name\":\"createDate\",\"visible\":false,\"autoFitWidth\":true},{\"name\":\"lastUpdateDate\",\"visible\":false,\"autoFitWidth\":true}],\"pricefx_columnLabels\":null})"
+}

@@ -1,0 +1,17 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : true,
+  "expression" : "CcyFrom",
+  "key" : true,
+  "label" : "CcyFrom",
+  "numeric" : false,
+  "persisted" : true,
+  "queryable" : true,
+  "system" : false,
+  "time" : false,
+  "type" : "CURRENCY"
+}

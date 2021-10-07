@@ -1,0 +1,17 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : true,
+  "expression" : "CcyValidFrom",
+  "key" : true,
+  "label" : "CcyValidFrom",
+  "numeric" : false,
+  "persisted" : true,
+  "queryable" : true,
+  "system" : false,
+  "time" : true,
+  "type" : "DATE"
+}

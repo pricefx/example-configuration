@@ -1,0 +1,10 @@
+{
+  "hideWarnings" : false,
+  "isPlasma" : false,
+  "label" : "Raw Material Cost",
+  "status" : "ACTIVE",
+  "type" : "MATRIX",
+  "uniqueName" : "RawMaterialCost",
+  "validAfter" : "2010-01-01",
+  "valueType" : "MATRIX3"
+}

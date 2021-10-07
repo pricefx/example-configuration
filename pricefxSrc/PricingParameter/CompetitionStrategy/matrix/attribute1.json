@@ -1,0 +1,11 @@
+{
+  "fieldName" : "attribute1",
+  "fieldType" : 1,
+  "formatType" : "PERCENT",
+  "label" : "CompetitivePositioning",
+  "labelTranslations" : {
+    "" : "Competitive Positioning"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

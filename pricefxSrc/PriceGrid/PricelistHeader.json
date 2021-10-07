@@ -1,0 +1,96 @@
+{
+  "configuration" : {
+    "allowFieldTypeChange" : false,
+    "approvalMappings" : { },
+    "approvalTriggerFields" : [ ],
+    "defaultFormulaOverride" : "PG_PricelistHeader_Line",
+    "elementNames" : [ "MarginAdjAbs", "GrossMargin", "AttributeAdjPct", "AttributeAdjAbs", "Cost", "ListPrice", "BasePrice", "MarginAdjPct", "SpecialAdjPct", "SpecialAdjAbs" ],
+    "headerFormulaName" : "PG_PricelistHeader_Header",
+    "headerInputs" : [ {
+      "label" : "Enter Special Adjustment (in %)",
+      "name" : "SpecialAdjPct",
+      "parameterConfig" : {
+        "dataType" : "float",
+        "formatType" : "PERCENT"
+      },
+      "type" : "USERENTRY",
+      "value" : 0.02
+    } ],
+    "hiddenDefaultFields" : [ ],
+    "hiddenElementNames" : [ ],
+    "inputs" : [ ],
+    "outputChartDefinition" : {
+      "chart" : {
+        "type" : "waterfall"
+      },
+      "credits" : {
+        "enabled" : false
+      },
+      "legend" : {
+        "enabled" : false
+      },
+      "series" : [ {
+        "color" : "#aa4643",
+        "data" : [ {
+          "color" : "#4573a7",
+          "name" : "List Price",
+          "y" : 311.090329894378
+        }, {
+          "name" : "Cost",
+          "y" : -226.25
+        }, {
+          "color" : "#4573a7",
+          "isSum" : true,
+          "name" : "Gross Margin",
+          "y" : 84.840329894378
+        } ],
+        "dataLabels" : {
+          "enabled" : true,
+          "format" : "{point.y:,.2f} EUR",
+          "style" : {
+            "fontWeight" : "bold"
+          }
+        },
+        "pointPadding" : 0,
+        "upColor" : "#89a54e"
+      } ],
+      "subtitle" : {
+        "text" : ""
+      },
+      "title" : {
+        "text" : "Waterfall"
+      },
+      "tooltip" : {
+        "pointFormat" : "<b>{point.y:,.2f}</b> EUR"
+      },
+      "xAxis" : {
+        "type" : "category"
+      },
+      "yAxis" : {
+        "title" : {
+          "enabled" : false
+        }
+      }
+    },
+    "outputs" : [ {
+      "label" : "Sum List Price",
+      "name" : "sumListPrice",
+      "value" : "€ 311.09"
+    }, {
+      "label" : "Sum Cost",
+      "name" : "sumCost",
+      "value" : "€ 226.25"
+    }, {
+      "label" : "Sum Gross Margin",
+      "name" : "sumGrossMargin",
+      "value" : "€ 84.84"
+    } ],
+    "productFilterMode" : "auto",
+    "resultElementName" : "ListPrice",
+    "shotgunModeEnabled" : false
+  },
+  "keepManualOverrides" : false,
+  "label" : "PricelistHeader",
+  "priceGridType" : "SIMPLE",
+  "writeOnlyChangedItems" : false
+}

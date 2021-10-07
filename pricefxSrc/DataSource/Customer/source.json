@@ -1,0 +1,17 @@
+{
+  "auxiliary" : false,
+  "deployed" : true,
+  "fields" : [ "BuyingGroup", "Country", "CountryCode", "CustomerClass", "CustomerCurrency", "CustomerGroup", "CustomerId", "CustomerInfo", "CustomerName", "CustomerType", "IncoTerms", "PaymentTerms", "Region", "SalesOrg", "SalesPerson", "Segmentation", "Service", "isDeleted", "isParent", "lastUpdateDate", "parentId" ],
+  "isPlasma" : false,
+  "label" : "Customer",
+  "locked" : false,
+  "persistedObjectClass" : "net.pricefx.domain.Customer",
+  "queryable" : true,
+  "reload" : false,
+  "sourceLabel" : "Customer",
+  "sourceTypeCode" : "C",
+  "type" : "DATASOURCE",
+  "uniqueName" : "Customer",
+  "valid" : true,
+  "view" : false
+}

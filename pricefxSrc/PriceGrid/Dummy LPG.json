@@ -1,0 +1,19 @@
+{
+  "configuration" : {
+    "allowFieldTypeChange" : false,
+    "approvalMappings" : { },
+    "approvalTriggerFields" : [ ],
+    "defaultFormulaOverride" : "PG_DummyLPGLogic",
+    "elementNames" : [ "Price" ],
+    "hiddenDefaultFields" : [ ],
+    "hiddenElementNames" : [ ],
+    "inputs" : [ ],
+    "productFilterMode" : "auto",
+    "resultElementName" : "Price",
+    "shotgunModeEnabled" : false
+  },
+  "keepManualOverrides" : false,
+  "label" : "Dummy LPG",
+  "priceGridType" : "SIMPLE",
+  "writeOnlyChangedItems" : false
+}

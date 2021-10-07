@@ -1,0 +1,11 @@
+{
+  "description" : "",
+  "fieldType" : 1,
+  "formatType" : "MONEY_EUR",
+  "label" : "ListPrice",
+  "labelTranslations" : {
+    "" : "List Price €"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

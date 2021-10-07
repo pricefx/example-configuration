@@ -1,0 +1,12 @@
+{
+  "cssProperties" : "",
+  "fieldName" : "key2",
+  "fieldType" : 2,
+  "formatType" : "TEXT",
+  "label" : "BusinessUnit",
+  "labelTranslations" : {
+    "" : "Business Unit"
+  },
+  "readOnly" : false,
+  "requiredField" : true
+}

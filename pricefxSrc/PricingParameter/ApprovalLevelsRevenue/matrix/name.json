@@ -1,0 +1,10 @@
+{
+  "fieldName" : "name",
+  "fieldType" : 2,
+  "label" : "ApprovalLevel",
+  "labelTranslations" : {
+    "" : "Approval Level"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

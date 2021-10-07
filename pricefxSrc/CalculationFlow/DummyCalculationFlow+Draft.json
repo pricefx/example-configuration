@@ -1,0 +1,13 @@
+{
+  "configuration" : {
+    "entries" : [ {
+      "formulaName" : "CF_DummyCalculationFlow",
+      "id" : "080D083E-D114-4877-89A9-38873930F880",
+      "name" : "Dummy Calculation Flow Item",
+      "numberOfTimeUnits" : 2,
+      "periodic" : true,
+      "startingDate" : "2030-02-01T00:00:10.950Z",
+      "timeUnit" : "DAY"
+    } ]
+  }
+}
