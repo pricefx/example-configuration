@@ -1,0 +1,6 @@
+{
+  "areDefault" : true,
+  "areGlobal" : true,
+  "preferenceName" : "Controller Demo",
+  "viewState" : "({\"layout\":[{\"w\":6,\"h\":3,\"x\":0,\"y\":0,\"i\":\"DownloadXLS\",\"minW\":2,\"minH\":2,\"moved\":false,\"static\":false,\"isChart\":false,\"isMaximized\":null,\"isAutoHidden\":true,\"isHidden\":false},{\"w\":3,\"h\":4,\"x\":0,\"y\":5,\"i\":\"BackendCall\",\"minW\":1,\"minH\":1,\"moved\":false,\"static\":false,\"isChart\":false,\"isMaximized\":null},{\"w\":3,\"h\":5,\"x\":2,\"y\":0,\"i\":\"OpenSpecificDestination\",\"minW\":1,\"minH\":1,\"moved\":false,\"static\":false,\"isChart\":false,\"isMaximized\":null},{\"w\":2,\"h\":5,\"x\":0,\"y\":0,\"i\":\"OpenPage\",\"minW\":1,\"minH\":1,\"moved\":false,\"static\":false,\"isChart\":false,\"isMaximized\":null}],\"field\":[]})"
+}
