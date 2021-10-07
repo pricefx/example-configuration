@@ -1,3 +1,3 @@
-if(api.syntaxCheck){
+if (api.isSyntaxCheck()) {
     api.abortCalculation()
 }

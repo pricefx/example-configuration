@@ -1,7 +1,7 @@
 final String INPUT_NAME_QUANTITY = "Quantity"
 final String INPUT_LABEL_QUANTITY = "Quantity"
 
-if (api.syntaxCheck) {
+if (api.isSyntaxCheck()) {
     // Syntax check mode: create input parameter
     api.integerUserEntry(INPUT_NAME_QUANTITY)
     def param = api.getParameter(INPUT_NAME_QUANTITY)

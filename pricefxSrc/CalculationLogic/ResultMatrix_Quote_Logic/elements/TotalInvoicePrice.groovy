@@ -1,4 +1,4 @@
-if(out.Quantity == null || out.InvoicePrice == null){
+if (out.Quantity == null || out.InvoicePrice == null) {
     api.addWarning('Cannot be calculated without values for Quantity or InvoicePrice')
     return
 }

@@ -1,7 +1,7 @@
 final String INPUT_NAME_INVOICE_PRICE = "InvoicePrice"
 final String INPUT_LABEL_INVOICE_PRICE = "Invoice Price"
 
-if (api.syntaxCheck) {
+if (api.isSyntaxCheck()) {
     // Syntax check mode: create input parameter
     api.decimalUserEntry(INPUT_NAME_INVOICE_PRICE)
     def param = api.getParameter(INPUT_NAME_INVOICE_PRICE)

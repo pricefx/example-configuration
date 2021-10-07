@@ -56,6 +56,18 @@
     "hideOnNull" : false,
     "hideWarnings" : false,
     "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 2,
+    "elementGroups" : [ ],
+    "elementLabel" : "Competitor Prices",
+    "elementName" : "CompetitorPrices",
+    "elementTimeout" : 0,
+    "formatType" : "COMPLEX",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
   } ],
   "status" : "ACTIVE",
   "uniqueName" : "ResultMatrix_Quote_Logic",
