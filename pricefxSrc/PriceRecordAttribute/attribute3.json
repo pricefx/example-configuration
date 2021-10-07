@@ -1,0 +1,10 @@
+{
+  "fieldType" : 1,
+  "formatType" : "PERCENT",
+  "label" : "SalesDiscountPct",
+  "labelTranslations" : {
+    "" : "Sales Discount Pct"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

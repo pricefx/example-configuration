@@ -1,0 +1,9 @@
+{
+  "fieldType" : 2,
+  "label" : "PocketMarginPct",
+  "labelTranslations" : {
+    "" : "Attr. 5"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

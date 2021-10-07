@@ -1,0 +1,10 @@
+{
+  "fieldType" : 1,
+  "formatType" : "MONEY_EUR",
+  "label" : "InvoicePrice",
+  "labelTranslations" : {
+    "" : "InvoicePrice"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

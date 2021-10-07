@@ -1,0 +1,10 @@
+{
+  "fieldType" : 1,
+  "formatType" : "MONEY",
+  "label" : "ListPrice",
+  "labelTranslations" : {
+    "" : "List Price"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

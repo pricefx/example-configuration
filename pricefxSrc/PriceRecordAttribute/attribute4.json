@@ -1,0 +1,9 @@
+{
+  "fieldType" : 1,
+  "label" : "PocketMarginAbs",
+  "labelTranslations" : {
+    "" : "Pcoket Margin Abs"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

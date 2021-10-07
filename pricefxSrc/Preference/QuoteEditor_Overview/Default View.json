@@ -1,0 +1,6 @@
+{
+  "areDefault" : true,
+  "areGlobal" : true,
+  "preferenceName" : "Default View",
+  "viewState" : "({field:[{name:\"CLITN_Status\",frozen:true,width:25},{name:\"CLITN_Status1\",frozen:true,width:25},{name:\"dirtyField\",frozen:true,width:25},{name:\"CLITN_Desc\",frozen:true},{name:\"sku\",autoFitWidth:false,width:99},{name:\"label\",visible:false},{name:\"INPUT_Quantity\",visible:false},{name:\"INPUT_RequestedPrice\",visible:false},{name:\"INPUT_Customer\",visible:false},{name:\"OUTPUT_Quantity\",visible:false},{name:\"OUTPUT_Currency\",visible:false},{name:\"OUTPUT_ListPrice\",visible:false},{name:\"OUTPUT_InvoicePrice\",visible:false},{name:\"OUTPUT_HistoricalQuantitySold\",visible:false},{name:\"OUTPUT_SalesDiscountPct\",visible:false},{name:\"OUTPUT_TotalInvoicePrice\",autoFitWidth:false,width:108},{name:\"OUTPUT_Cost\",visible:false},{name:\"OUTPUT_Margin\",visible:false},{name:\"OUTPUT_MarginPct\"}]})"
+}

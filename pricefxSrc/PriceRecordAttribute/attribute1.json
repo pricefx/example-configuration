@@ -1,0 +1,10 @@
+{
+  "fieldType" : 1,
+  "formatType" : "NUMERIC",
+  "label" : "Quantity",
+  "labelTranslations" : {
+    "" : "Quantity"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

@@ -1,0 +1,1 @@
+return api.customer("Region", out.CustomerId)

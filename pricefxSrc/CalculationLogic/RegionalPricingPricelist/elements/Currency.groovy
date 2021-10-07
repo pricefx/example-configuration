@@ -1,0 +1,1 @@
+return api.vLookup("Region", "Currency", out.Region)

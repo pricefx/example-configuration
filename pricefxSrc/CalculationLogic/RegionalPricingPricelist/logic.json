@@ -113,6 +113,17 @@
   }, {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
+    "displayOptions" : 0,
+    "elementGroups" : [ ],
+    "elementName" : "GrossMarginThreshold",
+    "elementTimeout" : 0,
+    "formatType" : "PERCENT",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
     "displayOptions" : 16,
     "elementDescription" : "\t",
     "elementGroups" : [ ],
@@ -127,5 +138,5 @@
   "label" : "Regional Pricing Pricelist",
   "status" : "ACTIVE",
   "uniqueName" : "RegionalPricingPricelist",
-  "validAfter" : "2010-01-01"
+  "validAfter" : "2019-01-01"
 }

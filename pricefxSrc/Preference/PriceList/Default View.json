@@ -1,0 +1,7 @@
+{
+  "areDefault" : true,
+  "areGlobal" : true,
+  "filter" : { },
+  "preferenceName" : "Default View",
+  "viewState" : "({field:[{name:\"typedId\",visible:false},{name:\"id\",autoFitWidth:false,width:33},{name:\"previousPricelistId\",autoFitWidth:false,width:82},{name:\"label\",autoFitWidth:false,width:89},{name:\"description\",autoFitWidth:false,width:78},{name:\"status\",autoFitWidth:false,width:56},{name:\"targetDate\",autoFitWidth:false,width:94},{name:\"approvalState\",autoFitWidth:false,width:95},{name:\"workflowStatus\",autoFitWidth:false,width:113},{name:\"submittedByName\",autoFitWidth:false,width:118},{name:\"numberOfItems\",autoFitWidth:false,width:104},{name:\"calculationStartDate\",autoFitWidth:false,width:105},{name:\"calculationDate\",autoFitWidth:false,width:129},{name:\"calculationMessages\",autoFitWidth:false,width:21},{name:\"expiryDate\",autoFitWidth:false,width:94},{name:\"submitDate\",visible:false,autoFitWidth:true},{name:\"approvalDate\",autoFitWidth:false,width:94},{name:\"approvedByName\",visible:false},{name:\"exportDate\",autoFitWidth:false,width:94},{name:\"errorMode\",autoFitWidth:false,width:65},{name:\"integrationStatus\",autoFitWidth:false,width:109},{name:\"userGroupEdit\",autoFitWidth:false,width:109},{name:\"userGroupViewDetails\",autoFitWidth:false,width:150},{name:\"createDate\",visible:false,autoFitWidth:true},{name:\"createdBy\",visible:false},{name:\"lastUpdateDate\",autoFitWidth:false,width:110},{name:\"lastUpdateBy\",visible:false}]})"
+}
