@@ -1,0 +1,10 @@
+{
+  "configuration" : {
+    "formulaName" : "Highcharts_Dashboard_Logic",
+    "inputs" : [ ]
+  },
+  "dynamicInputs" : true,
+  "hide" : false,
+  "label" : "Highcharts Dashboard",
+  "uniqueName" : "Highcharts_Dashboard"
+}
