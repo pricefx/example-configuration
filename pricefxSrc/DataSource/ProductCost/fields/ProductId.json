@@ -1,0 +1,21 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : true,
+  "expression" : "ProductId",
+  "key" : true,
+  "label" : "Product Id",
+  "numeric" : false,
+  "owningFC" : "Product Cost",
+  "partitioningKey" : false,
+  "persisted" : true,
+  "queryable" : true,
+  "source" : "DMDS.ProductCost",
+  "system" : false,
+  "time" : false,
+  "type" : "TEXT",
+  "visibility" : 1
+}

@@ -1,0 +1,14 @@
+{
+  "auxiliary" : false,
+  "deployed" : true,
+  "fields" : [ "AvgCost", "ProductId", "isDeleted", "lastUpdateDate" ],
+  "isPlasma" : false,
+  "label" : "Product Cost",
+  "locked" : false,
+  "queryable" : true,
+  "reload" : false,
+  "type" : "DATASOURCE",
+  "uniqueName" : "ProductCost",
+  "valid" : true,
+  "view" : false
+}

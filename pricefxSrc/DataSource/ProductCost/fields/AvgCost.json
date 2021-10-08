@@ -1,0 +1,22 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : false,
+  "expression" : "AvgCost",
+  "key" : false,
+  "label" : "Average Cost",
+  "measureType" : "PERUNIT",
+  "numeric" : true,
+  "owningFC" : "Product Cost",
+  "partitioningKey" : false,
+  "persisted" : true,
+  "queryable" : true,
+  "source" : "DMDS.ProductCost",
+  "system" : false,
+  "time" : false,
+  "type" : "MONEY",
+  "visibility" : 1
+}
