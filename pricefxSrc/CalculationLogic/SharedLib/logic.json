@@ -1,0 +1,17 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementName" : "RoundingUtils",
+    "elementTimeout" : 0,
+    "hideWarnings" : false
+  } ],
+  "formulaNature" : "library",
+  "inputDescriptors" : [ ],
+  "label" : "Shared Library",
+  "status" : "ACTIVE",
+  "uniqueName" : "SharedLib",
+  "validAfter" : "2010-01-01"
+}
