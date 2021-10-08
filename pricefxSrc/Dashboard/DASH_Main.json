@@ -1,0 +1,10 @@
+{
+  "configuration" : {
+    "formulaName" : "DASH_Dashboard_Main",
+    "inputs" : [ ]
+  },
+  "dynamicInputs" : true,
+  "hide" : false,
+  "label" : "DASH_Main",
+  "uniqueName" : "DASH_Main"
+}
