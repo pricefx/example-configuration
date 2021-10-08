@@ -1,0 +1,16 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : true,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : true,
+  "key" : true,
+  "label" : "Product Id",
+  "numeric" : false,
+  "persisted" : true,
+  "queryable" : true,
+  "system" : false,
+  "time" : false,
+  "type" : "TEXT"
+}

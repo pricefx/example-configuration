@@ -1,0 +1,11 @@
+ProductId
+TargetDate
+ResultPrice
+Currency
+isDeleted
+lastUpdateDate
+formulaResult
+formulaDetailedResults
+warnings
+alerts
+completeResultsAvailable

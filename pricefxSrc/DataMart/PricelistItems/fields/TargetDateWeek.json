@@ -1,0 +1,21 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : true,
+  "expression" : "TargetDateWeek",
+  "functionalType" : "TIMEDIMENSION",
+  "key" : false,
+  "label" : "Target Date Week",
+  "numeric" : false,
+  "owningFC" : "[System]",
+  "persisted" : true,
+  "queryable" : true,
+  "source" : "DMDS.cal",
+  "sourceField" : "CalWeek",
+  "system" : true,
+  "time" : true,
+  "type" : "TEXT"
+}

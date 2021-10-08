@@ -1,0 +1,19 @@
+{
+  "calculationConfig" : {
+    "feederInputParams" : [ ],
+    "formulaName" : "DL_LoadPricelistIntoDatamart",
+    "inputParams" : [ ],
+    "mappingParams" : [ ],
+    "outputElements" : [ ]
+  },
+  "continuous" : false,
+  "distributed" : false,
+  "incremental" : false,
+  "isDefault" : false,
+  "isPlasma" : false,
+  "label" : "Upload Pricelist into Datamart",
+  "targetName" : "DM.PricelistItems",
+  "type" : "CALCULATION",
+  "valid" : true,
+  "withTargetSnapshot" : false
+}

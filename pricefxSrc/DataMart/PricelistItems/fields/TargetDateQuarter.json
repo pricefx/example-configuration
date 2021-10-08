@@ -1,0 +1,21 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : true,
+  "expression" : "TargetDateQuarter",
+  "functionalType" : "TIMEDIMENSION",
+  "key" : false,
+  "label" : "Target Date Quarter",
+  "numeric" : false,
+  "owningFC" : "[System]",
+  "persisted" : true,
+  "queryable" : true,
+  "source" : "DMDS.cal",
+  "sourceField" : "CalQuarter",
+  "system" : true,
+  "time" : true,
+  "type" : "TEXT"
+}

@@ -1,0 +1,18 @@
+{
+  "aggregation" : false,
+  "auxiliary" : true,
+  "calculated" : true,
+  "deleted" : false,
+  "deployed" : false,
+  "dimension" : false,
+  "expression" : "NOT ISNULL(formulaDetailedResults)",
+  "key" : false,
+  "label" : "Details",
+  "numeric" : false,
+  "owningFC" : "[System]",
+  "persisted" : false,
+  "queryable" : true,
+  "system" : true,
+  "time" : false,
+  "type" : "BOOLEAN"
+}

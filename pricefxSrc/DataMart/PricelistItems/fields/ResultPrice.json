@@ -1,0 +1,16 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : true,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : false,
+  "key" : false,
+  "label" : "Result Price",
+  "numeric" : true,
+  "persisted" : true,
+  "queryable" : true,
+  "system" : false,
+  "time" : false,
+  "type" : "MONEY"
+}

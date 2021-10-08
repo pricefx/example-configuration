@@ -1,0 +1,18 @@
+{
+  "auxiliary" : false,
+  "baseCcyCode" : "EUR",
+  "baseUomCode" : "EA",
+  "deployed" : true,
+  "fields" : [ "Currency", "ProductId", "ResultPrice", "TargetDate", "TargetDateMonth", "TargetDateQuarter", "TargetDateWeek", "TargetDateYear", "alerts", "completeResultsAvailable", "formulaDetailedResults", "formulaResult", "isDeleted", "lastUpdateDate", "warnings" ],
+  "isPlasma" : false,
+  "label" : "Pricelist Items",
+  "locked" : false,
+  "normalization" : "HIGH",
+  "queryable" : true,
+  "reload" : false,
+  "source" : "",
+  "type" : "DATAMART",
+  "uniqueName" : "PricelistItems",
+  "valid" : true,
+  "view" : false
+}

@@ -1,0 +1,18 @@
+{
+  "aggregation" : false,
+  "auxiliary" : true,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : false,
+  "expression" : "formulaDetailedResults",
+  "key" : false,
+  "label" : "Details",
+  "numeric" : false,
+  "owningFC" : "[System]",
+  "persisted" : true,
+  "queryable" : true,
+  "system" : true,
+  "time" : false,
+  "type" : "LOB"
+}
