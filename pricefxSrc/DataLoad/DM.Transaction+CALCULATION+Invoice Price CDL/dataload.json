@@ -1,0 +1,56 @@
+{
+  "calculationConfig" : {
+    "feederInputParams" : [ ],
+    "formulaName" : "DL_InvoicePriceLogic",
+    "inputParams" : [ {
+      "formattingOptions" : { },
+      "label" : "ListPrice",
+      "name" : "ListPrice",
+      "parameterConfig" : {
+        "dataType" : "float"
+      },
+      "type" : "USERENTRY"
+    }, {
+      "formattingOptions" : { },
+      "label" : "Discount",
+      "name" : "Discount",
+      "parameterConfig" : {
+        "dataType" : "float"
+      },
+      "type" : "USERENTRY"
+    } ],
+    "mappingParams" : [ {
+      "formattingOptions" : { },
+      "label" : "ListPrice",
+      "name" : "ListPrice",
+      "parameterConfig" : { },
+      "type" : ""
+    }, {
+      "formattingOptions" : { },
+      "label" : "Discount",
+      "name" : "Discount",
+      "parameterConfig" : { },
+      "type" : ""
+    } ],
+    "outputElements" : [ {
+      "displayedInPriceShop" : true,
+      "elementGroups" : [ "row" ],
+      "elementLabel" : "Invoice Price",
+      "elementName" : "InvoicePrice_CDL",
+      "formulaDate" : "2010-01-01",
+      "formulaName" : "DL_InvoicePriceLogic",
+      "key" : false,
+      "selected" : true
+    } ]
+  },
+  "continuous" : false,
+  "distributed" : false,
+  "incremental" : false,
+  "isDefault" : false,
+  "isPlasma" : false,
+  "label" : "Invoice Price CDL",
+  "targetName" : "DM.Transaction",
+  "type" : "CALCULATION",
+  "valid" : true,
+  "withTargetSnapshot" : false
+}

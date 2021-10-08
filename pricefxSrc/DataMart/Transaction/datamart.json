@@ -3,7 +3,7 @@
   "baseCcyCode" : "EUR",
   "baseUomCode" : "EA",
   "deployed" : true,
-  "fields" : [ "BusinessUnit", "BuyingGroup", "Competition", "Cost", "Country", "CountryCode", "Currency", "CustomerClass", "CustomerCurrency", "CustomerGroup", "CustomerId", "CustomerInfo", "CustomerName", "CustomerType", "Discount", "IncoTerms", "InvoiceDate", "InvoiceDateMonth", "InvoiceDateQuarter", "InvoiceDateWeek", "InvoiceDateYear", "InvoicePrice", "ListPrice", "Margin", "PaymentTerms", "ProductClass", "ProductGroup", "ProductId", "Label", "ProductLifeCycle", "ProductUnit", "Quantity", "Region", "SalesOrg", "SalesPerson", "Segmentation", "Service", "Size", "TransactionId", "alerts", "completeResultsAvailable", "formulaDetailedResults", "formulaResult", "isDeleted", "lastUpdateDate", "warnings" ],
+  "fields" : [ "BusinessUnit", "BuyingGroup", "Competition", "Cost", "Country", "CountryCode", "Currency", "CustomerClass", "CustomerCurrency", "CustomerGroup", "CustomerId", "CustomerInfo", "CustomerName", "CustomerType", "Discount", "IncoTerms", "InvoiceDate", "InvoiceDateMonth", "InvoiceDateQuarter", "InvoiceDateWeek", "InvoiceDateYear", "InvoicePrice", "InvoicePrice_CDL", "Label", "ListPrice", "Margin", "PaymentTerms", "ProductClass", "ProductGroup", "ProductId", "ProductLifeCycle", "ProductUnit", "Quantity", "Region", "SalesOrg", "SalesPerson", "Segmentation", "Service", "Size", "TransactionId", "alerts", "completeResultsAvailable", "formulaDetailedResults", "formulaResult", "isDeleted", "lastUpdateDate", "warnings" ],
   "isPlasma" : false,
   "label" : "Transactions",
   "locked" : false,
