@@ -1,0 +1,6 @@
+{
+  "executionFormula" : "CW_ProductLabelChange_Execution",
+  "label" : "Product Label Change Wizard",
+  "uniqueName" : "ProductLabelChangeWizard",
+  "wizardFormula" : "CW_ProductLabelChange_Wizard"
+}

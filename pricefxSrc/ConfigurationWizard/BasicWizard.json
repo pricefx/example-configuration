@@ -1,0 +1,6 @@
+{
+  "executionFormula" : "CW_Basic_Execution",
+  "label" : "Basic Wizard",
+  "uniqueName" : "BasicWizard",
+  "wizardFormula" : "CW_Basic_Wizard"
+}
