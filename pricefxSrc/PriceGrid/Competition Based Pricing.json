@@ -1,0 +1,19 @@
+{
+  "configuration" : {
+    "allowFieldTypeChange" : false,
+    "approvalMappings" : { },
+    "approvalTriggerFields" : [ ],
+    "defaultFormulaOverride" : "PG_CompetitionPricing",
+    "elementNames" : [ "ProductCost", "MarginPct", "CompetitorName", "CompetitorProductPrice", "ListPrice", "CompetitivePositioning", "CompetitorProductLabel" ],
+    "hiddenDefaultFields" : [ "denialDate", "priceChangePct", "priceChange", "priceChange_ActivePrev", "priceChangePct_ActivePrev" ],
+    "hiddenElementNames" : [ ],
+    "inputs" : [ ],
+    "productFilterMode" : "auto",
+    "resultElementName" : "ListPrice",
+    "shotgunModeEnabled" : false
+  },
+  "keepManualOverrides" : false,
+  "label" : "Competition Based Pricing",
+  "priceGridType" : "SIMPLE",
+  "writeOnlyChangedItems" : false
+}

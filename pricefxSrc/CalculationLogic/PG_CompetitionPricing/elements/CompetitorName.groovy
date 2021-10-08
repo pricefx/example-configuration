@@ -1,0 +1,1 @@
+return out.Competition?.competitor

@@ -93,6 +93,7 @@
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
     "displayOptions" : 5,
+    "elementGroups" : [ ],
     "elementLabel" : "Margin %",
     "elementName" : "MarginPct",
     "elementTimeout" : 0,
@@ -102,8 +103,8 @@
     "summarize" : false
   } ],
   "inputDescriptors" : [ ],
-  "label" : "Competition Pricing Pricelist",
+  "label" : "Competition Pricing LPG",
   "status" : "ACTIVE",
-  "uniqueName" : "CompetitionPricing",
+  "uniqueName" : "PG_CompetitionPricing",
   "validAfter" : "2000-01-01"
 }
