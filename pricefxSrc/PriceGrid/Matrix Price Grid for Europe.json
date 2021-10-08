@@ -1,0 +1,29 @@
+{
+  "configuration" : {
+    "allowFieldTypeChange" : false,
+    "approvalMappings" : { },
+    "approvalTriggerFields" : [ ],
+    "defaultFormulaOverride" : "PG_MatrixPriceGrid",
+    "elementNames" : [ "VolumeDiscountPct", "ListPrice", "BasePrice" ],
+    "hiddenDefaultFields" : [ "previousPriceDate", "priceChange_ActivePrev", "priceChangePct_ActivePrev", "activePriceDate", "priceChange", "priceChangePct", "denialDate" ],
+    "hiddenElementNames" : [ ],
+    "inputs" : [ {
+      "label" : "Region",
+      "name" : "Region",
+      "parameterConfig" : { },
+      "required" : true,
+      "type" : "OPTION",
+      "value" : "Europe",
+      "valueOptions" : [ "Europe", "North America" ]
+    } ],
+    "matrixElementName" : "VolumeBreaks",
+    "matrixFormulaName" : "PG_MatrixPriceGrid_Matrix",
+    "productFilterMode" : "auto",
+    "resultElementName" : "ListPrice",
+    "shotgunModeEnabled" : false
+  },
+  "keepManualOverrides" : false,
+  "label" : "Matrix Price Grid for Europe",
+  "priceGridType" : "MATRIX",
+  "writeOnlyChangedItems" : false
+}
