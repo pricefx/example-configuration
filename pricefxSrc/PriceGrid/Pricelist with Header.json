@@ -7,6 +7,7 @@
     "elementNames" : [ "MarginAdjAbs", "GrossMargin", "AttributeAdjPct", "AttributeAdjAbs", "Cost", "ListPrice", "BasePrice", "MarginAdjPct", "SpecialAdjPct", "SpecialAdjAbs" ],
     "headerFormulaName" : "PG_PricelistHeader_Header",
     "headerInputs" : [ {
+      "formattingOptions" : { },
       "label" : "Enter Special Adjustment (in %)",
       "name" : "SpecialAdjPct",
       "parameterConfig" : {
@@ -90,7 +91,7 @@
     "shotgunModeEnabled" : false
   },
   "keepManualOverrides" : false,
-  "label" : "PricelistHeader",
+  "label" : "Pricelist with Header",
   "priceGridType" : "SIMPLE",
   "writeOnlyChangedItems" : false
 }

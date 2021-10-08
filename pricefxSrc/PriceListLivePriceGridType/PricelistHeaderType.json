@@ -1,0 +1,5 @@
+{
+  "headerFormulaName" : "PG_PricelistHeader_Header",
+  "targetType" : "LIVE_PRICE_GRID",
+  "uniqueName" : "PricelistHeaderType"
+}

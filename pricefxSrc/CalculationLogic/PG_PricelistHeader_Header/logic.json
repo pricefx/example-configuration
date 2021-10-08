@@ -1,0 +1,57 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementName" : "Inputs",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementName" : "CurrentItem",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementName" : "Summary",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementName" : "Chart",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementName" : "Outputs",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  } ],
+  "formulaNature" : "coHeader",
+  "status" : "ACTIVE",
+  "uniqueName" : "PG_PricelistHeader_Header",
+  "validAfter" : "2021-01-01"
+}
