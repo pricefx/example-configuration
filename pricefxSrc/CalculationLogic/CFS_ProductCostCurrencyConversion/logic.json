@@ -1,0 +1,28 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 0,
+    "elementGroups" : [ ],
+    "elementName" : "SyntaxCheckAbort",
+    "elementTimeout" : 0,
+    "hideWarnings" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "Average Cost USD",
+    "elementName" : "AvgCostUSD",
+    "elementTimeout" : 0,
+    "formatType" : "MONEY_USD",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  } ],
+  "inputDescriptors" : [ ],
+  "label" : "CFS Product Cost Currency Conversion",
+  "status" : "ACTIVE",
+  "uniqueName" : "CFS_ProductCostCurrencyConversion",
+  "validAfter" : "2010-01-01"
+}

@@ -1,0 +1,24 @@
+{
+  "configuration" : {
+    "MPLUniqueName" : null,
+    "clearOnError" : false,
+    "extensionName" : "ProductCost",
+    "formulaName" : "CFS_ProductCostCurrencyConversion",
+    "inputs" : [ ],
+    "lookupTableUniqueName" : null,
+    "lookupTableValueType" : null,
+    "mappings" : [ {
+      "fromEntry" : "AvgCostUSD",
+      "toEntry" : "attribute2"
+    } ],
+    "preserveLastUpdate" : false,
+    "shotgunModeEnabled" : false,
+    "sortKeys" : null,
+    "sourceConcurrencySuffix" : null,
+    "sourceFilterCriteria" : { },
+    "sourceTypeCode" : "PX"
+  },
+  "keepManualOverrides" : false,
+  "label" : "AvgCostCurrencyConversion",
+  "writeOnlyChangedItems" : false
+}

@@ -1,0 +1,10 @@
+{
+  "fieldType" : 1,
+  "formatType" : "MONEY_EUR",
+  "label" : "CFS_AvgCostUSD",
+  "labelTranslations" : {
+    "" : "Average Cost USD calculated by CFS"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}
