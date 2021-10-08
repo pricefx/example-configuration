@@ -1,0 +1,56 @@
+{
+  "configuration" : {
+    "formulaName" : "AdvancedQueries_Dashboard",
+    "inputs" : [ {
+      "addUnknownValues" : null,
+      "alwaysEditable" : null,
+      "filter" : null,
+      "label" : "Filter by Country Code",
+      "labelTranslations" : null,
+      "lookupTableId" : null,
+      "name" : "CountryCode",
+      "parameterConfig" : { },
+      "parameterGroup" : null,
+      "readOnly" : null,
+      "required" : null,
+      "type" : "DMDIMFILTER",
+      "type_target" : {
+        "collection" : {
+          "type" : "DM",
+          "uniqueName" : "Transaction"
+        },
+        "field" : "CountryCode"
+      },
+      "value" : "DE",
+      "valueHint" : null,
+      "valueOptions" : null
+    }, {
+      "addUnknownValues" : null,
+      "alwaysEditable" : null,
+      "filter" : null,
+      "label" : "Filter by Product Id",
+      "labelTranslations" : null,
+      "lookupTableId" : null,
+      "name" : "ProductId",
+      "parameterConfig" : { },
+      "parameterGroup" : null,
+      "readOnly" : null,
+      "required" : null,
+      "type" : "DMDIMFILTER",
+      "type_target" : {
+        "collection" : {
+          "type" : "DM",
+          "uniqueName" : "Transaction"
+        },
+        "field" : "ProductId"
+      },
+      "value" : "MB-0001",
+      "valueHint" : null,
+      "valueOptions" : null
+    } ]
+  },
+  "dynamicInputs" : true,
+  "hide" : false,
+  "label" : "Advanced Queries",
+  "uniqueName" : "AdvancedQueries"
+}
