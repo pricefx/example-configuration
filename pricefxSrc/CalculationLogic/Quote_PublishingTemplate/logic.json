@@ -127,6 +127,6 @@
     "summarize" : false
   } ],
   "status" : "ACTIVE",
-  "uniqueName" : "PublishingTemplate_QuoteLineItem_Logic",
+  "uniqueName" : "Quote_PublishingTemplate",
   "validAfter" : "2020-01-01"
 }

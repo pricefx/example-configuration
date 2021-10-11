@@ -1,0 +1,10 @@
+{
+  "__TYPE" : "Q",
+  "isConvertibleToInputType" : true,
+  "isConvertibleToPdf" : true,
+  "isDefault" : false,
+  "isToSign" : false,
+  "name" : "Quote DOC Publishing Template",
+  "preprocessingLogicName" : "PublishingTemplate_Quote_Publishing_Template",
+  "templateInputType" : "WORD"
+}
