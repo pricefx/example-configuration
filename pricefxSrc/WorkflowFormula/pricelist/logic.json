@@ -1,0 +1,28 @@
+{
+  "elements" : [ {
+    "combinationType" : "FUNCTION",
+    "elementName" : "AbortOnSyntaxCheck",
+    "elementTimeout" : 0,
+    "hideWarnings" : false
+  }, {
+    "combinationType" : "FUNCTION",
+    "elementName" : "Helper",
+    "elementTimeout" : 0,
+    "hideWarnings" : false
+  }, {
+    "combinationType" : "FUNCTION",
+    "elementName" : "ApprovalReasons",
+    "elementTimeout" : 0,
+    "hideWarnings" : false
+  }, {
+    "combinationType" : "FUNCTION",
+    "elementName" : "BuildWorkflow",
+    "elementTimeout" : 0,
+    "hideWarnings" : false
+  } ],
+  "label" : "RLab3 PricelistWorkflow",
+  "status" : "ACTIVE",
+  "uniqueName" : "pricelist",
+  "validAfter" : "2000-01-01",
+  "workflowType" : "pricelist"
+}
