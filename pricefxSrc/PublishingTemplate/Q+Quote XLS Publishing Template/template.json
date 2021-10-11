@@ -1,0 +1,9 @@
+{
+  "__TYPE" : "Q",
+  "isConvertibleToInputType" : true,
+  "isConvertibleToPdf" : false,
+  "isDefault" : false,
+  "isToSign" : false,
+  "name" : "Quote XLS Publishing Template",
+  "templateInputType" : "EXCEL"
+}
