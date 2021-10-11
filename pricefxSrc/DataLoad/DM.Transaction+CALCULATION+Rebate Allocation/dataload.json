@@ -1,0 +1,78 @@
+{
+  "calculationConfig" : {
+    "feederFormulaName" : "DL_BonusOnSales_Feeder",
+    "feederInputParams" : [ {
+      "label" : "StartDate",
+      "name" : "StartDate",
+      "parameterConfig" : {
+        "dataType" : "date"
+      },
+      "type" : "DATEUSERENTRY",
+      "value" : "2020-01-01"
+    }, {
+      "label" : "EndDate",
+      "name" : "EndDate",
+      "parameterConfig" : {
+        "dataType" : "date"
+      },
+      "type" : "DATEUSERENTRY",
+      "value" : "2020-12-31"
+    } ],
+    "formulaName" : "DL_BonusOnSales_RebateAllocation",
+    "inputParams" : [ {
+      "label" : "Rebate",
+      "name" : "Rebate",
+      "parameterConfig" : {
+        "dataType" : "float"
+      },
+      "type" : "USERENTRY"
+    }, {
+      "label" : "InvoicePrice",
+      "name" : "InvoicePrice",
+      "parameterConfig" : {
+        "dataType" : "float"
+      },
+      "type" : "USERENTRY"
+    } ],
+    "mappingParams" : [ {
+      "label" : "Rebate",
+      "name" : "Rebate",
+      "parameterConfig" : { },
+      "type" : ""
+    }, {
+      "label" : "InvoicePrice",
+      "name" : "InvoicePrice",
+      "parameterConfig" : { },
+      "type" : ""
+    } ],
+    "outputElements" : [ {
+      "displayedInPriceShop" : true,
+      "elementGroups" : [ "row" ],
+      "elementName" : "Rebate",
+      "formulaDate" : "2010-01-01",
+      "formulaName" : "DL_BonusOnSales_RebateAllocation",
+      "key" : false,
+      "selected" : true
+    }, {
+      "displayedInPriceShop" : true,
+      "elementGroups" : [ "init" ],
+      "elementName" : "ResetRebate",
+      "formulaDate" : "2010-01-01",
+      "formulaName" : "DL_BonusOnSales_RebateAllocation",
+      "key" : false,
+      "selected" : false
+    } ],
+    "targetDate" : "2021-01-31"
+  },
+  "continuous" : false,
+  "distributed" : false,
+  "incremental" : false,
+  "isDefault" : false,
+  "isPlasma" : false,
+  "label" : "Rebate Allocation",
+  "targetDate" : "2021-01-31",
+  "targetName" : "DM.Transaction",
+  "type" : "CALCULATION",
+  "valid" : true,
+  "withTargetSnapshot" : false
+}
