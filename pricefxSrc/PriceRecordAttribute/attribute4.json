@@ -2,7 +2,7 @@
   "fieldType" : 1,
   "label" : "PocketMarginAbs",
   "labelTranslations" : {
-    "" : "Pcoket Margin Abs"
+    "" : "Pocket Margin"
   },
   "readOnly" : false,
   "requiredField" : false

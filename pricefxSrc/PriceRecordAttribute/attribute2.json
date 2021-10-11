@@ -3,7 +3,7 @@
   "formatType" : "MONEY_EUR",
   "label" : "InvoicePrice",
   "labelTranslations" : {
-    "" : "InvoicePrice"
+    "" : "Invoice Price"
   },
   "readOnly" : false,
   "requiredField" : false

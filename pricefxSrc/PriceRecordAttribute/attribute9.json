@@ -1,9 +1,10 @@
 {
+  "cssProperties" : "",
   "fieldType" : 1,
   "formatType" : "PERCENT",
-  "label" : "SalesDiscountPct",
+  "label" : "PromotionDiscount",
   "labelTranslations" : {
-    "" : "Sales Discount %"
+    "" : "Promotion Discount %"
   },
   "readOnly" : false,
   "requiredField" : false

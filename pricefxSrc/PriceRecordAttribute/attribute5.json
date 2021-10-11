@@ -1,8 +1,9 @@
 {
-  "fieldType" : 2,
+  "fieldType" : 1,
+  "formatType" : "PERCENT",
   "label" : "PocketMarginPct",
   "labelTranslations" : {
-    "" : "Attr. 5"
+    "" : "Pocket Margin %"
   },
   "readOnly" : false,
   "requiredField" : false

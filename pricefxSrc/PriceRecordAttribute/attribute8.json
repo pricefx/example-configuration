@@ -1,0 +1,11 @@
+{
+  "cssProperties" : "",
+  "fieldType" : 2,
+  "formatType" : "TEXT",
+  "label" : "ContractTermType",
+  "labelTranslations" : {
+    "" : "Contract Term Type"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}
