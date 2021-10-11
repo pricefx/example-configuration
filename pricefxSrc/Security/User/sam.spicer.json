@@ -1,0 +1,16 @@
+{
+  "activated" : true,
+  "businessRoles" : [ ],
+  "email" : "dummy@pricefx.com",
+  "firstLogin" : false,
+  "firstName" : "Sam",
+  "groups" : [ "SalesRep" ],
+  "lastName" : "Spicer",
+  "loginName" : "sam.spicer",
+  "noSession" : false,
+  "receiveAdminEmail" : false,
+  "requireTFA" : false,
+  "roles" : [ "PRICESHOP" ],
+  "ssoOnly" : false,
+  "workflowEmailingActivated" : true
+}
