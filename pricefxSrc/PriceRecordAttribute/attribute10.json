@@ -1,0 +1,11 @@
+{
+  "cssProperties" : "",
+  "fieldType" : 2,
+  "formatType" : "TEXT",
+  "label" : "VolumeDiscount",
+  "labelTranslations" : {
+    "" : "Volume Discount Map"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}
