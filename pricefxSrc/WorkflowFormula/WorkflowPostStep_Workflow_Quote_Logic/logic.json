@@ -1,0 +1,12 @@
+{
+  "elements" : [ {
+    "combinationType" : "FUNCTION",
+    "elementName" : "BuildSteps",
+    "elementTimeout" : 0,
+    "hideWarnings" : false
+  } ],
+  "status" : "ACTIVE",
+  "uniqueName" : "WorkflowPostStep_Workflow_Quote_Logic",
+  "validAfter" : "2020-10-21",
+  "workflowType" : "quote"
+}

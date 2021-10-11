@@ -1,0 +1,12 @@
+{
+  "elements" : [ {
+    "combinationType" : "FUNCTION",
+    "elementName" : "AddConditionalApprover",
+    "elementTimeout" : 0,
+    "hideWarnings" : false
+  } ],
+  "formulaNature" : "wfStepLogic",
+  "status" : "ACTIVE",
+  "uniqueName" : "WorkflowPostStep_PostStep_Logic",
+  "validAfter" : "2020-01-01"
+}
