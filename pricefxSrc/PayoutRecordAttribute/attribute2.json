@@ -1,0 +1,11 @@
+{
+  "cssProperties" : "",
+  "fieldType" : 1,
+  "formatType" : "MONEY",
+  "label" : "ActualRebate",
+  "labelTranslations" : {
+    "" : "Actual Rebate"
+  },
+  "readOnly" : true,
+  "requiredField" : false
+}

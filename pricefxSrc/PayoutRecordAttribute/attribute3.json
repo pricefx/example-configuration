@@ -1,0 +1,11 @@
+{
+  "cssProperties" : "",
+  "fieldType" : 2,
+  "formatType" : "TEXT",
+  "label" : "Currency",
+  "labelTranslations" : {
+    "" : "Currency"
+  },
+  "readOnly" : true,
+  "requiredField" : false
+}

@@ -1,0 +1,11 @@
+{
+  "cssProperties" : "",
+  "fieldType" : 1,
+  "formatType" : "PERCENT",
+  "label" : "RebatePct",
+  "labelTranslations" : {
+    "" : "Rebate %"
+  },
+  "readOnly" : true,
+  "requiredField" : false
+}

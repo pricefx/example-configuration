@@ -1,0 +1,1 @@
+return (out.ActualSalesByCustomer as Map)?.values()?.sum()
