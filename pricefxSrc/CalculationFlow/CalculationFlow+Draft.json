@@ -1,0 +1,14 @@
+{
+  "configuration" : {
+    "entries" : [ {
+      "formulaName" : "CF_Calculate_LPG",
+      "id" : "BB87B320-386B-48F3-BB4D-8E31FCC0DCD4",
+      "name" : "Calculate LPG",
+      "numberOfTimeUnits" : 30,
+      "periodic" : true,
+      "startingDate" : "2019-10-10T21:00:05",
+      "targetDate" : null,
+      "timeUnit" : "DAY"
+    } ]
+  }
+}

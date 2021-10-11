@@ -1,0 +1,1 @@
+actionBuilder.addLivePriceGridAction("Live Price Grid").setCalculate(true)

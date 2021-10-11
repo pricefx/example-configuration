@@ -1,0 +1,19 @@
+{
+  "configuration" : {
+    "allowFieldTypeChange" : false,
+    "approvalMappings" : { },
+    "approvalTriggerFields" : [ ],
+    "defaultFormulaOverride" : "PriceListLogic",
+    "elementNames" : [ "MarginAdjAbs", "AttributeAdjPct", "AttributeAdjAbs", "ListPrice", "BasePrice", "MarginAdjPct" ],
+    "hiddenDefaultFields" : [ ],
+    "hiddenElementNames" : [ ],
+    "inputs" : [ ],
+    "productFilterMode" : "auto",
+    "resultElementName" : "ListPrice",
+    "shotgunModeEnabled" : false
+  },
+  "keepManualOverrides" : false,
+  "label" : "Live Price Grid",
+  "priceGridType" : "SIMPLE",
+  "writeOnlyChangedItems" : false
+}

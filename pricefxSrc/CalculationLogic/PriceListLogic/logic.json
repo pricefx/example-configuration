@@ -12,7 +12,7 @@
   }, {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 1,
+    "displayOptions" : 16,
     "elementGroups" : [ ],
     "elementLabel" : "Base Price",
     "elementName" : "BasePrice",
@@ -25,7 +25,7 @@
   }, {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 1,
+    "displayOptions" : 16,
     "elementGroups" : [ ],
     "elementLabel" : "Margin Adjustment %",
     "elementName" : "MarginAdjPct",
@@ -37,7 +37,7 @@
   }, {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 1,
+    "displayOptions" : 16,
     "elementGroups" : [ ],
     "elementLabel" : "Margin Adjustment €",
     "elementName" : "MarginAdjAbs",
@@ -49,7 +49,7 @@
   }, {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 1,
+    "displayOptions" : 16,
     "elementGroups" : [ ],
     "elementLabel" : "Attribute Adjustment %",
     "elementName" : "AttributeAdjPct",
@@ -61,7 +61,7 @@
   }, {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 1,
+    "displayOptions" : 16,
     "elementGroups" : [ ],
     "elementLabel" : "Attribute Adjustment €",
     "elementName" : "AttributeAdjAbs",
@@ -73,7 +73,7 @@
   }, {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 1,
+    "displayOptions" : 16,
     "elementGroups" : [ ],
     "elementLabel" : "List Price",
     "elementName" : "ListPrice",
