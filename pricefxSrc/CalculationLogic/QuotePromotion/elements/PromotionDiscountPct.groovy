@@ -1,0 +1,1 @@
+return out.PromotionDiscountContract?.highestPromotionDiscount
