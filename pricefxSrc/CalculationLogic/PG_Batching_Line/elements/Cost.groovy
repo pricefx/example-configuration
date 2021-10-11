@@ -1,1 +1,3 @@
-return api.productExtension("ProductCost")?.find()?.attribute1
+//modified STUB
+
+return out.ProductCost  //api.productExtension("ProductCost")?.find()?.attribute1
