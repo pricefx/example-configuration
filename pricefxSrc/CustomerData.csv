@@ -1,4 +1,4 @@
-CustomerId,CustomerName,CustomerGroup,BuyingGroup,CustomerType,CustomerClass,Region,Country,Segmentation,Service,SalesPerson,SalesOrg,PaymentTerms,IncoTerms,CustomerCurrency,CustomerInfo,CountryCode
+customerId,name,attribute1,attribute2,attribute3,attribute4,attribute5,attribute6,attribute7,attribute8,attribute9,attribute10,attribute11,attribute12,attribute13,attribute14,attribute15
 CD-00001,Appetito Mz,APPO AG,Buy All Meat,Restaurant,C,Europe,Italy,Low-Price Buyer,24h Delivery,Maria Pastese,SO20,110 days,EXW,EUR,,IT
 CD-00002,Spagetti M,Spagetti M,,Restaurant,B,Europe,Italy,Volume Buyer,48h Delivery,Maria Pastese,SO20,60 days,FCA,EUR,,IT
 CD-00003,M. Müller,Italo Food,,Industry,A,America,USA,Volume Buyer,Normal Delivery,Dan Costanzo,SO24,110 days,FAS,USD,,US

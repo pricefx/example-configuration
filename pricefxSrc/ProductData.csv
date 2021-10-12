@@ -1,4 +1,4 @@
-ProductId,Label,ProductGroup,UnitOfMeasure,Currency,BusinessUnit,ProductClass,Competition,Size,ProductLifeCycle
+sku,label,attribute1,unitOfMeasure,Currency,attribute2,attribute3,attribute4,attribute5,attribute6
 MB-0001,Meatball Bl,Beef,EA,EUR,Meatball,A,high,Large,Growth
 MB-0002,Meatball BM,Beef,EA,EUR,Meatball,B,low,Medium,Decline
 MB-0003,Meatball BS,Beef,EA,EUR,Meatball,C,medium,Small,Growth
