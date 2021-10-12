@@ -15,10 +15,6 @@
     </modules>
 
     <properties>
-        <!-- pricefx-stream plugin-->
-        <pricefx-stream.includeMetadata>true</pricefx-stream.includeMetadata>
-        <pricefx-stream.includeData>true</pricefx-stream.includeData>
-        <pricefx-stream.includeDocuments>true</pricefx-stream.includeDocuments>
 
         <!-- groovydoc -->
         <groovy.version>2.4.15</groovy.version>
@@ -41,6 +37,9 @@
         <pricefx-stream.groupId>net.pricefx.learn</pricefx-stream.groupId>
         <pricefx-stream.artifactId>pricefx-stream-maven-plugin</pricefx-stream.artifactId>
         <pricefx-stream.version>1.0-SNAPSHOT</pricefx-stream.version>
+        <pricefx-stream.includeMetadata>true</pricefx-stream.includeMetadata>
+        <pricefx-stream.includeData>true</pricefx-stream.includeData>
+        <pricefx-stream.includeDocuments>true</pricefx-stream.includeDocuments>
     </properties>
 
     <dependencies>

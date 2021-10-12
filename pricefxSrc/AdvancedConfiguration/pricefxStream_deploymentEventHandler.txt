@@ -1,0 +1,29 @@
+{
+    "BeforeDocuments": [
+        {
+            "dataLoad": {
+                "type": "DS_INTERNAL_COPY",
+                "targetName": "DMDS.Product"
+            }
+        },{
+            "dataLoad":{
+                "type": "DS_INTERNAL_COPY",
+                "targetName": "DMDS.Customer"
+            }
+        },{
+            "dataLoad":{
+                "type": "DS_DEFAULTCAL",
+                "targetName": "DMDS.cal",
+                "label": "Calendar"
+            }
+        }
+    ],
+    "AfterDocuments": [
+        {
+            "dataLoad":{
+                "type": "DM_REFRESH",
+                "targetName": "DM.Transaction"
+            }
+        }
+    ]
+}
