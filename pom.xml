@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.pricefx.example-configuration</groupId>
-    <artifactId>main-project</artifactId>
-    <version>0.1</version>
+    <groupId>net.pricefx.learn</groupId>
+    <artifactId>example-configuration</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <name>Pricefx Example Configuration</name>
     <packaging>pom</packaging>
 
@@ -15,119 +15,40 @@
     </modules>
 
     <properties>
+        <!-- pricefx-stream plugin-->
+        <pricefx-stream.includeMetadata>true</pricefx-stream.includeMetadata>
+        <pricefx-stream.includeData>true</pricefx-stream.includeData>
+        <pricefx-stream.includeDocuments>true</pricefx-stream.includeDocuments>
+
         <!-- groovydoc -->
         <groovy.version>2.4.15</groovy.version>
 
         <!-- testing -->
-        <junit.version>4.13.2</junit.version>
-        <spock.version>2.0-groovy-3.0</spock.version>
+        <junit.version>4.12</junit.version>
+        <spock.version>1.1-groovy-2.4</spock.version>
 
         <!-- maven -->
         <maven-compiler-plugin.version>3.6.1</maven-compiler-plugin.version>
         <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
 
+        <!-- JDK -->
         <source.jdk>11</source.jdk>
         <target.jdk>11</target.jdk>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven-compiler-plugin.version}</version>
-                <configuration>
-                    <source>${target.jdk}</source>
-                    <target>${target.jdk}</target>
-                    <forceJavacCompilerUse>true</forceJavacCompilerUse>
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>compile</phase>
-                        <goals>
-                            <goal>compile</goal>
-                            <goal>testCompile</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.gmavenplus</groupId>
-                <artifactId>gmavenplus-plugin</artifactId>
-                <version>1.5</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>addTestSources</goal>
-                            <goal>testCompile</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <sources>
-                        <source>
-                            <directory>${project.basedir}/CalculationLogic</directory>
-                            <includes>
-                                <include>**/*.groovy</include>
-                            </includes>
-                        </source>
-                    </sources>
-                    <testSources>
-                        <testSource>
-                            <directory>${basedir}/CalculationLogicTest</directory>
-                            <includes>
-                                <include>**/*.groovy</include>
-                            </includes>
-                        </testSource>
-                    </testSources>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>${maven-surefire-plugin.version}</version>
-                <configuration>
-                    <systemPropertyVariables>
-                        <tdd4c.sourceRoot>CalculationLogic/</tdd4c.sourceRoot>
-                    </systemPropertyVariables>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- Pricefx Stream Maven Plugin -->
+        <pricefx-stream.groupId>net.pricefx.learn</pricefx-stream.groupId>
+        <pricefx-stream.artifactId>pricefx-stream-maven-plugin</pricefx-stream.artifactId>
+        <pricefx-stream.version>1.0-SNAPSHOT</pricefx-stream.version>
+    </properties>
 
     <dependencies>
         <dependency>
-            <groupId>org.codehaus.groovy</groupId>
-            <artifactId>groovy-all</artifactId>
-            <version>${groovy.version}</version>
+            <groupId>${pricefx-stream.groupId}</groupId>
+            <artifactId>${pricefx-stream.artifactId}</artifactId>
+            <version>${pricefx-stream.version}</version>
         </dependency>
-        <!-- Test -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.spockframework</groupId>
-            <artifactId>spock-core</artifactId>
-            <version>${spock.version}</version>
-            <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.codehaus.groovy</groupId>
-                    <artifactId>groovy-all</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>net.pricefx</groupId>
-            <artifactId>tdd4c</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>test</scope>
-        </dependency>
-
     </dependencies>
 
     <repositories>
