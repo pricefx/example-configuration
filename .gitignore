@@ -1,53 +1,28 @@
-# Pricefx Studio
+
+# ==== Pricefx Studio ====
 config.json
 .info
-
 # Pricefx source: presets for inputs
 **/CalculationLogic/*/parameters/
 **/WorkflowFormula/*/parameters/
 
-# Gradle files
+
+# ====== Gradle ========
 gradle.properties
 # Ignore Gradle project-specific cache directory
 .gradle
-
 # Gradle build directory
 build/
-# Maven files
+
+
+# ====== Maven =========
+#
 target/
-# IntelliJ's output directory
-out/
 
-# =====================
-# IntelliJ .idea/
+
+# ====== IntelliJ =======
 # https://intellij-support.jetbrains.com/hc/en-us/articles/206544839-How-to-manage-projects-under-Version-Control-Systems
-# =====================
-
+out/
+.idea/
 *.ipr
 *.iml
-
-# User-specific stuff
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/dictionaries
-.idea/**/shelf
-
-# Gradle
-#.idea/**/gradle.xml
-#.idea/**/libraries
-
-#
-# Gradle and Maven with auto-import
-# When using Gradle or Maven with auto-import, you should exclude module files,
-# since they will be recreated, and may cause churn.  Uncomment if using
-# auto-import.
-.idea/artifacts
-.idea/compiler.xml
-.idea/jarRepositories.xml
-#.idea/modules.xml
-.idea/*.iml
-.idea/modules
-
-# Generated files
-.idea/**/contentModel.xml
