@@ -1,0 +1,19 @@
+{
+  "aggregation" : false,
+  "auxiliary" : false,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : false,
+  "expression" : "CalWeek",
+  "key" : false,
+  "label" : "Calendar Week",
+  "numeric" : false,
+  "partitioningKey" : false,
+  "persisted" : true,
+  "queryable" : true,
+  "system" : false,
+  "time" : false,
+  "type" : "TEXT",
+  "visibility" : 1
+}

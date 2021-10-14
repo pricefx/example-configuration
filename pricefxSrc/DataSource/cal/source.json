@@ -1,0 +1,14 @@
+{
+  "auxiliary" : true,
+  "deployed" : true,
+  "fields" : [ "CalDate", "CalMonth", "CalQuarter", "CalWeek", "CalYear", "isDeleted", "lastUpdateDate" ],
+  "isPlasma" : false,
+  "label" : "Calendar",
+  "locked" : true,
+  "queryable" : true,
+  "reload" : false,
+  "type" : "DATASOURCE",
+  "uniqueName" : "cal",
+  "valid" : true,
+  "view" : false
+}

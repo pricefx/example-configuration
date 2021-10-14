@@ -1,0 +1,20 @@
+{
+  "aggregation" : false,
+  "auxiliary" : true,
+  "calculated" : false,
+  "deleted" : false,
+  "deployed" : true,
+  "dimension" : false,
+  "expression" : "isDeleted",
+  "key" : false,
+  "label" : "IsDeleted",
+  "numeric" : false,
+  "owningFC" : "[System]",
+  "partitioningKey" : false,
+  "persisted" : true,
+  "queryable" : false,
+  "system" : true,
+  "time" : false,
+  "type" : "BOOLEAN",
+  "visibility" : 0
+}
