@@ -13,6 +13,7 @@
   "partitioningKey" : false,
   "persisted" : true,
   "queryable" : false,
+  "source" : "DMDS.cal",
   "system" : true,
   "time" : false,
   "type" : "BOOLEAN",

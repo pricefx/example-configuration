@@ -1,7 +1,7 @@
 {
   "auxiliary" : true,
   "deployed" : true,
-  "fields" : [ "CcyExchangeRate", "CcyFrom", "CcyTo", "CcyValidFrom", "CcyValidTo" ],
+  "fields" : [ "CcyExchangeRate", "CcyFrom", "CcyTo", "CcyValidFrom", "CcyValidTo", "isDeleted", "lastUpdateDate" ],
   "isPlasma" : false,
   "label" : "Currencies",
   "locked" : true,

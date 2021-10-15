@@ -13,6 +13,7 @@
   "partitioningKey" : false,
   "persisted" : true,
   "queryable" : true,
+  "source" : "DMDS.cal",
   "system" : true,
   "time" : true,
   "type" : "DATETIME",

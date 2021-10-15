@@ -8,10 +8,15 @@
   "expression" : "CcyExchangeRate",
   "key" : false,
   "label" : "CcyExchangeRate",
+  "measureType" : "PERUNIT",
   "numeric" : true,
+  "owningFC" : "Currencies",
+  "partitioningKey" : false,
   "persisted" : true,
   "queryable" : true,
+  "source" : "DMDS.ccy",
   "system" : false,
   "time" : false,
-  "type" : "NUMBER"
+  "type" : "NUMBER",
+  "visibility" : 1
 }

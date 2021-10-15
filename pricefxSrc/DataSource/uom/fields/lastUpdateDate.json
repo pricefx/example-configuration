@@ -13,6 +13,7 @@
   "partitioningKey" : false,
   "persisted" : true,
   "queryable" : true,
+  "source" : "DMDS.uom",
   "system" : true,
   "time" : true,
   "type" : "DATETIME",

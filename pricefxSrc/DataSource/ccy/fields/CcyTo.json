@@ -9,9 +9,13 @@
   "key" : true,
   "label" : "CcyTo",
   "numeric" : false,
+  "owningFC" : "Currencies",
+  "partitioningKey" : false,
   "persisted" : true,
   "queryable" : true,
+  "source" : "DMDS.ccy",
   "system" : false,
   "time" : false,
-  "type" : "CURRENCY"
+  "type" : "CURRENCY",
+  "visibility" : 1
 }
