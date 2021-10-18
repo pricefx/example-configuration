@@ -15,15 +15,11 @@ You can either only review the configuration files in the repository, or you can
 
 **WARNING**: If you want to deploy it to the partition, then do it on an empty partition, otherwise you will destroy your current setup and data.
 
-# Pricefx Starter
-
-This is a very basic Pricefx configuration project that will help you to get started with development for the Pricefx Platform. Use it to initialize a new Pricefx project!
-
 ## Pricefx Stream Maven Plugin
 
 The Pricefx Stream plugin allows you to fetch/deploy/delete data from/to/on your Pricefx partition.
 
-**NOTE**: Do _not_ use the Pricefx Stream Plugin in your CI/CD pipelines on your QA or production environments. Instead, use the pricefx packaging tool. The Pricefx Stream Maven Plugin allows you to fetch/deploy/delete some data that you otherwise cannot do with the Pricefx Packaging Tool (or Pricefx Studio).
+**WARNING**: Do _not_ use the Pricefx Stream Plugin in your CI/CD pipelines on your QA or production environments. Instead, use the pricefx packaging tool. The Pricefx Stream Maven Plugin allows you to fetch/deploy/delete some data that you otherwise cannot handle with the Pricefx Packaging Tool (or Pricefx Studio).
 
 ### Maven Plugin Setup
 
