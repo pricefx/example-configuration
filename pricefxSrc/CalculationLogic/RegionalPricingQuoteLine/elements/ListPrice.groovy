@@ -8,4 +8,4 @@ def pliCurrency = api.vLookup("Region", "Currency", out.Region)    // api.pricel
 
 api.trace("pliResultPrice", pliCurrency, pliResultPrice)
 
-return libs.MoneyUtils.ExchangeRate.convertMoney(pliResultPrice, pliCurrency, out.Currency)
+return libs.MoneyLib.ExchangeRateUtils.convertMoney(pliResultPrice, pliCurrency, out.Currency)

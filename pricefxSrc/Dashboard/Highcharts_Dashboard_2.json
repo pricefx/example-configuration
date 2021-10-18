@@ -1,6 +1,6 @@
 {
   "configuration" : {
-    "formulaName" : "Highcharts_Dashboard_2_Logic",
+    "formulaName" : "DB_Highcharts_2",
     "inputs" : [ ]
   },
   "dynamicInputs" : true,

@@ -1,6 +1,6 @@
 {
   "configuration" : {
-    "formulaName" : "DASH_Dashboard_Embedded",
+    "formulaName" : "DB_Dashboard_Embedded",
     "inputs" : [ ]
   },
   "dynamicInputs" : false,

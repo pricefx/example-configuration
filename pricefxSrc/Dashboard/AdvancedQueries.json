@@ -1,6 +1,6 @@
 {
   "configuration" : {
-    "formulaName" : "AdvancedQueries_Dashboard",
+    "formulaName" : "DB_AdvancedQueries",
     "inputs" : [ {
       "addUnknownValues" : null,
       "alwaysEditable" : null,

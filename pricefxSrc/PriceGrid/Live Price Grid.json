@@ -3,7 +3,7 @@
     "allowFieldTypeChange" : false,
     "approvalMappings" : { },
     "approvalTriggerFields" : [ ],
-    "defaultFormulaOverride" : "PriceListLogic",
+    "defaultFormulaOverride" : "PriceList_Sample",
     "elementNames" : [ "MarginAdjAbs", "AttributeAdjPct", "AttributeAdjAbs", "ListPrice", "BasePrice", "MarginAdjPct" ],
     "hiddenDefaultFields" : [ ],
     "hiddenElementNames" : [ ],

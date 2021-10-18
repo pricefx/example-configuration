@@ -1,6 +1,6 @@
 {
   "configuration" : {
-    "formulaName" : "Dashboard_Controller",
+    "formulaName" : "DB_Controller",
     "inputs" : [ ]
   },
   "dynamicInputs" : false,

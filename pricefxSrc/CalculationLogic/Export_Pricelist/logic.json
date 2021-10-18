@@ -1,0 +1,17 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementName" : "Pricelist",
+    "elementTimeout" : 0,
+    "formatType" : "COMPLEX",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  } ],
+  "status" : "ACTIVE",
+  "uniqueName" : "Export_Pricelist",
+  "validAfter" : "2021-01-01"
+}

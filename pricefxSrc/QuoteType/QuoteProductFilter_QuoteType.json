@@ -1,5 +1,5 @@
 {
-  "formulaName" : "QuoteProductFilter_Quote_Logic",
-  "headerFormulaName" : "QuoteProductFilter_QuoteHeader_Logic",
+  "formulaName" : "Quote_Item_DemoOfQuoteProductFilter",
+  "headerFormulaName" : "Quote_Header_DemoOfQuoteProductFilter",
   "uniqueName" : "QuoteProductFilter_QuoteType"
 }
