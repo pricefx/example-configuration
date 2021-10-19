@@ -84,8 +84,7 @@
     "summarize" : false
   } ],
   "inputDescriptors" : [ ],
-  "label" : "Price List Logic",
   "status" : "ACTIVE",
-  "uniqueName" : "PriceList_Sample",
+  "uniqueName" : "Pricelist_UsingLibrary",
   "validAfter" : "2010-01-01"
 }
