@@ -23,6 +23,6 @@
   "formulaNature" : "contractHeader",
   "label" : "Contract Header Logic",
   "status" : "ACTIVE",
-  "uniqueName" : "ContractHeaderLogic",
+  "uniqueName" : "Contract_Header_Sample",
   "validAfter" : "2010-01-01"
 }

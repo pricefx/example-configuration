@@ -132,7 +132,6 @@
     "summarize" : false
   } ],
   "inputDescriptors" : [ ],
-  "label" : "Quote Logic",
   "status" : "ACTIVE",
   "uniqueName" : "Quote_Item_Sample",
   "validAfter" : "2010-01-01"

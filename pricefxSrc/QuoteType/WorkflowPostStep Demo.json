@@ -1,4 +1,4 @@
 {
-  "uniqueName" : "WorkflowPostStep_QuoteType",
+  "uniqueName" : "WorkflowPostStep Demo",
   "workflowFormulaName" : "WorkflowPostStep_Workflow_Quote_Logic"
 }

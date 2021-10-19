@@ -1,6 +1,6 @@
 {
   "formulaName" : "Quote_Item_Sample",
   "headerFormulaName" : "Quote_Header_Sample",
-  "uniqueName" : "ComplexWorkflow_QuoteType",
+  "uniqueName" : "Complex Workflow Demo",
   "workflowFormulaName" : "ComplexWorkflow"
 }

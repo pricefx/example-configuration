@@ -1,5 +1,5 @@
 {
-  "formulaName" : "ContractVolumeDiscount",
+  "formulaName" : "Contract_Item_VolumeDiscount",
   "label" : "Volume Discount",
   "uniqueName" : "VolumeDiscount"
 }
