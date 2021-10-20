@@ -1,3 +1,10 @@
 if (quoteProcessor.isPrePhase()) {
-    quoteProcessor.addOrUpdateInput([name: "Customer", required: true])
+
+    def customerInputField = api.inputBuilderFactory()
+            .createCustomerEntry()
+            .setRequired(true)
+            .buildMap()
+
+    quoteProcessor.addOrUpdateInput(customerInputField)
+
 }

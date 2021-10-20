@@ -1,8 +1,9 @@
-def INPUT_FIELD_NAME = "RequestedPrice"
+final String INPUT_REQUESTED_PRICE = "RequestedPrice"
 
-def reqPrice = api.userEntry(INPUT_FIELD_NAME)
 if (api.isSyntaxCheck()) {
-    api.getParameter(INPUT_FIELD_NAME)?.setLabel("RequestedPrice")
+    api.inputBuilderFactory().createUserEntry(INPUT_REQUESTED_PRICE)
+            .setLabel("Requested Price")
+            .getInput()
+} else {
+    return input[INPUT_REQUESTED_PRICE]
 }
-
-return reqPrice

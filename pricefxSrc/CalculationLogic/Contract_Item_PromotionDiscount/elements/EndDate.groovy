@@ -1,5 +1,9 @@
 if (api.isDebugMode()) {
-    api.global.endDate = api.inputBuilderFactory().createDateUserEntry("endDate").getInput()
+    if (api.isSyntaxCheck()) {
+        api.inputBuilderFactory().createDateUserEntry("endDate").getInput()
+    } else {
+        api.global.endDate = input.endDate
+    }
 }
 
 return api.global.endDate

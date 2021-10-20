@@ -1,8 +1,9 @@
-def INPUT_FIELD_NAME = "Quantity"
+final String INPUT_QUANTITY = "Quantity"
 
-def qty = api.userEntry(INPUT_FIELD_NAME)
 if (api.isSyntaxCheck()) {
-    api.getParameter(INPUT_FIELD_NAME)?.setRequired(true)
+    api.inputBuilderFactory().createUserEntry(INPUT_QUANTITY)
+            .setRequired(true)
+            .getInput()
+} else {
+    return input[INPUT_QUANTITY]
 }
-
-return qty

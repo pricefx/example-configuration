@@ -1,10 +1,9 @@
-//added to STUB
-
 if (api.isSyntaxCheck()) {
 
-    //insert the reference to the Configurator
-    api.configurator(Constants.CONFIGURATOR_INPUT_NAME, Constants.CONFIGURATOR_LOGIC_NAME)
+    //build the button, which opens the Configurator form popup windows
+    api.inputBuilderFactory()
+            .createConfiguratorInputBuilder(Constants.CONFIGURATOR_INPUT_NAME, Constants.CONFIGURATOR_LOGIC_NAME, false)
+            .setLabel("Configure the Delivery")
+            .getInput()
 
-    //Set the label of the button, which will open the Configurator
-    api.getParameter(Constants.CONFIGURATOR_INPUT_NAME)?.setLabel("Configure the Delivery")
 }

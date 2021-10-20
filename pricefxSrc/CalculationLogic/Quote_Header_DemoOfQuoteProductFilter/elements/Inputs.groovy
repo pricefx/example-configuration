@@ -1,11 +1,14 @@
-def rowIterator = api.stream("P", "sku", ["attribute2"])
-def businessUnits = rowIterator.collect {it["attribute2"]}?.unique().sort()
-rowIterator.close()
+if (quoteProcessor.isPrePhase()) {
 
-api.trace(businessUnits)
-api.inputBuilderFactory().createOptionEntry("BusinessUnit")
-        .setOptions(businessUnits)
-        .addOrUpdateInput(quoteProcessor, "ROOT")
+    def rowIterator = api.stream("P", "sku", ["attribute2"])
+    def businessUnits = rowIterator.collect { it["attribute2"] }?.unique().sort()
+    rowIterator.close()
 
+    def businessUnitInputField = api.inputBuilderFactory()
+            .createOptionEntry("BusinessUnit")
+            .setOptions(businessUnits)
+            .buildMap()
 
+    quoteProcessor.addOrUpdateInput(businessUnitInputField)
 
+}
