@@ -1,16 +1,13 @@
-import net.pricefx.common.api.InputType
-
 // define a Section
-def section = api.createConfiguratorEntry()
+def formSection = api.createConfiguratorEntry()
 
 // add one dropdown input field
-section.createParameter(InputType.OPTION, "ShipTo")
-        .setValueOptions(
-                api.namedEntities(api.findLookupTableValues("FreightSurcharge"))
-                        ?.collect { it.Country }
-                        ?.unique()
-                        ?.sort()
-        )
+def shipToInputField = api.inputBuilderFactory().createOptionEntry(Const.INPUT_NAME_SHIP_TO)
+        .setOptions(out.Countries)
+        .setValue(out.Inputs.shipTo)
+        .buildContextParameter()
+
+formSection.setInputs([shipToInputField])
 
 //return the Section definition. The logic Element containing this code must have DisplayMode set to Everywhere
-return section
+return formSection

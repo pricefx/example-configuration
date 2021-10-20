@@ -1,6 +1,6 @@
 if (api.syntaxCheck) {
-    api.dateUserEntry("StartDate")
-    api.dateUserEntry("EndDate")
+    api.inputBuilderFactory().createDateUserEntry("StartDate").getInput()
+    api.inputBuilderFactory().createDateUserEntry("EndDate").getInput()
 
     api.abortCalculation()
 }

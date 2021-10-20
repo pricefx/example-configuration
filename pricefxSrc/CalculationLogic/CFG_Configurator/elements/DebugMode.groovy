@@ -1,7 +1,14 @@
-//if (api.isDebugMode() && api.isSyntaxCheck()) {
-//    api.option("ShipTo", api.findLookupTableValues("FreightSurcharge")?.collect { it.key1 }?.unique())
-//    api.option("DeliveryType", api.findLookupTableValues("FreightSurcharge")?.collect { it.key2 }?.unique())
-//    api.userEntry("ExtraSurcharge")
-//}
-//
-//
+if (api.isDebugMode() && api.isSyntaxCheck()) {
+
+    api.inputBuilderFactory().createOptionEntry(Const.INPUT_NAME_SHIP_TO)
+            .setOptions(out.Countries)
+            .getInput()
+
+    api.inputBuilderFactory().createOptionEntry(Const.INPUT_NAME_DELIVERY_TYPE)
+            .setOptions(out.DeliveryTypes)
+            .getInput()
+
+    api.inputBuilderFactory().createUserEntry(Const.INPUT_NAME_EXTRA_SURCHARGE)
+            .getInput()
+
+}

@@ -1,24 +1,23 @@
 if (api.isSyntaxCheck()) {
     // Declare input parameters, only in syntax check mode
 
-    // Quantity
-    api.integerUserEntry("Quantity")
-    def quantityParam = api.getParameter("Quantity")
-    quantityParam.setLabel("Required Quantity")
-    quantityParam.setRequired(true)
-    // Limit values to be > 0
-    quantityParam.setConfigParameter("inputType", "range")
-    quantityParam.setConfigParameter("from", 1) // Min value
+//     Quantity
+    api.inputBuilderFactory().createIntegerUserEntry("Quantity")
+            .setInputType("range")
+            .setMin(1)      // Limit values to be > 0
+            .setLabel("Required Quantity")
+            .setRequired(true)
+            .getInput()
 
-    // Sales Discount %
-    api.userEntry("SalesDiscountPct")
-    def discountParam = api.getParameter("SalesDiscountPct")
-    discountParam.setLabel("Sales Discount (%)")
-    discountParam.setRequired(false)
-    discountParam.setValue(0) // Set initial value
-    discountParam.setConfigParameter("formatType", "PERCENT")
-    // Limit values to be > 0 & < 1
-    discountParam.setConfigParameter("inputType", "range")
-    discountParam.setConfigParameter("from", 0) // Min value
-    discountParam.setConfigParameter("to", 1) // Max value
+//     Sales Discount %
+    api.inputBuilderFactory().createUserEntry("SalesDiscountPct")
+            .setValue(0) // Set initial value
+            .setInputType("range")
+            .setMin(0)  // Min value
+            .setMax(1)  // Max value
+            .setFormatType("PERCENT")
+            .setLabel("Sales Discount (%)")
+            .setRequired(false)
+            .getInput()
+
 }

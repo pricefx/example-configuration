@@ -3,10 +3,10 @@ final String INPUT_LABEL_QUANTITY = "Quantity"
 
 if (api.isSyntaxCheck()) {
     // Syntax check mode: create input parameter
-    api.integerUserEntry(INPUT_NAME_QUANTITY)
-    def param = api.getParameter(INPUT_NAME_QUANTITY)
-    param.setLabel(INPUT_LABEL_QUANTITY)
-    param.setRequired(true)
+    api.inputBuilderFactory().createIntegerUserEntry(INPUT_NAME_QUANTITY)
+            .setLabel(INPUT_LABEL_QUANTITY)
+            .setRequired(true)
+            .getInput()
 } else {
     // Non-syntax check mode: read, validate and return input values
     def quantity = input[INPUT_NAME_QUANTITY]

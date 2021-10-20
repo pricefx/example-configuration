@@ -3,10 +3,10 @@ final String INPUT_LABEL_INVOICE_PRICE = "Invoice Price"
 
 if (api.isSyntaxCheck()) {
     // Syntax check mode: create input parameter
-    api.decimalUserEntry(INPUT_NAME_INVOICE_PRICE)
-    def param = api.getParameter(INPUT_NAME_INVOICE_PRICE)
-    param.setLabel(INPUT_LABEL_INVOICE_PRICE)
-    param.setRequired(true)
+    api.inputBuilderFactory().createUserEntry(INPUT_NAME_INVOICE_PRICE)
+            .setLabel(INPUT_LABEL_INVOICE_PRICE)
+            .setRequired(true)
+            .getInput()
 } else {
     // Non-syntax check mode: read, validate and return input values
     def invoicePrice = input[INPUT_NAME_INVOICE_PRICE]
