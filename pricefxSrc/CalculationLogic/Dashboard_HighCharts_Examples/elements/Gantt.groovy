@@ -9,7 +9,6 @@ def data = [
                 end       : '2018-11-5',
                 y         : 1,
                 assignee  : 'Oystein',
-                fontSymbol: 'exclamation'
         ], [
                 start   : '2018-11-8',
                 end     : '2018-11-9',
@@ -25,7 +24,6 @@ def data = [
                 end       : '2018-11-23',
                 y         : 2,
                 assignee  : 'Torstein',
-                fontSymbol: 'smile-o'
         ]
 ].collect { entry ->
     def newEntry = entry.clone()
@@ -49,20 +47,21 @@ def chartDefinition = [
         tooltip: [
                 outside: true
         ],
-
+        xAxis: [
+            type: 'datetime',
+            labels: [
+                format: '{value:%b-%e}'
+            ],
+        ],
         series : [[
                           name      : 'Project 1',
                           data      : data,
                           dataLabels: [[
                                                enabled: true,
-//                                  format: '<div style="width: 20px; height: 20px; overflow: hidden; border-radius: 50%; margin-left: -25px">' +
-//                                          '<img src="https://www.highcharts.com/images/employees2014/{point.assignee}.jpg" ' +
-//                                          'style="width: 30px; margin-left: -5px; margin-top: -2px"></div>',
                                                useHTML: true,
                                                align  : 'left'
                                        ], [
                                                enabled: true,
-//                                  format: '<i class="fa fa-{point.fontSymbol}" style="font-size: 1.5em"></i>',
                                                useHTML: true,
                                                align  : 'right'
                                        ]]
