@@ -1,0 +1,1 @@
+return api.pricelist("GlobalPriceList")

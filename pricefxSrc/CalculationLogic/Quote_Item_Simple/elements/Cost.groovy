@@ -1,0 +1,1 @@
+return cost = (api.productExtension("ProductCost")?:null)?.first()?.attribute1

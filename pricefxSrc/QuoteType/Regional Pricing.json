@@ -1,0 +1,6 @@
+{
+  "formulaName" : "Quote_Item_RegionalPricing",
+  "headerFormulaName" : "Quote_Header_RegionalPricing",
+  "uniqueName" : "Regional Pricing",
+  "workflowFormulaName" : "RegionalPricingQuoteWorkflow"
+}

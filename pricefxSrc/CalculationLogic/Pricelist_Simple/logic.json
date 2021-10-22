@@ -1,0 +1,80 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 1,
+    "elementGroups" : [ ],
+    "elementLabel" : "Base Price",
+    "elementName" : "BasePrice",
+    "elementTimeout" : 0,
+    "formatType" : "MONEY_EUR",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "labelTranslations" : { },
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 1,
+    "elementGroups" : [ ],
+    "elementLabel" : "Margin Adjustment %",
+    "elementName" : "MarginAdjPct",
+    "elementTimeout" : 0,
+    "formatType" : "PERCENT",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 1,
+    "elementGroups" : [ ],
+    "elementLabel" : "Margin Adjustment €",
+    "elementName" : "MarginAdjAbs",
+    "elementTimeout" : 0,
+    "formatType" : "MONEY_EUR",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 1,
+    "elementGroups" : [ ],
+    "elementLabel" : "Attribute Adjustment %",
+    "elementName" : "AttributeAdjPct",
+    "elementTimeout" : 0,
+    "formatType" : "PERCENT",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 1,
+    "elementGroups" : [ ],
+    "elementLabel" : "Attribute Adjustment €",
+    "elementName" : "AttributeAdjAbs",
+    "elementTimeout" : 0,
+    "formatType" : "MONEY_EUR",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 1,
+    "elementGroups" : [ ],
+    "elementLabel" : "List Price",
+    "elementName" : "ListPrice",
+    "elementTimeout" : 0,
+    "formatType" : "MONEY_EUR",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  } ],
+  "inputDescriptors" : [ ],
+  "status" : "ACTIVE",
+  "uniqueName" : "Pricelist_Simple",
+  "validAfter" : "2010-01-01"
+}

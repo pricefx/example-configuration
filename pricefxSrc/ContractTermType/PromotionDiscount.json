@@ -1,5 +1,5 @@
 {
-  "formulaName" : "ContractPromotionDiscount",
+  "formulaName" : "Contract_Item_PromotionDiscount",
   "label" : "Promotion Discount",
   "uniqueName" : "PromotionDiscount"
 }

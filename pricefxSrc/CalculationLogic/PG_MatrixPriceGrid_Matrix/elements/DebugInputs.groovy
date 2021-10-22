@@ -1,11 +1,9 @@
-if (api.isDebugMode()) {
+if (api.isDebugMode() && api.isSyntaxCheck()) {
 
-    def volumeBreaks =
-            api.findLookupTableValues("VolumeBreaks", "Region")
-                    ?.key1?.unique()
+    def volumeBreaks = api.findLookupTableValues("VolumeBreaks", "Region")?.key1?.unique()
 
-    if (api.isSyntaxCheck()) {
-        api.option("Region", volumeBreaks)
-    }
+    api.inputBuilderFactory().createOptionEntry("Region")
+            .setOptions(volumeBreaks)
+            .getInput()
 
 }

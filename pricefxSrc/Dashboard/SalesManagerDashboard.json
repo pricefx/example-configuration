@@ -1,6 +1,6 @@
 {
   "configuration" : {
-    "formulaName" : "Dashboard_SalesManager",
+    "formulaName" : "DB_SalesManager",
     "inputs" : [ {
       "addUnknownValues" : null,
       "alwaysEditable" : null,

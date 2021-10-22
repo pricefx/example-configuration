@@ -1,11 +1,20 @@
-/* read data from Transaction row */
-BigDecimal tRebateSum = api.userEntry("Rebate") ?: 0.0
-BigDecimal tInvoicePrice = api.userEntry("InvoicePrice")
-//def transactionId = api.userEntry("TransactionId")
+final String INPUT_NAME_REBATE = "Rebate"
+final String INPUT_NAME_INVOICE_PRICE = "InvoicePrice"
+final String INPUT_NAME_TRANSACTION_ID = "TransactionId"
+
 
 if (api.isSyntaxCheck()) {
+    api.inputBuilderFactory().createUserEntry(INPUT_NAME_REBATE).getInput()
+    api.inputBuilderFactory().createUserEntry(INPUT_NAME_INVOICE_PRICE).getInput()
+    // api.inputBuilderFactory().createUserEntry(INPUT_NAME_TRANSACTION_ID).getInput()
     return
 }
+
+
+/* read data from Transaction row */
+BigDecimal tRebateSum = input[INPUT_NAME_REBATE] ?: 0.0
+BigDecimal tInvoicePrice = input[INPUT_NAME_INVOICE_PRICE]
+
 
 if (tInvoicePrice == null) {
     api.addWarning("The transaction's invoice price is missing: $tInvoicePrice")

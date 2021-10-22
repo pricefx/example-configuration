@@ -1,6 +1,6 @@
 {
   "configuration" : {
-    "formulaName" : "DASH_Dashboard_Main",
+    "formulaName" : "DB_Dashboard_Main",
     "inputs" : [ ]
   },
   "dynamicInputs" : true,
