@@ -5,6 +5,11 @@ config.json
 # Pricefx source: presets for inputs
 **/CalculationLogic/*/parameters/
 **/WorkflowFormula/*/parameters/
+# Pricefx source: calculation execution results
+**/CalculationLogic/*/results/
+**/WorkflowFormula/*/results/
+# Studio adds a debug script here
+src/
 
 
 # ====== Gradle ========
