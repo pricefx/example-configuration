@@ -1,6 +1,4 @@
-def pgId = out.CurrentItem?.id
-//if (!pgId) return
-
+def priceGridId = Lib.getPriceGridId()
 
 def data = [//data sequence should follow that of the waterfall elements
             [
@@ -71,7 +69,7 @@ def definition = [
         ]
 ]
 
-api.setPricegridCalculationChart(definition, pgId)
+api.setPricegridCalculationChart(definition, priceGridId)
 
 
 

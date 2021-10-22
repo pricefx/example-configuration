@@ -1,33 +1,25 @@
-def pgId = out.CurrentItem?.id
-//if (!pgId) return
+// Imports
+def priceGridItem = libs.PriceListLib.PriceGridItem
 
-def element2fieldName = api.find("PGIM", Filter.equal("priceGridId", pgId))
+def priceGridId = Lib.getPriceGridId()
+
+Map<String, String> element2fieldName = api.find("PGIM", Filter.equal("priceGridId", priceGridId))
         ?.findAll { it.elementName != null }
         ?.collectEntries { [(it.elementName): it.fieldName] }
 
 def fieldListPrice = element2fieldName["ListPrice"]
 def fieldCost = element2fieldName["Cost"]
 def fieldGrossMargin = element2fieldName["GrossMargin"]
+def fields = [fieldListPrice, fieldCost, fieldGrossMargin]
 
+BigDecimal sumListPrice = 0.0
+BigDecimal sumCost = 0.0
+BigDecimal sumGrossMargin = 0.0
 
-def sumListPrice = 0.0, sumCost = 0.0, sumGrossMargin = 0.0
-
-def filters = [
-        Filter.equal("priceGridId", pgId)
-]
-
-def startRow = 0
-def maxRows = api.getMaxFindResultsLimit()
-
-while (rows = api.find("PGI", startRow, maxRows, "sku", [fieldListPrice, fieldCost, fieldGrossMargin], *filters)) {
-    rows.each { pgi ->
-        if (pgi[fieldListPrice] != null && pgi[fieldCost] != null && pgi[fieldGrossMargin] != null) {
-            sumListPrice += pgi[fieldListPrice] as BigDecimal
-            sumCost += pgi[fieldCost] as BigDecimal
-            sumGrossMargin += pgi[fieldGrossMargin] as BigDecimal
-        }
-    }
-    startRow += rows.size()
+priceGridItem.forEach(priceGridId, fields) { it ->
+    sumListPrice += it[fieldListPrice] as BigDecimal ?: 0
+    sumCost += it[fieldCost] as BigDecimal ?: 0
+    sumGrossMargin += it[fieldGrossMargin] as BigDecimal ?: 0
 }
 
 def sums = [

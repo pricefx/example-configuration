@@ -1,0 +1,17 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementName" : "Input",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  } ],
+  "formulaNature" : "library",
+  "status" : "ACTIVE",
+  "uniqueName" : "PriceListHeaderLib",
+  "validAfter" : "2010-01-01"
+}
