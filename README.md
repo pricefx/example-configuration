@@ -1,4 +1,18 @@
-# Pricefx Example Configuration
+<div align="center">
+    <div align="center">
+        <img src="https://pricefx.vercel.app/pricefx-logo.svg" height="64"/>
+    </div>
+    <h1>Pricefx Example Configuration</h1>
+</div>
+
+<div align="center">
+
+[![https://pricefx.vercel.app](https://pricefx.vercel.app/badges/developer-portal.svg)]()
+[![https://pricefx.atlassian.net/wiki/spaces/KB/overview](https://pricefx.vercel.app/badges/documentation.svg)]()
+[![issues - example-configuration](https://img.shields.io/github/issues/pricefx/example-configuration)](https://github.com/pricefx/example-configuration/issues)
+
+</div>
+
 This repository is an example of a Pricefx configuration project that provides a showcase of the most significant features.
 The project is heavily used in the technical documentation on the [Pricefx Developer Portal](https://pricefx.atlassian.net/wiki/spaces/KB).
 
