@@ -18,9 +18,8 @@ if (api.isSyntaxCheck()) {
     return input[INPUT_NAME]
             ?.findAll { (it[COLUMN_QUANTITY]) && (it[COLUMN_DISCOUNT]) }
             ?.collectEntries {
-                [(it[COLUMN_QUANTITY] as BigDecimal):
-                         ((it[COLUMN_DISCOUNT]) ? ((it[COLUMN_DISCOUNT] as BigDecimal) * 0.01) : null)
-                ]
+                [(it[COLUMN_QUANTITY] as BigDecimal): (
+                        (it[COLUMN_DISCOUNT]) ? ((it[COLUMN_DISCOUNT] as BigDecimal) * 0.01) : null)]
             }
 
 }

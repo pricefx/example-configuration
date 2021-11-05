@@ -1,5 +1,5 @@
 /**
- * In price list header logics, returns the specified input value.
+ * In price list header logics, returns the value entered by user into an input field on the pricelist header.
  * @param inputName the name of the input
  * @return the value of the input
  */

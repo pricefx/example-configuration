@@ -8,6 +8,7 @@
     "elementTimeout" : 0,
     "hideOnNull" : false,
     "hideWarnings" : false,
+    "protectedExpression" : false,
     "summarize" : false
   }, {
     "allowOverride" : false,
@@ -18,6 +19,7 @@
     "elementTimeout" : 0,
     "hideOnNull" : false,
     "hideWarnings" : false,
+    "protectedExpression" : false,
     "summarize" : false
   }, {
     "allowOverride" : false,
@@ -28,6 +30,7 @@
     "elementTimeout" : 0,
     "hideOnNull" : false,
     "hideWarnings" : false,
+    "protectedExpression" : false,
     "summarize" : false
   }, {
     "allowOverride" : false,

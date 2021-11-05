@@ -1,7 +1,9 @@
 def priceGridId = Lib.getPriceGridId()
 
-if (!priceGridId) {
-    api.trace('Please provide a mock value for MOCK_PRICE_GRID_ID in Lib.groovy')
-    api.abortSyntaxCheck()
-    return
+if (api.isDebugMode() && !priceGridId) {
+    def msg = 'Please provide a mock value for MOCK_PRICE_GRID_ID in Lib.groovy'
+    api.criticalAlert(msg)
+    api.addWarning(msg)
+    api.trace(msg)
+    api.abortCalculation()
 }
