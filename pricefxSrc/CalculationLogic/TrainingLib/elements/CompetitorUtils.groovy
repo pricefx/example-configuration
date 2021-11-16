@@ -14,7 +14,7 @@ List<Map<String, ?>> getCompetitorPricesByCountry(
         Date dateFrom = libs.TrainingLib.DateUtils.oneYearAgo(),
         Date dateTo = new Date()
 ) {
-    def currencyUtils = libs.TrainingLib.CurrencyUtils
+    def exchangeRates = libs.Library_Currency.ExchangeRates
     def dateUtils = libs.TrainingLib.DateUtils
 
     Map<String, Map<String, BigDecimal>> competitorPriceInfoByCountry = [:]
@@ -25,7 +25,7 @@ List<Map<String, ?>> getCompetitorPricesByCountry(
     )
     for (row in iterator) {
         Map<String, BigDecimal> competitorPriceInfo = competitorPriceInfoByCountry[row.country]
-        BigDecimal price = currencyUtils.convertCurrency(row.price as BigDecimal, row.currency, currency)
+        BigDecimal price = exchangeRates.convertCurrency(row.price as BigDecimal, row.currency, currency)
         competitorPriceInfoByCountry[row.country] = [
                 priceCount      : competitorPriceInfo ? competitorPriceInfo.priceCount + 1 : 1,
                 accumulatedPrice: competitorPriceInfo ? competitorPriceInfo.accumulatedPrice + price : price,

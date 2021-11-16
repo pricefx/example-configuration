@@ -31,8 +31,8 @@ BigDecimal convertCurrency(
         Date date = libs.TrainingLib.DateUtils.today()
 ) {
 
-    if (amount == null || currencyFrom == null || currencyTo == null || date == null) {
-        return null
+    if (null in [amount, currencyFrom, currencyTo, date]) {
+        throw new Exception("All arguments must must be non-null")
     }
 
     if (currencyFrom == currencyTo) {
@@ -52,11 +52,25 @@ BigDecimal convertCurrency(
             key2: month
     ]
 
-    def rateFrom = api.vLookup(TABLE_NAME_EXCHANGE_RATES, ['InEuros'], rateFromKeys)?.getAt('InEuros')
-    def rateTo = api.vLookup(TABLE_NAME_EXCHANGE_RATES, ["InEuros"], rateToKeys)?.getAt('InEuros')
+    def rateFrom = api.vLookup(
+            TABLE_NAME_EXCHANGE_RATES,
+            ['InEuros'],
+            rateFromKeys
+    )?.getAt('InEuros') as BigDecimal
+    if (rateFrom == null) {
+        throw new Exception("Failed to find rateFrom with keys ${rateFromKeys}")
+    }
 
-    if (!rateFrom || !rateTo) {
-        return null
+    def rateTo = api.vLookup(
+            TABLE_NAME_EXCHANGE_RATES,
+            ["InEuros"],
+            rateToKeys
+    )?.getAt('InEuros') as BigDecimal
+    if (rateTo == null) {
+        throw new Exception("Failed to find rateTo with keys ${rateToKeys}")
+    }
+    if(rateTo == 0){
+        throw new Exception("rateTo is 0, which would lead to division by zero.")
     }
 
     def amountInEuros = amount * rateFrom
