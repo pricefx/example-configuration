@@ -3,7 +3,7 @@
 import net.pricefx.common.api.FieldFormatType
 
 // Library
-def competitorUtils = libs.TrainingLib.CompetitorUtils
+def competition = libs.Library_Competition.Competition
 
 if (out.Currency == null) {
     api.addWarning('A Customer must be selected for the quote')
@@ -11,7 +11,7 @@ if (out.Currency == null) {
 }
 
 String sku = api.product('ProductId')
-List<Map<String, BigDecimal>> competitorPricesByCountry = competitorUtils.getCompetitorPricesByCountry(sku, out.Currency)
+List<Map<String, BigDecimal>> competitorPricesByCountry = competition.getCompetitorPricesByCountry(sku, out.Currency)
 
 api.trace(competitorPricesByCountry) //TODO comment out in production code
 
