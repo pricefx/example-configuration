@@ -1,0 +1,6 @@
+{
+  "areDefault" : true,
+  "areGlobal" : true,
+  "preferenceName" : "Global Default",
+  "viewState" : "({\"field\":[{\"frozen\":false,\"name\":\"typedId\",\"visible\":false},{\"frozen\":false,\"name\":\"sku\",\"visible\":true},{\"frozen\":false,\"name\":\"attribute1\",\"visible\":true},{\"frozen\":false,\"name\":\"attribute2\",\"visible\":true},{\"frozen\":false,\"name\":\"attribute3\",\"visible\":true},{\"frozen\":false,\"name\":\"lastUpdateDate\",\"visible\":false}],\"sort\":null,\"extraOptions\":{}})"
+}
