@@ -1,0 +1,7 @@
+[
+  {
+    "event": "QUOTE_TO_DEAL_PRE",
+    "label": "Convert quote to deal pre-execute",
+    "logicName": "EventHook_QuoteToDeal_PRE"
+  }
+]
