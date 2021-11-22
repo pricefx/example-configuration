@@ -3,69 +3,37 @@ def data = [
                 start   : '2018-11-1',
                 end     : '2018-11-2',
                 y       : 0,
-                assignee: 'JonArild'
+                assignee: 'Johannes'
         ], [
                 start     : '2018-11-2',
                 end       : '2018-11-5',
                 y         : 1,
-                assignee  : 'Oystein',
+                assignee  : 'Gustaf',
         ], [
                 start   : '2018-11-8',
                 end     : '2018-11-9',
                 y       : 2,
-                assignee: 'Torstein'
+                assignee: 'Karl-Oskar'
         ], [
                 start   : '2018-11-9',
                 end     : '2018-11-19',
                 y       : 1,
-                assignee: 'JonArild'
+                assignee: 'Johannes'
         ], [
                 start     : '2018-11-10',
                 end       : '2018-11-23',
                 y         : 2,
-                assignee  : 'Torstein',
+                assignee  : 'Karl-Oskar',
         ]
 ].collect { entry ->
-    def newEntry = entry.clone()
-    newEntry.start = api.parseDate('yyyy-MM-dd', entry.start).getTime()
-    newEntry.end = api.parseDate('yyyy-MM-dd', entry.end).getTime()
-    return newEntry
+    entry + [
+            start: api.parseDate('yyyy-MM-dd', entry.start as String),
+            end:   api.parseDate('yyyy-MM-dd', entry.end as String),
+    ]
 }
 
-def chartDefinition = [
-        chart: [
-                type: 'gantt'
-        ],
-        title  : [
-                text: 'Highcharts Gantt Chart'
-        ],
+def yLabels = ['Prototyping', 'Development', 'Testing']
 
-        yAxis  : [
-                categories: ['Prototyping', 'Development', 'Testing']
-        ],
+def gantt = libs.Library_Charts.Gantt
 
-        tooltip: [
-                outside: true
-        ],
-        xAxis: [
-            type: 'datetime',
-            labels: [
-                format: '{value:%b-%e}'
-            ],
-        ],
-        series : [[
-                          name      : 'Project 1',
-                          data      : data,
-                          dataLabels: [[
-                                               enabled: true,
-                                               useHTML: true,
-                                               align  : 'left'
-                                       ], [
-                                               enabled: true,
-                                               useHTML: true,
-                                               align  : 'right'
-                                       ]]
-                  ]]
-]
-
-api.buildHighchart(chartDefinition).addModule('gantt')
+gantt.buildGanttChart('Project Planning', yLabels, data)
