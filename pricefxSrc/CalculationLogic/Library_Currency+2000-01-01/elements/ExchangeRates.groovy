@@ -78,3 +78,23 @@ BigDecimal convertCurrency(
 
     return amountInToCurrency
 }
+
+BigDecimal getExchangeRate(Date validFrom, String currencyFrom, String currencyTo){
+    def dataMartAPI = api.getDatamartContext()
+
+    def table = dataMartAPI.getDataSource('ccy')
+
+    def filters = [
+            Filter.lessOrEqual('CcyValidFrom', validFrom),
+            Filter.greaterThan('CcyValidTo', validFrom),
+            Filter.equal('CcyFrom', currencyFrom),
+            Filter.equal('CcyTo', currencyTo),
+    ]
+
+    def query = dataMartAPI.newQuery(table, true)
+            .select('CcyExchangeRate', 'ExchangeRate')
+            .where(*filters)
+
+    def result = dataMartAPI.executeQuery(query)
+    return result.getData().find()?.ExchangeRate
+}
