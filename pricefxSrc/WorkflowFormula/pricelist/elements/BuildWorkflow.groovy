@@ -1,9 +1,9 @@
 workflow.addWatcherStep("Price Manager Check")
-        .withUserGroupWatchers("PriceManager")
+        .withUserGroupWatchers("Price_Manager")
 
 if (out.ApprovalReasons) {
     workflow.addApprovalStep("Product Managers Approval")
-            .withUserGroupApprovers("ProductManager")
+            .withUserGroupApprovers("Product_Manager")
             .withMinApprovalsNeeded(2)
             .withReasons(out.ApprovalReasons.join(". "))
 }
