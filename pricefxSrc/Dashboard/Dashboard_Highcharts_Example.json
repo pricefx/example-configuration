@@ -1,10 +1,10 @@
 {
   "configuration" : {
-    "formulaName" : "Dashboard_HighCharts_Examples",
+    "formulaName" : "Dashboard_Highcharts_Examples",
     "inputs" : [ ]
   },
   "dynamicInputs" : true,
   "hide" : false,
-  "label" : "Highcharts Dashboard Examples",
+  "label" : "Highcharts Examples",
   "uniqueName" : "Highcharts_Dashboard_Examples"
 }

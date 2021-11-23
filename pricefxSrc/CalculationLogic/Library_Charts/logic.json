@@ -4,7 +4,7 @@
     "combinationType" : "FUNCTION",
     "displayOptions" : 16,
     "elementGroups" : [ ],
-    "elementName" : "Year",
+    "elementName" : "Formats",
     "elementTimeout" : 0,
     "hideOnNull" : false,
     "hideWarnings" : false,
@@ -12,9 +12,10 @@
   }, {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 0,
+    "displayOptions" : 16,
     "elementGroups" : [ ],
-    "elementName" : "AbortOnSyntaxCheck",
+    "elementLabel" : "Gantt",
+    "elementName" : "Gantt",
     "elementTimeout" : 0,
     "hideOnNull" : false,
     "hideWarnings" : false,
@@ -22,29 +23,17 @@
   }, {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 2,
+    "displayOptions" : 16,
     "elementGroups" : [ ],
-    "elementLabel" : "Quantity Vs Discount",
-    "elementName" : "QuantityVsDiscount",
-    "elementTimeout" : 0,
-    "hideOnNull" : false,
-    "hideWarnings" : false,
-    "summarize" : false
-  }, {
-    "allowOverride" : false,
-    "combinationType" : "FUNCTION",
-    "displayOptions" : 2,
-    "elementGroups" : [ ],
-    "elementLabel" : "Waterfall",
-    "elementName" : "Waterfall",
+    "elementLabel" : "Bar",
+    "elementName" : "Bar",
     "elementTimeout" : 0,
     "hideOnNull" : false,
     "hideWarnings" : false,
     "summarize" : false
   } ],
-  "inputDescriptors" : [ ],
-  "label" : "Dashboard Sales Manager",
+  "formulaNature" : "library",
   "status" : "ACTIVE",
-  "uniqueName" : "DB_SalesManager",
-  "validAfter" : "2010-01-01"
+  "uniqueName" : "Library_Charts",
+  "validAfter" : "2000-01-01"
 }
