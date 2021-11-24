@@ -192,12 +192,10 @@ ResultHighchart speedometer(
             plotBorderWidth: 0,
             plotShadow: false
         ],
-
         credits    : [enabled: false],
         title: [
             text: title
         ],
-
         pane: [
             startAngle: -150,
             endAngle: 150,
@@ -230,7 +228,6 @@ ResultHighchart speedometer(
                              innerRadius: '103%'
                          ]]
         ],
-
         // the value axis
         yAxis: [
             min: minValue,
@@ -268,7 +265,6 @@ ResultHighchart speedometer(
                             color: colors.SUCCESS
                         ]]
         ],
-
         series: [[
                      name: title,
                      data: [value],
