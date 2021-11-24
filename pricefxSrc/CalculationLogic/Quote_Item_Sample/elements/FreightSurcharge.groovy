@@ -5,6 +5,8 @@ if(api.isDebugMode()) {
 
 def country = api.customer("Country", input.Customer)
 
+api.trace(country)
+
 def keys = [
         "Country": country,
         "DeliveryType": input.DeliveryType

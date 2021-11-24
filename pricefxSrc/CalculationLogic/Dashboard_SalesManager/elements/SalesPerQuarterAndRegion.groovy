@@ -3,7 +3,7 @@ import com.googlecode.genericdao.search.Filter
 def bar = libs.Library_Charts.Bar
 
 def matchAll = Filter.isNotNull('TransactionId' )
-def whereFilter = input.Year != null ? Filter.equal('InvoiceDateYear', input.Year) : matchAll
+def whereFilters = input.Year != null ? [Filter.equal('InvoiceDateYear', input.Year)] : []
 
 def dataSourceAPI = api.datamartContext
 
@@ -13,7 +13,7 @@ def query = dataSourceAPI.newQuery(table, true)
         .select('Region', 'Region')
         .select('SUM(InvoicePrice)', 'Sales')
         .orderBy('Quarter') // Speed up calls to .find()
-        .where(whereFilter)
+        .where(*whereFilters)
 
 def result = dataSourceAPI.executeQuery(query)
 

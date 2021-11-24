@@ -1,0 +1,10 @@
+{
+  "configuration" : {
+    "formulaName" : "Dashboard_Chart_Examples",
+    "inputs" : [ ]
+  },
+  "dynamicInputs" : true,
+  "hide" : false,
+  "label" : "Chart Examples",
+  "uniqueName" : "Chart_Examples"
+}

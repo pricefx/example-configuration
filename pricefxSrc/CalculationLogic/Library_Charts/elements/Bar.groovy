@@ -16,6 +16,9 @@ ResultHighchart verticalBars(
             chart: [
                     type: 'bar',
             ],
+            credits: [
+                    enabled: false, // Hide the Highcharts link
+            ],
             title: [
                     text: title,
             ],
@@ -45,6 +48,9 @@ ResultHighchart horizontalBars(
     return api.buildHighchart([
             chart: [
                     type: 'column',
+            ],
+            credits: [
+                    enabled: false, // Hide the Highcharts link
             ],
             title: [
                     text: title,

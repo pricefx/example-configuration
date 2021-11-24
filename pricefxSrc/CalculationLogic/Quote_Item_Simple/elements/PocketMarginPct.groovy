@@ -15,6 +15,7 @@ def pocketMarginPct = out.PocketMarginAbs / out.ListPrice
 // Fetch thresholds
 String productGroup = api.product("ProductGroup")
 String thresholdTableName = "PocketMarginAlertThreshold"
+
 def yellowThreshold = api.vLookup(thresholdTableName, "Threshold", productGroup, "Yellow")
 def redThreshold = api.vLookup(thresholdTableName, "Threshold", productGroup, "Red")
 def criticalThreshold = api.vLookup(thresholdTableName, "Threshold", productGroup, "Critical")

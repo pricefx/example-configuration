@@ -29,7 +29,7 @@ ResultHighchart buildGanttChart(
                     enabled: false, // Hide the Highcharts link
             ],
             legend : [
-                    enabled: false, // Let the legend be hidden.
+                    enabled: false, // Hide the legend.
             ],
             title  : [
                     text: title,

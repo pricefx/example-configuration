@@ -1,5 +1,4 @@
-if (out.PocketMarginAbs == null
-        || out.ListPrice == null) {
+if (null in [out.PocketMarginAbs, out.ListPrice]) {
     api.addWarning("Pocket Margin % cannot be calculated: missing parameter(s)")
     return null
 }
@@ -13,11 +12,10 @@ if (out.ListPrice == 0) {
 def pocketMarginPct = out.PocketMarginAbs / out.ListPrice
 
 // Fetch thresholds
-String productGroup = api.product("ProductGroup")
-String thresholdTableName = "PocketMarginAlertThreshold"
-def yellowThreshold = api.vLookup(thresholdTableName, "Threshold", productGroup, "Yellow")
-def redThreshold = api.vLookup(thresholdTableName, "Threshold", productGroup, "Red")
-def criticalThreshold = api.vLookup(thresholdTableName, "Threshold", productGroup, "Critical")
+String productGroup = Utils.currentProductGroup
+def yellowThreshold = Utils.getYellowThreshold(productGroup)
+def redThreshold = Utils.getRedThreshold(productGroup)
+def criticalThreshold = Utils.getCriticalThreshold(productGroup)
 
 // Check thresholds
 if (criticalThreshold && pocketMarginPct < criticalThreshold) {
