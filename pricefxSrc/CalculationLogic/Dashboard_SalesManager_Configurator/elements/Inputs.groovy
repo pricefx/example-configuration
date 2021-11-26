@@ -12,7 +12,7 @@ return api.createConfiguratorEntryArray(timeFieldSet, countryFieldSet)
 
 ConfiguratorEntry getTimeFieldSet(){
     def fieldSet = api.createConfiguratorEntry()
-    fieldSet.message = 'Filter by Year'
+    fieldSet.message = 'Filter by Time'
     fieldSet.inputs = [yearInput]
     return fieldSet
 }
@@ -59,10 +59,11 @@ ContextParameter getCountryInput() {
     }
     def values = countryCode2CountryName.keySet().toList()
     def value2Label = countryCode2CountryName
-    // If the user changed the region, then reset the value
-    def newCountry = countryLib.isCountryInRegion(countryValue, regionValue) ? countryValue : null
+    // If the user changed the region, reset the value
+    def isCountryInRegion = countryLib.isCountryInRegion(countryValue, regionValue)
+    def newCountry = isCountryInRegion ? countryValue : null
 
-    return api.inputBuilderFactory().createOptionEntry('country')
+    return api.inputBuilderFactory().createOptionEntry(INPUT_COUNTRY)
             .setOptions(values)
             .setLabels(value2Label)
             .setValue(newCountry)

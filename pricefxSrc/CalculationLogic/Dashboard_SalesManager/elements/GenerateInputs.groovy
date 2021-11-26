@@ -7,9 +7,10 @@ void generateInputs(String configuratorLogicName){
 
     api.inputBuilderFactory()
             .createConfiguratorInputBuilder(
-                    'RootInput',
+                    'Filters',
                     configuratorLogicName,
-                    true)
+                    true
+            )
             .getInput()
 
     api.abortCalculation()

@@ -1,5 +1,5 @@
 // define a Section
-def formSection = api.createConfiguratorEntry()
+def formFieldSet = api.createConfiguratorEntry()
 
 // add one dropdown input field
 def shipToInputField = api.inputBuilderFactory().createOptionEntry(Const.INPUT_NAME_SHIP_TO)
@@ -7,7 +7,7 @@ def shipToInputField = api.inputBuilderFactory().createOptionEntry(Const.INPUT_N
         .setValue(out.Inputs.shipTo)
         .buildContextParameter()
 
-formSection.setInputs([shipToInputField])
+formFieldSet.inputs = [shipToInputField]
 
 //return the Section definition. The logic Element containing this code must have DisplayMode set to Everywhere
-return formSection
+return formFieldSet
