@@ -2,9 +2,9 @@ import groovy.transform.Field
 
 @Field final String TABLE_NAME_REGION = 'Region'
 
-Map<String, Object> findRegion(String region){
+Map<String, Object> findRegion(String regionName){
     final keys = [
-            name: region
+            name: regionName
     ]
     return api.vLookup(
             TABLE_NAME_REGION, // <1>
@@ -14,7 +14,6 @@ Map<String, Object> findRegion(String region){
 }
 
 List<String> findAllRegions() {
-    return api.findLookupTableValues(TABLE_NAME_REGION)
+    return api.findLookupTableValues(TABLE_NAME_REGION, ['name'], 'name')
             ?.collect { it.name }
-            ?.sort()
 }

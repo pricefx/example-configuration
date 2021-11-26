@@ -2,9 +2,9 @@
   "elements" : [ {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 0,
+    "displayOptions" : 16,
     "elementGroups" : [ ],
-    "elementName" : "AddInputs",
+    "elementName" : "Region",
     "elementTimeout" : 0,
     "hideOnNull" : false,
     "hideWarnings" : false,
@@ -12,17 +12,16 @@
   }, {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 0,
+    "displayOptions" : 16,
     "elementGroups" : [ ],
-    "elementName" : "TotalInvoicePrice",
+    "elementName" : "Country",
     "elementTimeout" : 0,
     "hideOnNull" : false,
     "hideWarnings" : false,
     "summarize" : false
   } ],
-  "formulaNature" : "quoteHeader",
-  "inputDescriptors" : [ ],
+  "formulaNature" : "library",
   "status" : "ACTIVE",
-  "uniqueName" : "Quote_Header_Sample",
-  "validAfter" : "2010-01-01"
+  "uniqueName" : "Library_Geography",
+  "validAfter" : "2000-01-01"
 }

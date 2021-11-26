@@ -1,14 +1,18 @@
-if(!api.syntaxCheck){
+generateInputs('Dashboard_SalesManager_Configurator')
+
+void generateInputs(String configuratorLogicName){
+    if(!api.syntaxCheck){
+        return
+    }
+
+    api.inputBuilderFactory()
+            .createConfiguratorInputBuilder(
+                    'RootInput',
+                    configuratorLogicName,
+                    true)
+            .getInput()
+
+    api.abortCalculation()
+
     return
 }
-
-def dataSourceInputs = libs.Library_Input.DataSource
-
-dataSourceInputs.buildDimensionInput(
-        'Year',
-        'Transaction',
-        'InvoiceDateYear'
-).getInput()
-
-
-return
