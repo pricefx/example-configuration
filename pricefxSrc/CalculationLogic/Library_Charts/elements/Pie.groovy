@@ -42,7 +42,7 @@ ResultHighchart pieChart(
                              name: seriesName,
                              colorByPoint: true,
                              data: data
-                     ]]
+                     ]],
     ])
 }
 

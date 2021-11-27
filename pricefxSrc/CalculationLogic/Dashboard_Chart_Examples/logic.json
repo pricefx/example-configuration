@@ -107,6 +107,71 @@
     "hideOnNull" : false,
     "hideWarnings" : false,
     "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "Simple Table",
+    "elementName" : "SimpleTable",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "Table with Formatting",
+    "elementName" : "TableWithFormatting",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "Table with Filter & Sort",
+    "elementName" : "TableWithFilterAndSort",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "Table with External Links",
+    "elementName" : "TableWithExternalLinks",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "Table with Internal Links",
+    "elementName" : "TableWithInternallLinks",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementName" : "Quotes",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
   } ],
   "label" : "Dashboard Highchart Examples",
   "status" : "ACTIVE",

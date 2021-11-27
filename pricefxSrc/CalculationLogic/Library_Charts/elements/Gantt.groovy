@@ -21,7 +21,7 @@ ResultHighchart buildGanttChart(
         ]
     }
 
-    def chartDefinition = [
+    def chart = api.buildHighchart([
             chart  : [
                     type: 'gantt',
             ],
@@ -50,9 +50,8 @@ ResultHighchart buildGanttChart(
             series : [[
                               data: seriesData,
                       ]],
-    ]
+    ])
 
-    def chart = api.buildHighchart(chartDefinition)
     chart.addModule('gantt')
 
     return chart
