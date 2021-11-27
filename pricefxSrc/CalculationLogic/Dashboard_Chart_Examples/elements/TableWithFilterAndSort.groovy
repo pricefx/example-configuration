@@ -24,18 +24,18 @@ ResultMatrix simpleTableWithSortAndSearch(
         List<Map> data,
         Map<String, String> labels
 ) {
-    def matrix = api.newMatrix()
+    def table = api.newMatrix()
 
-    matrix.withColumns(labels.keySet())
-    matrix.withRows(data)
+    table.withColumns(labels.keySet())
+    table.withRows(data)
 
-    matrix.withDisableSorting(false)
-    matrix.withEnableClientFilter(true)
+    table.withDisableSorting(false)
+    table.withEnableClientFilter(true)
 
     // Add labels to the columns
     labels.each { name, label ->
-        matrix.withColumnTranslation(name, ['': label])
+        table.withColumnTranslation(name, ['': label])
     }
 
-    return matrix
+    return table
 }

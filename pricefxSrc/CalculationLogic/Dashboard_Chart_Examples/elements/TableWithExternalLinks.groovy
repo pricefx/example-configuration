@@ -28,11 +28,11 @@ ResultMatrix tableWithExternalLink(
         List<Map> data,
         Map<String, String> labels
 ) {
-    def matrix = api.newMatrix()
+    def table = api.newMatrix()
 
     def allLabels = labels + [externalLink: 'External Link']
 
-    matrix.withColumns(allLabels.keySet())
+    table.withColumns(allLabels.keySet())
 
     def rows = data.collect { dataRow ->
         // Add a field to the data set
@@ -44,14 +44,14 @@ ResultMatrix tableWithExternalLink(
         ]
     }
 
-    matrix.withRows(rows)
+    table.withRows(rows)
 
     // Add labels to the columns
     allLabels.each { name, label ->
-        matrix.withColumnTranslation(name, ['': label])
+        table.withColumnTranslation(name, ['': label])
     }
 
-    return matrix
+    return table
 }
 
 String externalLink(String href, String children){

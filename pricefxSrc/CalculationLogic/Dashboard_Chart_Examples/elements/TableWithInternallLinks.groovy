@@ -28,27 +28,27 @@ ResultMatrix tableWithCustomerDetail(
         List<Map> data,
         Map<String, String> labels
 ) {
-    def matrix = api.newMatrix()
+    def table = api.newMatrix()
 
     def allLabels = labels + [openCustomerDetail: 'Customer Detail']
 
-    matrix.withColumns(allLabels.keySet())
+    table.withColumns(allLabels.keySet())
 
     def rows = data.collect { dataRow ->
         // Add a field to the data set
         dataRow + [
-                openCustomerDetail: customerDetailLink(matrix, dataRow.customerId as String)
+                openCustomerDetail: customerDetailLink(table, dataRow.customerId as String)
         ]
     }
 
-    matrix.withRows(rows)
+    table.withRows(rows)
 
     // Add labels to the columns
     allLabels.each { name, label ->
-        matrix.withColumnTranslation(name, ['': label])
+        table.withColumnTranslation(name, ['': label])
     }
 
-    return matrix
+    return table
 }
 
 String customerDetailLink(ResultMatrix matrix, String customerId){

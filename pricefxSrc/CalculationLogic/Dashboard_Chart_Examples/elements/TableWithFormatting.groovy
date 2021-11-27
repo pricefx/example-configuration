@@ -31,16 +31,16 @@ ResultMatrix tableWithFormatting(
         Map<String, String> labels,
         Map<String, FieldFormatType> formatting
 ) {
-    def matrix = api.newMatrix()
+    def table = api.newMatrix()
 
-    matrix.withColumns(labels.keySet())
-    matrix.withRows(data)
-    matrix.withColumnFormats(formatting)
+    table.withColumns(labels.keySet())
+    table.withRows(data)
+    table.withColumnFormats(formatting)
 
     // Add labels to the columns
     labels.each { name, label ->
-        matrix.withColumnTranslation(name, ['': label])
+        table.withColumnTranslation(name, ['': label])
     }
 
-    return matrix
+    return table
 }
