@@ -1,4 +1,3 @@
-import net.pricefx.common.api.FieldFormatType
 import net.pricefx.domain.Quote
 import net.pricefx.server.dto.calculation.ResultMatrix
 
@@ -7,11 +6,11 @@ def quoteUtils = libs.Library_Sales.Quotes
 
 def quotes = quoteUtils.getDraftsByYear(year)
 
-return quotesTable("Quote Drafts $year", quotes)
+return quotesTable("Quote Drafts $year (Row Action)", quotes)
 
 ResultMatrix quotesTable(
         String title,
-        List<Quote> quotes
+        List<Map> quotes
 ){
 
     def table = api.newMatrix()
@@ -22,14 +21,15 @@ ResultMatrix quotesTable(
             name       : 'Name',
             label      : 'Label',
             viewQuote  : 'View',
+            actions  : 'Actions',
     ]
 
     def rows = quotes.collect { quote ->
         [
-                typedId    : quote.typedId,
                 name       : quote.uniqueName,
                 label      : quote.label,
-                viewQuote  : link("#/qc/quotes/${quote.typedId}", 'View')
+                viewQuote  : link("#/qc/quotes/${quote.typedId}", 'View'),
+                actions  : table.cells('Actions', submitAction(table, quote)),
         ]
     }
 
@@ -39,19 +39,22 @@ ResultMatrix quotesTable(
     table.withDisableSorting(false)
     table.withEnableClientFilter(true)
 
-    table.rowSelectionBackEndAction('quotes')
-            .withLogicName('Handler_SubmitQuotes')
-            .withColumns('typedId')
-            .withButtonLabel('Submit')
-            .withFailureMessage('Failed to approve all selected rows.')
-            .withSuccessMessage('Successfully approved all selected quotes.')
-
     // Add labels, in the backend referred to as "translations"
     labels.each { name, label ->
         table.withColumnTranslation(name, ['': label])
     }
 
     return table
+}
+
+ResultMatrix.ResultMatrixBackEndCell submitAction(ResultMatrix table, Map quote){
+    return table.backEndAction(
+            'Submit',
+            "/clicmanager.runjob/${quote.typedId}/submit", // Must have leading forward slash
+            null,
+            "Quote ${quote.uniqueName} was successfully submitted",
+            "Failed to submit ${quote.uniqueName}"
+    )
 }
 
 String link(String href, String children) {
