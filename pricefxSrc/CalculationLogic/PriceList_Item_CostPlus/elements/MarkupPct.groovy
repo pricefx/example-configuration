@@ -1,0 +1,1 @@
+libs.Library_Results.Results.outputResult('MarkupPct')

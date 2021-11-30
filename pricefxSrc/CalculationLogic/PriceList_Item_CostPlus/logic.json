@@ -1,0 +1,98 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 0,
+    "elementGroups" : [ ],
+    "elementName" : "CreateInputs",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : true,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 0,
+    "elementGroups" : [ ],
+    "elementName" : "CalculatePrices",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : true,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementName" : "Region",
+    "elementTimeout" : 0,
+    "formatType" : "TEXT",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementName" : "Currency",
+    "elementTimeout" : 0,
+    "formatType" : "TEXT",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "Product Cost",
+    "elementName" : "ProductCost",
+    "elementSuffix" : "Currency",
+    "elementTimeout" : 0,
+    "formatType" : "MONEY",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "Country Markup (%)",
+    "elementName" : "MarkupPct",
+    "elementTimeout" : 0,
+    "formatType" : "PERCENT",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementName" : "Markup",
+    "elementSuffix" : "Currency",
+    "elementTimeout" : 0,
+    "formatType" : "MONEY",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "List Price",
+    "elementName" : "ListPrice",
+    "elementSuffix" : "Currency",
+    "elementTimeout" : 0,
+    "formatType" : "MONEY",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  } ],
+  "status" : "ACTIVE",
+  "uniqueName" : "PriceList_Item_CostPlus",
+  "validAfter" : "2000-01-01"
+}

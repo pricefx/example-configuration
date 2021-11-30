@@ -2,6 +2,11 @@ import groovy.transform.Field
 import net.pricefx.server.dto.calculation.ConfiguratorEntry
 import net.pricefx.server.dto.calculation.ContextParameter
 
+/**
+ * Allows the user to select a country, region and year.
+ * Before selecting the country, the user will select the region.
+ */
+
 return api.createConfiguratorEntryArray(timeFieldSet, countryFieldSet)
 
 @Field String INPUT_YEAR = 'year'
