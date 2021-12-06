@@ -7,8 +7,8 @@
 
 <div align="center">
 
-[![https://pricefx.vercel.app](https://pricefx.vercel.app/badges/developer-portal.svg)]()
-[![https://pricefx.atlassian.net/wiki/spaces/KB/overview](https://pricefx.vercel.app/badges/documentation.svg)]()
+[![Pricefx Developer Portal](https://pricefx.vercel.app/badges/developer-portal.svg)](https://pricefx.vercel.app)
+[![Pricefx Documentation](https://pricefx.vercel.app/badges/documentation.svg)](https://pricefx.atlassian.net/wiki/spaces/KB/overview)
 [![issues - example-configuration](https://img.shields.io/github/issues/pricefx/example-configuration)](https://github.com/pricefx/example-configuration/issues)
 
 </div>
