@@ -93,6 +93,6 @@
     "summarize" : false
   } ],
   "status" : "ACTIVE",
-  "uniqueName" : "PriceList_Item_CostPlus",
+  "uniqueName" : "PriceList_CostPlus",
   "validAfter" : "2000-01-01"
 }

@@ -43,7 +43,7 @@ def markup = productCost * countryMarkupCoefficient
 results.add('Markup', markup)
 
 // ListPrice
-def listPrice = productCost + countryMarkupCoefficient
+def listPrice = productCost + markup
 results.add('ListPrice', listPrice)
 
 return
