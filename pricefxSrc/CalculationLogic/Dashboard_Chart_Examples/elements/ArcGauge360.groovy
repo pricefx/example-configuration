@@ -4,7 +4,7 @@ def colors = libs.Library_CSS.Color
 
 String title = 'Arc Gauge 360°'
 String unit = '%'
-BigDecimal gaugeValue = input.gaugeValue ?: 0
+BigDecimal gaugeValue = input.userInput?.gaugeValue ?: 0
 BigDecimal minValue = 0
 BigDecimal maxValue = 1
 

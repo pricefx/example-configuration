@@ -2,7 +2,7 @@ def gauges = libs.Library_Charts.Gauge
 
 String title = 'Arc Gauge 180° Gradient'
 String unit = '%'
-BigDecimal gaugeValue = input.gaugeValue ?: 0
+BigDecimal gaugeValue = input.userInput?.gaugeValue ?: 0
 BigDecimal minValue = -1
 BigDecimal maxValue = 1
 BigDecimal errorThreshold = -0.5

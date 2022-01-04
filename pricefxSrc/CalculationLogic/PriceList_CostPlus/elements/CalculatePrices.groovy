@@ -53,9 +53,9 @@ return
  */
 
 String getCountryCode() {
-    input.countryCode as String
+    input.userInput?.countryCode as String
 }
 
 String getSku() {
-    api.currentItem('sku')
+    api.product('sku')
 }

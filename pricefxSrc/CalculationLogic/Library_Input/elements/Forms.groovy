@@ -4,14 +4,14 @@
  * @param formLogicName the name of a form logic
  * @param label
  */
-void build(String formLogicName = null, String label = 'End-user Input') {
+void build(String formLogicName = null, String label = 'User Input') {
     if(!api.syntaxCheck){
         return
     }
 
     if(formLogicName){
         api.inputBuilderFactory()
-                .createConfiguratorInputBuilder('_user_inputs', formLogicName, true)
+                .createConfiguratorInputBuilder('userInput', formLogicName, true)
                 .setLabel(label)
                 .getInput()
     }
