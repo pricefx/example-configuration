@@ -1,0 +1,14 @@
+{
+  "elements" : [ {
+    "combinationType" : "FUNCTION",
+    "elementName" : "BuildSteps",
+    "elementTimeout" : 0,
+    "hideWarnings" : false,
+    "protectedExpression" : false
+  } ],
+  "label" : "Rebate Agreement Workflow",
+  "status" : "ACTIVE",
+  "uniqueName" : "rebateagreement",
+  "validAfter" : "2020-01-01",
+  "workflowType" : "rebateagreement"
+}

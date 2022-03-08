@@ -1,0 +1,6 @@
+{
+  "defaultTypeDeleteNotAllowedMsg" : "HEADERREBATETYPE_DEFAULTTYPE_DELETE_NOTALLOWED",
+  "editNotAllowedMsg" : "HEADERREBATETYPE_EDIT_NOTALLOWED",
+  "uniqueName" : "__DEFAULT__",
+  "workflowFormulaName" : "rebateagreement"
+}
