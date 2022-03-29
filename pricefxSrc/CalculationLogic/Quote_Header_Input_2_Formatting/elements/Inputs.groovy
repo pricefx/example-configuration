@@ -10,5 +10,4 @@ if (quoteProcessor.isPrePhase()) {
 
     }
 
-
 }
