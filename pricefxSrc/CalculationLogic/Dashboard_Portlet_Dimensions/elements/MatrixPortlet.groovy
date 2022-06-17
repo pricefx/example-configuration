@@ -15,7 +15,7 @@ return resultMatrix
  * @return
  */
 ResultMatrix createSampleResultMatrix() {
-    def resultMatrix = api.newMatrix("Customer Id", "Net Margin %")
+    ResultMatrix resultMatrix = api.newMatrix("Customer Id", "Net Margin %")
 
     resultMatrix.addRow(["Customer Id": "C1", "Net Margin %": 0.104])
     resultMatrix.addRow(["Customer Id": "C2", "Net Margin %": 0.044])
