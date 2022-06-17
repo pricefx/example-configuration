@@ -1,0 +1,10 @@
+{
+  "configuration" : {
+    "formulaName" : "DB_Controller",
+    "inputs" : [ ]
+  },
+  "dynamicInputs" : false,
+  "hide" : false,
+  "label" : "Controller Demo",
+  "uniqueName" : "ControllerDemo"
+}
