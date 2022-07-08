@@ -16,7 +16,7 @@ BigDecimal convertMoney(BigDecimal moneyAmount, String fromCurrency, String toCu
                 Filter.equal("ToCurrency", toCurrency),
                 Filter.lessOrEqual("ValidFrom", conversionDateAsString),
                 Filter.greaterOrEqual("ValidTo", conversionDateAsString)
-        )?.find()?.attribute2
+        )?.getAt(0)?.attribute2
     }
 
     if (exchangeRate != null && moneyAmount != null) {

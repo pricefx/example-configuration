@@ -1,1 +1,1 @@
-return api.productExtension("ProductCost")?.find()?.attribute1
+return api.productExtension("ProductCost")?.getAt(0)?.attribute1

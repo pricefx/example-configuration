@@ -14,5 +14,5 @@ BigDecimal getTotalSales(
             Filter.greaterOrEqual('validAfter', fromDate),
             Filter.lessOrEqual('validAfter', toDate)
     )
-    api.find('PR', 0, 1, null, [attribute1: 'SUM'], false, filter).find()?.attribute1
+    api.find('PR', 0, 1, null, [attribute1: 'SUM'], false, filter).getAt(0)?.attribute1
 }

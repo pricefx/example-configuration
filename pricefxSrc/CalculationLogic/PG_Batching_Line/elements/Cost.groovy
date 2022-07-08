@@ -1,3 +1,3 @@
 //modified STUB
 
-return out.ProductCost  //api.productExtension("ProductCost")?.find()?.attribute1
+return out.ProductCost  //api.productExtension("ProductCost")?.getAt(0)?.attribute1

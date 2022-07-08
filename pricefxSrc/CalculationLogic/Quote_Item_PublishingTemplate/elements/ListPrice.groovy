@@ -1,1 +1,1 @@
-return api.productExtension("Configurator_GlobalPricelist")?.find()?.attribute1
+return api.productExtension("Configurator_GlobalPricelist")?.getAt(0)?.attribute1

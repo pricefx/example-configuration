@@ -50,7 +50,7 @@ BigDecimal getAverageCompetitionPrice(String sku, String countryCode){
             Filter.equal('sku', sku),
             Filter.equal('country', countryCode)
     )
-    api.find('PCOMP', 0, 1, null, [price: "AVG"], false, filter).find()?.price
+    api.find('PCOMP', 0, 1, null, [price: "AVG"], false, filter).getAt(0)?.price
 }
 
 
@@ -59,7 +59,7 @@ BigDecimal getMaxCompetitionPrice(String sku, String countryCode){
             Filter.equal('sku', sku),
             Filter.equal('country', countryCode)
     )
-    api.find('PCOMP', 0, 1, null, [price: "MAX"], false, filter).find()?.price
+    api.find('PCOMP', 0, 1, null, [price: "MAX"], false, filter).getAt(0)?.price
 }
 
 BigDecimal getMinCompetitionPrice(String sku, String countryCode){
@@ -67,5 +67,5 @@ BigDecimal getMinCompetitionPrice(String sku, String countryCode){
             Filter.equal('sku', sku),
             Filter.equal('country', countryCode)
     )
-    api.find('PCOMP', 0, 1, null, [price: "MIN"], false, filter).find()?.price
+    api.find('PCOMP', 0, 1, null, [price: "MIN"], false, filter).getAt(0)?.price
 }

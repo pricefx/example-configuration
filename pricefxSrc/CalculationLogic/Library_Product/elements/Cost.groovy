@@ -25,5 +25,5 @@ BigDecimal findCost(
             FIELD_VALID_FROM,
             [FIELD_AVERAGE_COST],
             filter
-    ).find()?.getAt(FIELD_AVERAGE_COST) as BigDecimal
+    ).getAt(0)?.getAt(FIELD_AVERAGE_COST) as BigDecimal
 }

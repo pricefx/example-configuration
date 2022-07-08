@@ -26,4 +26,4 @@ if (out.CustomerGroup) {
     q.where(out.CustomerGroup)
 }
 
-return ctx.executeQuery(q)?.data?.find()?.getAt(COLUMN_REVENUE)
+return ctx.executeQuery(q)?.data?.getAt(0)?.getAt(COLUMN_REVENUE)

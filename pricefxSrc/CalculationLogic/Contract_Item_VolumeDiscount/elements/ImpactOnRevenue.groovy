@@ -1,5 +1,5 @@
 if (out.RevenueLastYear != null && out.VolumeDiscountMap) {
-    def worstPromotionDiscount = out.VolumeDiscountMap?.sort { -it.key }?.find()?.value
+    def worstPromotionDiscount = out.VolumeDiscountMap?.sort { -it.key }?.getAt(0)?.value
     return out.RevenueLastYear * worstPromotionDiscount * -1.0
 } else {
     api.addWarning("Cannot calculate the estimated impact on Revenue, " +

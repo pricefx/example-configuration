@@ -22,4 +22,4 @@ if (out.ProductGroup) {
     q.where(out.ProductGroup)
 }
 
-return ctx.executeQuery(q)?.data?.find()?.getAt(COLUMN_REVENUE)
+return ctx.executeQuery(q)?.data?.getAt(0)?.getAt(COLUMN_REVENUE)

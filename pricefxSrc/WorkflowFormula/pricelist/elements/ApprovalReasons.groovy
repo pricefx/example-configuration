@@ -10,7 +10,7 @@ pliIterator.each { pli ->
     def row = api.find("MLTV", 0, 1, null,
             Filter.equal("lookupTable.id", table?.id),
             Filter.equal("name", businessUnit)
-    )?.find()
+    )?.getAt(0)
     def marginThresholdPct = row?.attribute1
 
     if (marginPct == null) {

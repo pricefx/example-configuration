@@ -1,3 +1,3 @@
 return api.namedEntities(
         api.productExtension("ProductCost")
-)?.find()?.AvgCost
+)?.getAt(0)?.AvgCost

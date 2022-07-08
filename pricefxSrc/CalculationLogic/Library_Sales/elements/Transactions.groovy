@@ -61,5 +61,5 @@ BigDecimal getTotalSales(Date dateFrom, Date dateTo){
             .where(*dateFilters)
 
     def result = dataMartAPI.executeQuery(query)
-    return result.getData().find().TotalSales
+    return result.getData().getAt(0).TotalSales
 }

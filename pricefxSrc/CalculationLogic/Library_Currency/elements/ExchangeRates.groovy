@@ -96,5 +96,5 @@ BigDecimal getExchangeRate(Date validFrom, String currencyFrom, String currencyT
             .where(*filters)
 
     def result = dataMartAPI.executeQuery(query)
-    return result.getData().find()?.ExchangeRate
+    return result.getData().getAt(0)?.ExchangeRate
 }

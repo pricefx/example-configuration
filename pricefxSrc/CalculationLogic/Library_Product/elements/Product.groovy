@@ -8,7 +8,7 @@ import groovy.transform.Field
 
 Map<String, Object> findProduct(String sku){
     def filter = Filter.equal(FIELD_SKU, sku)
-    return api.find('P', 0, 1, null, null, filter)?.find()
+    return api.find('P', 0, 1, null, null, filter)?.getAt(0)
 }
 
 BigDecimal findProductCost(String sku, Date date){
@@ -24,5 +24,5 @@ BigDecimal findProductCost(String sku, Date date){
             FIELD_VALID_FROM,   // Use the most recent price
             [FIELD_AVERAGE_COST],
             *filters
-    )?.find() as BigDecimal
+    )?.getAt(0) as BigDecimal
 }

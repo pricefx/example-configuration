@@ -10,6 +10,6 @@ def filters = [
 ];
 
 def exchangeRate = api.findLookupTableValues("ExchangeRate",
-        *filters)?.find()?.attribute2
+        *filters)?.getAt(0)?.attribute2
 
 return (cost != null && exchangeRate != null) ? (cost * exchangeRate) : null
