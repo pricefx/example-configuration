@@ -1,0 +1,6 @@
+{
+  "embedded" : true,
+  "headerFormulaName" : "CustomForm_Embedded",
+  "supportedParentTypeCodes" : [ "QUOTING", "DEALPLANNING" ],
+  "uniqueName" : "CustomForm_Embedded"
+}

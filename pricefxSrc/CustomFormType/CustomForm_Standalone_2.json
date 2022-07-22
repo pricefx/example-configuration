@@ -1,0 +1,41 @@
+{
+  "configuration" : {
+    "Step1" : {
+      "icon" : "quote",
+      "name" : "Step1",
+      "translationKey" : "Step 1",
+      "tabs" : {
+        "details" : {
+          "icon" : "file-info-alt",
+          "name" : "details",
+          "translationKey" : "dynamicTab_details",
+          "type" : "details"
+        },
+        "workflow" : {
+          "icon" : "process",
+          "name" : "workflow",
+          "translationKey" : "dynamicTab_workflow",
+          "type" : "workflow"
+        }
+      }
+    },
+    "Step2" : {
+      "icon" : "compress-arrows",
+      "name" : "Step2",
+      "translationKey" : "Step 2",
+      "tabs" : {
+        "notes" : {
+          "icon" : "clipboard-notes",
+          "name" : "notes",
+          "translationKey" : "dynamicTab_notes",
+          "type" : "notes"
+        }
+      }
+    }
+  },
+  "embedded" : false,
+  "headerFormulaName" : "CustomForm_Standalone",
+  "module" : "PROCESSES",
+  "supportedParentTypeCodes" : [ ],
+  "uniqueName" : "CustomForm_Standalone_2"
+}

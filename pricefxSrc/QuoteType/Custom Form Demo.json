@@ -1,0 +1,46 @@
+{
+  "configuration" : {
+    "default" : {
+      "icon" : "quote",
+      "name" : "default",
+      "tabs" : {
+        "attachments" : {
+          "name" : "attachments",
+          "translationKey" : "sfdc_quotes_tabs_attachments",
+          "type" : "attachments"
+        },
+        "customObjectTest" : {
+          "icon" : "custom-post-type",
+          "name" : "customObjectTest",
+          "translationKey" : "Embedded Custom Form",
+          "type" : "customForms",
+          "typeReference" : "CustomForm_Embedded"
+        },
+        "header" : {
+          "name" : "header",
+          "translationKey" : "sfdc_quotes_tabs_header",
+          "type" : "header"
+        },
+        "items" : {
+          "name" : "items",
+          "translationKey" : "sfdc_quotes_tabs_items",
+          "type" : "items"
+        },
+        "messages" : {
+          "name" : "messages",
+          "translationKey" : "sfdc_entity_tabs_messages",
+          "type" : "messages",
+          "userGroupEdit" : "sales_managers"
+        },
+        "workflow" : {
+          "name" : "workflow",
+          "translationKey" : "sfdc_quotes_tabs_workflow",
+          "type" : "workflow"
+        }
+      },
+      "translationKey" : "common_default"
+    }
+  },
+  "formulaName" : "Quote_Item_CustomFormDemo",
+  "uniqueName" : "Custom Form Demo"
+}

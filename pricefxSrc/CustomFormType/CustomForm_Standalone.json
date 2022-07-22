@@ -1,0 +1,22 @@
+{
+  "configuration" : {
+    "default" : {
+      "icon" : "compress-arrows",
+      "name" : "default",
+      "tabs" : {
+        "details" : {
+          "icon" : "file-info-alt",
+          "name" : "details",
+          "translationKey" : "dynamicTab_details",
+          "type" : "details"
+        }
+      },
+      "translationKey" : "common_default"
+    }
+  },
+  "embedded" : false,
+  "headerFormulaName" : "CustomForm_Standalone",
+  "module" : "PROCESSES",
+  "supportedParentTypeCodes" : [ ],
+  "uniqueName" : "CustomForm_Standalone"
+}
