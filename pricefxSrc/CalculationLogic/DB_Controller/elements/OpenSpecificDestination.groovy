@@ -7,7 +7,7 @@ controller.addHTML("<h3>Specific Data Tables</h3>")
 
 
 def ppTableName = api.find("LT", 0, 1, "uniqueName")?.uniqueName?.getAt(0)
-controller.addButton("Open PriceParameter '${ppTableName}'", "pricingParametersPage", api.findLookupTable(ppTableName)?.id)
+controller.addButton("Open PriceParameter '${ppTableName}'", "pricingParametersPage", api.findLookupTable(ppTableName)?.typedId)
 
 
 controller.addHTML("<h3 style='margin-top: 20px;'>Specific Documents</h3>")
