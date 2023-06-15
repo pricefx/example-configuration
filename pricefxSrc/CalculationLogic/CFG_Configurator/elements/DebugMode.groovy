@@ -1,4 +1,4 @@
-if (api.isDebugMode() && api.isSyntaxCheck()) {
+if (api.isDebugMode() && api.isInputGenerationExecution()) {
 
     api.inputBuilderFactory().createOptionEntry(Const.INPUT_NAME_SHIP_TO)
             .setOptions(out.Countries)

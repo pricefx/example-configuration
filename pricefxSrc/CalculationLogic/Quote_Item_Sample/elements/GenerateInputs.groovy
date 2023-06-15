@@ -1,4 +1,4 @@
-if (!api.syntaxCheck) {
+if (!api.isInputGenerationExecution()) {
     return
 }
 

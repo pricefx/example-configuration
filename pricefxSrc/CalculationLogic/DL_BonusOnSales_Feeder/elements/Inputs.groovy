@@ -1,4 +1,4 @@
-if (api.syntaxCheck) {
+if (api.isInputGenerationExecution()) {
     api.inputBuilderFactory().createDateUserEntry("StartDate").getInput()
     api.inputBuilderFactory().createDateUserEntry("EndDate").getInput()
 

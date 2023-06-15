@@ -1,4 +1,4 @@
-if (api.isSyntaxCheck()) {
+if (api.isInputGenerationExecution()) {
 
     def volumeBreaks = api.findLookupTableValues("VolumeBreaks", "Region")
             ?.key1?.unique()

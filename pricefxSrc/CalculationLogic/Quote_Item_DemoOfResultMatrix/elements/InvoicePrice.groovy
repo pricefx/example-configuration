@@ -1,14 +1,14 @@
 final String INPUT_NAME_INVOICE_PRICE = "InvoicePrice"
 final String INPUT_LABEL_INVOICE_PRICE = "Invoice Price"
 
-if (api.isSyntaxCheck()) {
-    // Syntax check mode: create input parameter
+if (api.isInputGenerationExecution()) {
+    // Input Generation mode: create input parameter
     api.inputBuilderFactory().createUserEntry(INPUT_NAME_INVOICE_PRICE)
             .setLabel(INPUT_LABEL_INVOICE_PRICE)
             .setRequired(true)
             .getInput()
 } else {
-    // Non-syntax check mode: read, validate and return input values
+    // Normal mode: read, validate and return input values
     def invoicePrice = input[INPUT_NAME_INVOICE_PRICE]
 
     // Values greater than Integer.MAX_VALUE will result in a returned String

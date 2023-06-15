@@ -3,7 +3,7 @@ final String INPUT_NAME_INVOICE_PRICE = "InvoicePrice"
 final String INPUT_NAME_TRANSACTION_ID = "TransactionId"
 
 
-if (api.isSyntaxCheck()) {
+if (api.isInputGenerationExecution()) {
     api.inputBuilderFactory().createUserEntry(INPUT_NAME_REBATE).getInput()
     api.inputBuilderFactory().createUserEntry(INPUT_NAME_INVOICE_PRICE).getInput()
     // api.inputBuilderFactory().createUserEntry(INPUT_NAME_TRANSACTION_ID).getInput()

@@ -1,3 +1,3 @@
-if (api.syntaxCheck) {
+if (api.isInputGenerationExecution()) {
     api.abortCalculation()
 }

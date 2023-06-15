@@ -1,6 +1,6 @@
 final String DEFAULT_INPUT_NAME_CUSTOMER_GROUP = "CustomerGroup"
 
-if (api.isSyntaxCheck()) {
+if (api.isInputGenerationExecution()) {
     api.inputBuilderFactory().createCustomerGroupEntry(DEFAULT_INPUT_NAME_CUSTOMER_GROUP)
             .getInput()
 } else {

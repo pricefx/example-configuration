@@ -1,4 +1,4 @@
-if (api.isSyntaxCheck()) {
+if (api.isInputGenerationExecution()) {
 
     api.inputBuilderFactory()
             .createStringUserEntry("myItemInput")

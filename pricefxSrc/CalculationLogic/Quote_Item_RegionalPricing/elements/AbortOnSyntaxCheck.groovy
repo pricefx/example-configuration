@@ -1,1 +1,1 @@
-if (api.isSyntaxCheck()) api.abortCalculation()
+if (api.isInputGenerationExecution()) api.abortCalculation()

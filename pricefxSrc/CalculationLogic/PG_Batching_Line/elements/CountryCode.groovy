@@ -1,7 +1,7 @@
 if (api.isDebugMode()) {
 
     final String = INPUT_COUNTRY_CODE = "CountryCode"
-    if (api.isSyntaxCheck()) {
+    if (api.isInputGenerationExecution()) {
         api.inputBuilderFactory().createOptionEntry(INPUT_COUNTRY_CODE)
                 .setOptions(
                         api.findLookupTableValues("CountryAdjustment", ["name"], "name")?.name

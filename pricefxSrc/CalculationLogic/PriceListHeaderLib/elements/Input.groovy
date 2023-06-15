@@ -9,12 +9,12 @@ def getValue(String inputName){
         api.trace("""
             Note: The input is mocked by reading from the input binding variable, because the code
              is executed in regular execution mode. However, in production, price list headers are only executed
-             in syntax check mode and the input is accessed differently.
+             in Input Generation mode and the input is accessed differently.
         """)
         return input[inputName]
     }
 
-    // For price list header logics, api.currentItem() is only available in syntax check mode
+    // For price list header logics, api.currentItem() is only available in Input Generation mode
     String configurationJson = api.currentItem().configuration
     Map configuration = api.jsonDecode(configurationJson) as Map
     return configuration

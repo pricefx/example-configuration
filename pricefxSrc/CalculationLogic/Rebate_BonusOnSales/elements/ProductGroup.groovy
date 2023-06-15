@@ -1,6 +1,6 @@
 final String DEFAULT_INPUT_NAME_PRODUCT_GROUP = "ProductGroup"
 
-if (api.isSyntaxCheck()) {
+if (api.isInputGenerationExecution()) {
     api.inputBuilderFactory().createProductGroupEntry(DEFAULT_INPUT_NAME_PRODUCT_GROUP)
             .getInput()
 } else {

@@ -3,7 +3,7 @@ import groovy.transform.Field
 @Field final String INPUT_REGION = "Region"
 @Field final String TABLE_NAME_REGION = "Region"
 
-if (api.isSyntaxCheck()) {
+if (api.isInputGenerationExecution()) {
     def regions = findAllRegions()
     api.inputBuilderFactory().createOptionEntry(INPUT_REGION)
             .setOptions(regions)

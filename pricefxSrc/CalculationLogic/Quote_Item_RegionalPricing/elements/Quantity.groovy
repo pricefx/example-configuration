@@ -1,6 +1,6 @@
 final String INPUT_QUANTITY = "Quantity"
 
-if (api.isSyntaxCheck()) {
+if (api.isInputGenerationExecution()) {
     api.inputBuilderFactory().createUserEntry(INPUT_QUANTITY)
             .setRequired(true)
             .getInput()

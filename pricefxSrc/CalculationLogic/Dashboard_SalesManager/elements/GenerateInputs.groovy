@@ -1,7 +1,7 @@
 generateInputs('Dashboard_SalesManager_Configurator')
 
 void generateInputs(String configuratorLogicName){
-    if(!api.syntaxCheck){
+    if(!api.isInputGenerationExecution()){
         return
     }
 

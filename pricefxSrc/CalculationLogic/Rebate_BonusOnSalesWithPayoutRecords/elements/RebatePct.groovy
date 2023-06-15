@@ -1,6 +1,6 @@
 final String INPUT_REBATE_PCT = "RebatePct"
 
-if (api.isSyntaxCheck()) {
+if (api.isInputGenerationExecution()) {
     api.inputBuilderFactory().createUserEntry(INPUT_REBATE_PCT)
             .setLabel("Rebate %")
             .setFormatType("PERCENT")

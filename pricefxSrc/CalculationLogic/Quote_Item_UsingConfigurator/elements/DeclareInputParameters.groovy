@@ -1,7 +1,7 @@
-if (!api.syntaxCheck) {
+if (!api.isInputGenerationExecution()) {
     return
 }
-// Declare input parameters, only in syntax check mode
+// Declare input parameters, only in Input Generation mode
 
 //     Quantity
 api.inputBuilderFactory().createIntegerUserEntry("Quantity")

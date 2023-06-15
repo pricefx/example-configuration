@@ -7,6 +7,9 @@ def sumInvoice = 0.0
 def overallMarginPct = null
 def warnings = []
 
+def firstLineItem = quoteProcessor.quoteView.lineItems.getAt(0)  //only sample
+firstLineItem.lineId
+
 for (qli in quoteProcessor.quoteView.lineItems) {
     if (qli.folder) continue
     api.trace("qli", qli)

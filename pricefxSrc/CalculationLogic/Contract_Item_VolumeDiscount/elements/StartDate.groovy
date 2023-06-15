@@ -1,5 +1,5 @@
 if (api.isDebugMode()) {
-    if (api.isSyntaxCheck()) {
+    if (api.isInputGenerationExecution()) {
         api.inputBuilderFactory().createDateUserEntry("startDate").getInput()
     } else {
         api.global.startDate = input.startDate

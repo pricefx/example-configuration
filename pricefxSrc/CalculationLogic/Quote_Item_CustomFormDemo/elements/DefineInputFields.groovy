@@ -1,6 +1,6 @@
 //define some input field
 
-if (api.isSyntaxCheck()) {
+if (api.isInputGenerationExecution()) {
 
     api.inputBuilderFactory()
             .createUserEntry("MyInputField")

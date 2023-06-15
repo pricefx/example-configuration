@@ -1,7 +1,7 @@
 def priceGridId = Lib.getPriceGridId()
 
 // Reading header inputs from the header. This has to be done in a special way, thus we use a library function.
-// Because the input generation and actual calculation are both performed in syntax check mode, we need to ensure that
+// Because the input generation and actual calculation are both performed in Input Generation mode, we need to ensure that
 // the execution never fails due to missing inputs, or we won't be able to generate those very inputs
 def priceListHeaderInputs = libs.PriceListHeaderLib.Input
 def specialAdjPctInputValue = priceListHeaderInputs['SpecialAdjPct'] ?: 0

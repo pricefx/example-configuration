@@ -1,4 +1,4 @@
-if (api.isSyntaxCheck()) {
+if (api.isInputGenerationExecution()) {
 
     def dmCtx = api.getDatamartContext()
     def dm = dmCtx.getDatamart("Transaction")

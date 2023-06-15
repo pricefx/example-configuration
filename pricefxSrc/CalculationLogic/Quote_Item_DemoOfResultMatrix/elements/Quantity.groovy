@@ -1,14 +1,14 @@
 final String INPUT_NAME_QUANTITY = "Quantity"
 final String INPUT_LABEL_QUANTITY = "Quantity"
 
-if (api.isSyntaxCheck()) {
-    // Syntax check mode: create input parameter
+if (api.isInputGenerationExecution()) {
+    // Input Generation mode: create input parameter
     api.inputBuilderFactory().createIntegerUserEntry(INPUT_NAME_QUANTITY)
             .setLabel(INPUT_LABEL_QUANTITY)
             .setRequired(true)
             .getInput()
 } else {
-    // Non-syntax check mode: read, validate and return input values
+    // Normal mode: read, validate and return input values
     def quantity = input[INPUT_NAME_QUANTITY]
 
     // Values greater than Integer.MAX_VALUE will result in a returned String

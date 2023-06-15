@@ -8,7 +8,7 @@ void forEach(Long priceGridId, List<String> fields, Closure callback) {
             Filter.equal("priceGridId", priceGridId)
     ]
 
-    // Iterate with api.find, since api.stream is not implemented in syntax check mode.
+    // Iterate with api.find, since api.stream is not implemented in Input Generation mode.
     int startRow = 0
     final maxRows = api.getMaxFindResultsLimit()
     List<Object> rows

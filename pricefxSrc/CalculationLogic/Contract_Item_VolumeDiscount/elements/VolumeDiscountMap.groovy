@@ -3,7 +3,7 @@ final String INPUT_LABEL = "Volume Discount"
 final String COLUMN_QUANTITY = "Quantity"
 final String COLUMN_DISCOUNT = "Discount %"
 
-if (api.isSyntaxCheck()) {
+if (api.isInputGenerationExecution()) {
     api.inputBuilderFactory().createInputMatrix(INPUT_NAME)
             .setLabel(INPUT_LABEL)
             .setColumns([COLUMN_QUANTITY, COLUMN_DISCOUNT])
